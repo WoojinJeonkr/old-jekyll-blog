@@ -1,0 +1,7 @@
+_site/
+.sass-cache/
+# git
+.jekyll-cache
+# gemfile
+Gemfile
+Gemfile.lock

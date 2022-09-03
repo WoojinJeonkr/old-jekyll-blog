@@ -1,0 +1,45 @@
+
+title: Woojin's DevPocket #Your awesome title
+email: Newwjsdnwls@gmail.com #youremail@domain.com
+description: > # this means to ignore newlines until "baseurl"
+  Woojin's DevPocket 
+
+baseurl: # the subpath of the site
+url: http://WoojinJeonkr.github.io # the base hostname & protocol for your site
+
+permalink: /:year-:month/:title
+timezone:
+
+favicon: /assets/img/favicon.ico
+
+google_analytics: #UA—XXXXXXXX-X
+disqus_shortname: #disqus shortname
+
+user:
+  name: Woojin
+  pic: /assets/img/city.gif
+  picAlt: "catbook"
+  job: Developer aspirant
+  aboutme: true # comment this out if you don't need the 'about' page.
+
+exclude:
+  - README.md
+  - LICENSE
+  - github
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: false   
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown 
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
