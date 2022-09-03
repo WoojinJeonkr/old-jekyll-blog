@@ -2,7 +2,6 @@
 layout: post
 title: Blinking a LED
 categories: arduino
-date: 2022-09-03 23:50:04
 comments: false
 ---
 
