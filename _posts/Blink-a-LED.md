@@ -1,6 +1,6 @@
 ---
 title: Blinking a LED
-categories: [arduino]
+categories: arduino
 comments: false
 ---
 
