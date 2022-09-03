@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Blinking a LED
 categories: arduino
 comments: false
