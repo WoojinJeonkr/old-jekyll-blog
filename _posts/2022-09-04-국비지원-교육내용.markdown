@@ -31,7 +31,6 @@ comments: false
             </ul>
         <li>담당: 상품 구매 후기 페이지, 통계 페이지</li>
     </ul>
-
 </details>
 <details>
     <summary><a href="https://github.com/WoojinJeonkr/ShoppingMallML" style="color: #0B711F">ShoppingMallML</a></summary>
@@ -43,7 +42,7 @@ comments: false
                 <li>분류 모델 정확도 / 구매 빈도 시각화</li>
                 <li>구매 후기 긍정 부정 여부 분석</li>
             </ul>
-        <li>담당: 카테고리 예측, 후기 긍정 부정 분석
+        <li>담당: 카테고리 예측, 후기 긍정 부정 분석</li>
     </ul>
 </details>
 <details>
