@@ -6,17 +6,17 @@ categories: blog
 comments: false
 ---
 
-<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>블로그로 이동하기</b></p>
+<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 18px;"><b>머신러닝-딥러닝을 활용한 공공데이터 분석전문가 양성과정</b></p>
 
 <a href="https://blog.naver.com/wooeric1" target="_blank" rel="noopener noreferrer" style="color:green">블로그 바로가기</a>
 
 2021년 12월 28일부터 2022년 06월 01일까지 수강했던 내용들을 정리하였다.<br/>
 
-<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>교육 내용</b></p>
+<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 18px;"><b>교육 내용</b></p>
 
 <img src="https://img.shields.io/badge/Java-orange?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Python-white?style=flat&logo=Python&logoColor=blue"/> <img src="https://img.shields.io/badge/R-white?style=flat&logo=R&logoColor=276DC3"/> <img src="https://img.shields.io/badge/Tensorflow-white?style=flat&logo=Tensorflow&logoColor=FF6F00"/><br/>
 
-<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>진행한 프로젝트</b></p>
+<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 18px;"><b>진행한 프로젝트</b></p>
 
 <details>
     <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">여성의류 쇼핑몰 웹사이트 구현</a></summary>
