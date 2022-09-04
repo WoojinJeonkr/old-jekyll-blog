@@ -8,7 +8,7 @@ comments: false
 
 <p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>블로그로 이동하기</b></p>
 
-<a href="https://blog.naver.com/wooeric1" style="color:green">블로그 바로가기</a>
+<a href="https://blog.naver.com/wooeric1" target="_blank" rel="noopener noreferrer" style="color:green">블로그 바로가기</a>
 
 2021년 12월 28일부터 2022년 06월 01일까지 수강했던 내용들을 정리하였다.<br/>
 
@@ -19,7 +19,7 @@ comments: false
 <p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>진행한 프로젝트</b></p>
 
 <details>
-    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" style="color: #0B711F">여성의류 쇼핑몰 웹사이트 구현</a></summary>
+    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">여성의류 쇼핑몰 웹사이트 구현</a></summary>
     <ul>
         <li>인원: 4명</li>
         <li>기능</li>
@@ -33,7 +33,7 @@ comments: false
     </ul>
 </details>
 <details>
-    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMallML" style="color: #0B711F">ShoppingMallML</a></summary>
+    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMallML" target="_blank" rel="noopener noreferrer" style="color: #0B711F">ShoppingMallML</a></summary>
     <ul>
         <li>인원: 3명</li>
         <li>기능</li> 
@@ -46,7 +46,7 @@ comments: false
     </ul>
 </details>
 <details>
-    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" style="color: #0B711F">Chatbot 구현</a></summary>
+    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">Chatbot 구현</a></summary>
     <ul>
         <li>인원: 3명</li>
         <li>기능</li>
