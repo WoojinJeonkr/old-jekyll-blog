@@ -1,0 +1,61 @@
+---
+layout: post
+title: 국비지원교육
+date: 2022-09-04 14:35:31 +09:00
+categories: blog
+comments: false
+---
+
+<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>블로그로 이동하기</b></p>
+
+<a href="https://blog.naver.com/wooeric1" style="color:green">블로그 바로가기</a>
+
+2021년 12월 28일부터 2022년 06월 01일까지 수강했던 내용들을 정리하였다.<br/>
+
+<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>교육 내용</b></p>
+
+<img src="https://img.shields.io/badge/Java-orange?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Python-white?style=flat&logo=Python&logoColor=blue"/> <img src="https://img.shields.io/badge/R-white?style=flat&logo=R&logoColor=276DC3"/> <img src="https://img.shields.io/badge/Tensorflow-white?style=flat&logo=Tensorflow&logoColor=FF6F00"/><br/>
+
+<p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 20px;"><b>진행한 프로젝트</b></p>
+
+<details>
+    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" style="color: #0B711F">여성의류 쇼핑몰 웹사이트 구현</a></summary>
+    <ul>
+        <li>인원: 4명</li>
+        <li>기능</li>
+            <ul>
+                <li>상품 추천</li>
+                <li>상품 정보 조회 및 구매 후기</li>
+                <li>고객센터 및 QnA</li>
+                <li>고객 및 제품 정보 기반 통계</li>
+            </ul>
+        <li>담당: 상품 구매 후기 페이지, 통계 페이지</li>
+    </ul>
+
+</details>
+<details>
+    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMallML" style="color: #0B711F">ShoppingMallML</a></summary>
+    <ul>
+        <li>인원: 3명</li>
+        <li>기능</li> 
+            <ul>
+                <li>카테고리 예측</li>
+                <li>분류 모델 정확도 / 구매 빈도 시각화</li>
+                <li>구매 후기 긍정 부정 여부 분석</li>
+            </ul>
+        <li>담당: 카테고리 예측, 후기 긍정 부정 분석
+    </ul>
+</details>
+<details>
+    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" style="color: #0B711F">Chatbot 구현</a></summary>
+    <ul>
+        <li>인원: 3명</li>
+        <li>기능</li>
+        <ul>
+            <li>상품 추천</li>
+            <li>의류 문의</li>
+            <li>구매 목록</li>
+            <li>일상 대화</li>
+        </ul>
+    </ul>
+</details>
