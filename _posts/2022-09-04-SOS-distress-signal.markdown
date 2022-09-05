@@ -29,4 +29,4 @@ comments: false
 <script src="https://gist.github.com/WoojinJeonkr/f21b3e16cac515e5e87d8dbc297329d0.js"></script>
 
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/SOS-distress-signal.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/SOS-distress-signal.gif?raw=true"/>

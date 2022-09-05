@@ -25,4 +25,4 @@ LED가 어떻게 작동하고 회로에서 어떻게 사용될 수 있는지에<
 # 4. 코드
 <script src="https://gist.github.com/WoojinJeonkr/0ccdd2a94164bc9c8e706ff6ac0e0428.js"></script>
 # 5. 회로 연결 및 작동
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/Blinking_a_LED.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Blinking_a_LED.gif?raw=true"/>
