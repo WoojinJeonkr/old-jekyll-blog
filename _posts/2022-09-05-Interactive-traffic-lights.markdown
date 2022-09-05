@@ -35,4 +35,4 @@ comments: false
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
 <img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Interactive-traffic-lights.gif?raw=true"/>
 
-처음에 신호등이 초록색인 상태에서 버튼을 누르면 신호등이<br/> 초록색 &rightarrow; 노란색 &rightarrow; 빨간색으로 바뀌고 초록색 보행자 신호등이 켜진다.<br/>초록색 보행자 신호등이 켜진 뒤 시간이 지나면 보행자 신호등이 깜빡이면서<br/>초록색 보행자 신호등이 꺼지고 빨간색 보행자 신호등이 켜지며<br/>신호등은 다시 빨간색 &rightarrow; 노란색 &rightarrow; 초록색으로 돌아온다
+처음에 신호등이 초록색인 상태에서 버튼을 누르면 신호등이 초록색 → 노란색 → 빨간색으로 바뀌고 초록색 보행자 신호등이 켜진다.<br/> 초록색 보행자 신호등이 켜진 뒤 시간이 지나면 보행자 신호등이 깜빡이면서 초록색 보행자 신호등이 꺼지고 빨간색 보행자 신호등이 켜지며 신호등은 다시 빨간색 → 노란색 → 초록색으로 돌아온다
