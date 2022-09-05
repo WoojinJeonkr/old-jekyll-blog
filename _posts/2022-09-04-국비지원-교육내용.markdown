@@ -5,7 +5,6 @@ date: 2022-09-04 14:35:31 +09:00
 categories: blog
 comments: false
 ---
-<embed src="assets/music/november.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" />
 
 <p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 18px;"><b>머신러닝-딥러닝을 활용한 공공데이터 분석전문가 양성과정</b></p>
 
