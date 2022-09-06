@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CS 공부를 시작하며
-categories: CS
+categories: cs
 date: 2022-09-06 19:51:59 +0900
 comments: false
 ---
