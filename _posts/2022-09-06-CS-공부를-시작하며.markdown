@@ -44,13 +44,9 @@ cs 공부를 시작하며 내가 정한 목표는 겨울을 대비해서 식량 
     </ul>
 </ul><br/>
 
-<p style="border-bottom: 1px solid #688FF4; padding: 0.1em;"><b>Reference</b></p>
-<span style="display: block; background: #EBE0D0; width: 450px">
-    <ol>
-        <li><a href="https://m.blog.naver.com/josephlee54/221332960200">&nbsp;컴퓨터 사이언스(CS)와 컴퓨터 엔지니어링(CE) 어떻게 다른가?</a></li>
-        <li><a href="https://seolin.tistory.com/135">&nbsp;개발자가 되는데 컴퓨터 공학 전공지식이 중요할까?</a></li>
-        <li><a href="https://techblog.yogiyo.co.kr/%EC%9A%94%EA%B8%B0%EC%9A%94-r-d-center%EC%97%90-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%93%A0-%EB%AC%BC%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94-1-4c7a44af92a9">&nbsp;신입 개발자가 갖추어야 할 역량 3가지</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Computer_science">&nbsp;wikipedia - Computer science</a></li>
-        <li><a href="www.yes24.com">&nbsp;yes24</a> -- <a href="http://www.yes24.com/product/goods/98997716">한 권으로 읽는 컴퓨터 구조와 프로그래밍</a></li>
-    </ol>
-</span>
+> <b>Reference</b>
+><li type="1"><a href="https://m.blog.naver.com/josephlee54/221332960200">&nbsp;컴퓨터 사이언스(CS)와 컴퓨터 엔지니어링(CE) 어떻게 다른가?</a></li>
+><li type="1"><a href="https://seolin.tistory.com/135">&nbsp;개발자가 되는데 컴퓨터 공학 전공지식이 중요할까?</a></li>
+><li type="1"><a href="https://techblog.yogiyo.co.kr/%EC%9A%94%EA%B8%B0%EC%9A%94-r-d-center%EC%97%90-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%93%A0-%EB%AC%BC%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94-1-4c7a44af92a9">&nbsp;신입 개발자가 갖추어야 할 역량 3가지</a></li>
+><li type="1"><a href="https://en.wikipedia.org/wiki/Computer_science">&nbsp;wikipedia - Computer science</a></li>
+><li type="1"><a href="www.yes24.com">&nbsp;yes24</a> -- <a href="http://www.yes24.com/product/goods/98997716">한 권으로 읽는 컴퓨터 구조와 프로그래밍</a></li>
