@@ -42,7 +42,7 @@ def LCM(x, y):
 
 # 문제 <a name = "문제"></a>
 <a href="https://www.acmicpc.net/problem/2609" target="_blank" rel="noopener noreferrer">문제 풀어보러 가기</a><br/>
-<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/baekjoon-2609.jpg?raw=true">
+<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/baekjoon-2609.png?raw=true">
 
 ##  풀이
 ```python
