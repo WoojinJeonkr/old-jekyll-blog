@@ -7,7 +7,7 @@ comments: false
 ---
 
 # 1. 사용 데이터
-[서울시 한강공원 이용객 현황 (2009~2013년)](https://data.seoul.go.kr/dataList/OA-12039/F/1/datasetView.do;jsessionid=409F48E86BDA535E4236629A15E84CF5.new_portal-svr-11)
+<span><a href="https://data.seoul.go.kr/dataList/OA-12039/F/1/datasetView.do;jsessionid=409F48E86BDA535E4236629A15E84CF5.new_portal-svr-11" target="_blank" rel="noopener noreferrer">서울시 한강공원 이용객 현황</a></span>
 
 <br/>
 
@@ -18,4 +18,4 @@ comments: false
 <br/>
 
 # 3. 분석 결과
-<span><a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/pdf/hanriver.pdf" target="_blank">분석 결과 확인하기</a></span>
+<span><a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/pdf/hanriver.pdf" target="_blank" rel="noopener noreferrer">분석 결과 확인하기</a></span>
