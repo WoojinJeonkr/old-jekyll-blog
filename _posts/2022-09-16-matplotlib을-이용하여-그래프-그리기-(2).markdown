@@ -23,16 +23,7 @@ comments : false
 <details>
 <summary>matplotlib으로 그리기</summary>
 <div markdown="1">
-
-```python
-# 라이브러리 가져오기
-import matplotlib.pyplot as plt
-
-plt.plot([1, 3, 2, 4]) # 그래프로 그리려는 값 입력
-plt.ylabel('some numbers') # y라벨 표시
-
-plt.show()
-```
+<script src="https://gist.github.com/WoojinJeonkr/49776bfe4dfcc9d14276b20924a480fb.js"></script>
 <img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/lineplot.png?raw=true" style="width:100%">
 </div>
 </details>
@@ -56,29 +47,8 @@ plt.show()
 <!--toggle-->
 <details>
 <summary>matplotlib으로 그리기</summary>
-<div markdown="2">
-
-```python
-# 라이브러리 가져오기
-import matplotlib.pyplot as plt
-import numpy as np
-
-# scatterplot으로 만들 데이터 생성
-data = {'a': np.arange(50),
-        'c': np.random.randint(0, 50, 50),
-        'd': np.random.randn(50)}
-data['b'] = data['a'] + 10 * np.random.randn(50)
-data['d'] = np.abs(data['d']) * 100
-
-# 그래프 그리기
-plt.scatter('a', 'b', c='c', s='d', data=data)
-
-# 라벨 설정
-plt.xlabel('entry a')
-plt.ylabel('entry b')
-
-plt.show()
-```
+<div markdown="1">
+<script src="https://gist.github.com/WoojinJeonkr/84259697b26df0a8745300e83a196cb9.js"></script>
 <img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/scatterplot.png?raw=true" style="width:100%">
 </div>
 </details>
