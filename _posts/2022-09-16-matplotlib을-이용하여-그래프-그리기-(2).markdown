@@ -11,8 +11,6 @@ comments : false
 1. &nbsp;[선 그래프](#lineplot)
 2. &nbsp;[산점도](#scatterplot)
 
-<br/>
-
 <!--content-->
 # 1. 선 그래프 <a name = "lineplot"></a>
 수량을 점으로 표시하고 그 점들을 선분으로 이어 그린 그래프를 말한다.<br/>
@@ -44,8 +42,6 @@ plt.show()
 <br>
 </div>
 <b>선 그래프에 대해 <a href="https://pythonbasics.org/matplotlib-line-chart/" target="_blank" rel="noopener noreferrer">자세히 알아보기</a></b>
-
-<br/>
 
 <!--content-->
 # 2. 산점도 <a name = "scatterplot"></a>
