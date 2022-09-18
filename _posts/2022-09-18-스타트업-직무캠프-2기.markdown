@@ -15,6 +15,16 @@ comments : false
 
 # 교육 내용
 
+<style>
+  table {
+    width: 100%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #444444;
+  }
+</style>
 <table>
     <tr>
         <th>구분</th>
