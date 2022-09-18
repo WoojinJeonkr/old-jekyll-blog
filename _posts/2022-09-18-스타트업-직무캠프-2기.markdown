@@ -1,6 +1,6 @@
 ---
 layout : post
-title : [서울산업진흥원 X Make In(메이크인)] 스타트업 직무캠프 2기
+title : 스타트업 직무캠프 2기
 date : 2022-09-18 18:29:41 +09:00
 categories : education
 comments : false
