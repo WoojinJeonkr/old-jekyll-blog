@@ -21,35 +21,57 @@ comments : false
 <br>
 
 # 2. 교육 내용 <a name = "교육내용"></a>
-<table>
+<table style="width: 100%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;">
     <tr>
-        <th style="text-align:center">차시</th>
-        <th style="text-align:center">날짜</th>
-        <th style="text-align:center">핵심주제</th>
-        <th style="text-align:center">세부내용</th>
+        <th style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">차시</th>
+        <th style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">날짜</th>
+        <th style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">핵심주제</th>
+        <th style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">세부내용</th>
     </tr>
     <tr>
-        <td style="text-align:center">1</td>
-        <td style="text-align:center">08월 26일</td>
-        <td style="text-align:center">기초 프로그래밍,<br> 탐색적 자료분석</td>
-        <td>1) 파이썬 기초 (Numpy, Pandas)<br> 2) 기초 통계량 구하기<br> 3) 집단 간 비교를 위한 시각화 <br> 4) 1인 가구 데이터를 이용한<br>&nbsp;&nbsp;&nbsp; 탐색적 자료분석 실습</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">1</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">08월 26일</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">기초 프로그래밍,<br> 탐색적 자료분석</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:left;">1) 파이썬 기초 (Numpy, Pandas)<br> 2) 기초 통계량 구하기<br> 3) 집단 간 비교를 위한 시각화 <br> 4) 1인 가구 데이터를 이용한<br>&nbsp;&nbsp;&nbsp; 탐색적 자료분석 실습</td>
     </tr>
     <tr>
-        <td style="text-align:center">1</td>
-        <td style="text-align:center">08월 31일</td>
-        <td style="text-align:center">주성분 분석</td>
-        <td>1) 다차원자료의 요약<br> 2) 행렬 분해를 이용한<br>&nbsp;&nbsp;&nbsp; 데이터의 새로운 표현형<br> 3) 1인 가구의 특징 분석</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">2</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">08월 31일</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">주성분 분석</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:left;">1) 다차원자료의 요약<br> 2) 행렬 분해를 이용한<br>&nbsp;&nbsp;&nbsp; 데이터의 새로운 표현형<br> 3) 1인 가구의 특징 분석</td>
     </tr>
     <tr>
-        <td style="text-align:center">1</td>
-        <td style="text-align:center">09월 05일</td>
-        <td style="text-align:center">회귀모형을<br>이용한 예측</td>
-        <td>1) 회귀모형의 개념과 적합<br> 2) 다변수회귀모형을 이용한<br>&nbsp;&nbsp;&nbsp; 예측모형의 구성<br> 3) 서울 생활인구 데이터의<br>&nbsp;&nbsp;&nbsp; 전처리<br> 4) 다변수회귀모형을 이용한<br>&nbsp;&nbsp;&nbsp; 유동인구 예측모형 실습</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">3</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">09월 05일</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">회귀모형을<br>이용한 예측</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:left;">1) 회귀모형의 개념과 적합<br> 2) 다변수회귀모형을 이용한<br>&nbsp;&nbsp;&nbsp; 예측모형의 구성<br> 3) 서울 생활인구 데이터의<br>&nbsp;&nbsp;&nbsp; 전처리<br> 4) 다변수회귀모형을 이용한<br>&nbsp;&nbsp;&nbsp; 유동인구 예측모형 실습</td>
     </tr>
     <tr>
-        <td style="text-align:center">1</td>
-        <td style="text-align:center">09월 07일</td>
-        <td style="text-align:center">네트워크<br> 모형</td>
-        <td>1) 교통데이터와<br>&nbsp;&nbsp;&nbsp; 생활이동 데이터<br> 2) 네트워크 데이터의 시각화<br> 3) 마코프 모형과<br>&nbsp;&nbsp;&nbsp; 네트워크 중심점 이론<br> 4) 생활이동 데이터를 이용한<br>&nbsp;&nbsp;&nbsp; 네트워크 모형적합 실습</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">4</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">09월 07일</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:center;">네트워크<br> 모형</td>
+        <td style="border-bottom: 1px solid #444444;
+    padding: 10px; text-align:left;">1) 교통데이터와<br>&nbsp;&nbsp;&nbsp; 생활이동 데이터<br> 2) 네트워크 데이터의 시각화<br> 3) 마코프 모형과<br>&nbsp;&nbsp;&nbsp; 네트워크 중심점 이론<br> 4) 생활이동 데이터를 이용한<br>&nbsp;&nbsp;&nbsp; 네트워크 모형적합 실습</td>
     </tr>
 </table>
