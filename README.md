@@ -1,6 +1,6 @@
 # woojin's DevPocket
 
-## 1. Theme: [catbook](https://github.com/starry99/catbook)
+## 1. Theme: [yat](https://github.com/jeffreytse/jekyll-theme-yat)
 ## 2. history
 <ul>
     <li>2022-09-03</li>
@@ -127,6 +127,14 @@
         <ul>
             <li>[python] 비교막대그래프와 그래프 겹쳐 그리기</li>
             <li>[education] 서울 시민생활 데이터를 활용한 도시문제 해결 경진대회 (교육)</li>
+        </ul>
+    </ul>
+    <li>2022-09-20</li>
+    <ul>
+        <li>README history 추가</li>
+        <li>Github Theme 변경</li>
+        <ul>
+            <li><a href="https://github.com/starry99/catbook" target="_blank" rel="noopener noreferrer">catbook</a>에서 <a href="https://github.com/jeffreytse/jekyll-theme-yat" target="_blank" rel="noopener noreferrer">yat</a>로 변경</li>
         </ul>
     </ul>
 </ul>
