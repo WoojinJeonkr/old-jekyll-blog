@@ -43,6 +43,7 @@ author: WoojinJeon
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
+
   Woojin's DevPocket
   Success is the sum of small efforts, repeated day in and day out. -Robert Collier
 
@@ -154,9 +155,9 @@ night_mode: "auto"
 
 # Page default value
 # defaults:
-   home:
-     heading: "Woojin's DevPocket"
-     subheading: "Success is the sum of small efforts, repeated day in and day out. -Robert Collier"
+  home:
+    heading: "Woojin's DevPocket"
+    subheading: "Success is the sum of small efforts, repeated day in and day out. -Robert Collier"
 #     banner: "Your image url"
 
 # Banner default settings
