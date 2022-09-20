@@ -1,9 +1,11 @@
 ---
 layout : post
 title : matplotlib을 이용하여 그래프 그리기 (2)
-date : 2022-09-16 19:00:21 +09:00
-categories : python
-comments : false
+subtitle : 선 그래프와 산점도는 어떻게 그릴 수 있을까?
+author : WoojinJeon
+categories: EDA
+
+tags : [EDA]
 ---
 
 <!--index-->
@@ -24,7 +26,7 @@ comments : false
 <summary>matplotlib으로 그리기</summary>
 <div markdown="1">
 <script src="https://gist.github.com/WoojinJeonkr/49776bfe4dfcc9d14276b20924a480fb.js"></script>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/lineplot.png?raw=true" style="width:100%">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/lineplot.png?raw=true" style="width:100%">
 </div>
 </details>
 <!--toggle-->
@@ -49,7 +51,7 @@ comments : false
 <summary>matplotlib으로 그리기</summary>
 <div markdown="1">
 <script src="https://gist.github.com/WoojinJeonkr/84259697b26df0a8745300e83a196cb9.js"></script>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/scatterplot.png?raw=true" style="width:100%">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/scatterplot.png?raw=true" style="width:100%">
 </div>
 </details>
 <!--toggle-->

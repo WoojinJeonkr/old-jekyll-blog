@@ -1,26 +1,18 @@
-{% if page.title %}
-{% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
-{% else %}
-{% capture title %}{{ site.title }}{% endcapture %}
-{% endif %}
-
 <head>
-  <title>{{ title }}</title>
-  {% include google_analytics.html %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="{{ site.user.name }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" media="all">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
-    href="{{ '/feed.xml' | relative_url }}" />
-
-  <!-- favicon -->
-  <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon" />
-  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon" />
-
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+  {%- seo -%}
+  <link rel="icon" href="{{ site.favicon }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include extensions/google-analytics.html -%}
+  {%- endif -%}
+  {%- include extensions/code-highlight.html -%}
+  {%- include custom-head.html -%}
 </head>

@@ -1,9 +1,11 @@
 ---
 layout: post
 title: 최대공약수와 최소공배수
-categories: python
-date: 2022-09-12 15:37:28 +09:00
-comments: false
+subtitle : Python으로 최대공약수와 최대공배수는 어떻게 구할까?
+author : WoojinJeon
+categories: Python
+
+tags : [Python]
 ---
 
 # 📖 목차
@@ -42,7 +44,7 @@ def LCM(x, y):
 
 # 문제 <a name = "문제"></a>
 <a href="https://www.acmicpc.net/problem/2609" target="_blank" rel="noopener noreferrer">문제 풀어보러 가기</a><br/>
-<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/baekjoon-2609.png?raw=true">
+<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon-2609.png?raw=true">
 
 ##  풀이
 ```python

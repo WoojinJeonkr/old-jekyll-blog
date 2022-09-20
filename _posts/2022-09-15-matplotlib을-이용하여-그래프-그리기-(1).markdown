@@ -1,9 +1,11 @@
 ---
 layout : post
 title : matplotlib을 이용하여 그래프 그리기 (1)
-date : 2022-09-15 16:05:08 +09:00
-categories: EDA
-comments: false
+subtitle : matplotlib과 막대 그래프를 그리는 방법에 대해 알아보자
+author : WoojinJeon
+categories: Python
+
+tags : [Python]
 ---
 
 # 목차
@@ -43,7 +45,7 @@ plt.ylabel('score')
 plt.tight_layout() # 여백 조정
 plt.savefig('barplot.png') # barplot.png로 저장
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/barplot.png?raw=true" style="width:100%">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/barplot.png?raw=true" style="width:100%">
 
 <b>수평 막대 그래프</b>의 경우
 
@@ -71,4 +73,4 @@ plt.ylabel('score')
 plt.tight_layout() # 여백 조정
 plt.savefig('barhplot.png') # barhplot.png로 저장
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/barhplot.png?raw=true" style="width:100%">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/barhplot.png?raw=true" style="width:100%">

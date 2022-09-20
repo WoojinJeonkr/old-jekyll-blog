@@ -1,9 +1,11 @@
 ---
 layout : post
 title : 보육통계 데이터로 알아보는 어린이집 현황
-date : 2022-09-17 22:47:48 +09:00
-categories : EDA
-comments: false
+subtitle : 공공데이터를 통해 어린이집 현황에 대해 알아보자
+author : WoojinJeon
+categories: EDA
+
+tags : [EDA, data, pdf]
 ---
 
 # 1. 분석 목적
@@ -16,4 +18,4 @@ comments: false
 <br/>
 
 # 2. 분석 결과 확인하기
-<span><a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/pdf/preschool.pdf" target="_blank" rel="noopener noreferrer">분석 결과 확인하기</a></span>
+<span><a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/preschool.pdf" target="_blank" rel="noopener noreferrer">분석 결과 확인하기</a></span>

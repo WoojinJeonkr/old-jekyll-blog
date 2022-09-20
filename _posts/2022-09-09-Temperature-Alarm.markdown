@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Temperature Alarm
-categories: arduino
-date: 2022-09-09 09:43:09 +09:00
-comments: false
+subtitle : 온도 센서를 이용하는 방법에 대해 알아보자
+author : WoojinJeon
+categories: Arduino
+
+tags : [Arduino]
 ---
 
 # 📖 목차
@@ -63,4 +65,4 @@ void loop(){
 ```
 
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Temperature-Alarm.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/video/Temperature-Alarm.gif?raw=true"/>

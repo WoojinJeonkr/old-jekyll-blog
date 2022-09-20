@@ -1,9 +1,11 @@
 ---
 layout : post
 title : 스타트업 직무캠프 2기
-date : 2022-09-18 18:29:41 +09:00
-categories : education
-comments : false
+subtitle : 스타트업 직무 캠프 2기에 참여해보았다
+author : WoojinJeon
+categories: Education
+
+tags : [Education, Startup]
 ---
 
 # 교육 명칭

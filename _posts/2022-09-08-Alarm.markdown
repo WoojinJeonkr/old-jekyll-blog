@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Alarm
-categories: arduino
-date: 2022-09-08 19:14:08 +09:00
-comments: false
+subtitle : 알람을 구현해보자
+author : WoojinJeon
+categories: Arduino
+
+tags : [Arduino]
 ---
 
 # 📖 목차
@@ -50,4 +52,4 @@ void loop(){
 ```
 
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Alarm.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/video/Alarm.gif?raw=true"/>

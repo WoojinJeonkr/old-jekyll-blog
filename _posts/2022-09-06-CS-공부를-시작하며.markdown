@@ -1,9 +1,11 @@
 ---
 layout: post
 title: CS 공부를 시작하며
-categories: cs
-date: 2022-09-06 19:51:59 +0900
-comments: false
+subtitle : CS 지식을 쌓기에 앞서..
+author : WoojinJeon
+categories: CS
+
+tags : [CS]
 ---
 
 # 📖 목차
@@ -30,7 +32,7 @@ cs 공부를 시작하며 내가 정한 목표는 겨울을 대비해서 식량 
 
 # 4. 공부 도서 <a name="공부도서"></a>
 <center>
-    <img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/%ED%95%9C-%EA%B6%8C%EC%9C%BC%EB%A1%9C-%EC%9D%BD%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0%EC%99%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%91%9C%EC%A7%80.jpg?raw=true" style="height:400">
+    <img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/%ED%95%9C-%EA%B6%8C%EC%9C%BC%EB%A1%9C-%EC%9D%BD%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0%EC%99%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%91%9C%EC%A7%80.jpg?raw=true" style="height:400">
 </center><br/>
 <ul>
     <ul>

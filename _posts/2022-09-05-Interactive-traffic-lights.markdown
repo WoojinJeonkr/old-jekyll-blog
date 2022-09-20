@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Interactive traffic lights
-categories: arduino
-date: 2022-09-05 17:56:56 +0900
-comments: false
+subtitle : 버튼 제어 신호등을 구현해보자
+author : WoojinJeon
+categories: Arduino
+
+tags : [Arduino]
 ---
 
 # 📖 목차
@@ -13,8 +15,7 @@ comments: false
 4. [회로 연결 및 작동](#회로연결및작동)
 
 # ⛳️ 구현 목표 <a name="구현목표"></a>
-버튼을 누르면 보행자들이 지나갈 수 있도록 신호가 바뀌는<br/>
-버튼 제어 신호등을 구현한다.
+버튼을 누르면 보행자들이 지나갈 수 있도록 신호가 바뀌는 버튼 제어 신호등을 구현한다.
 
 # ⚙️ 사용 부품 <a name="사용부품"></a>
 
@@ -33,6 +34,6 @@ comments: false
 <script src="https://gist.github.com/WoojinJeonkr/6f737e97ec4c7cff0874e7c7e218b742.js"></script>
 
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Interactive-traffic-lights.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/video/Interactive-traffic-lights.gif?raw=true"/>
 
 처음에 신호등이 초록색인 상태에서 버튼을 누르면 신호등이 초록색 → 노란색 → 빨간색으로 바뀌고 초록색 보행자 신호등이 켜진다.<br/> 초록색 보행자 신호등이 켜진 뒤 시간이 지나면 보행자 신호등이 깜빡이면서 초록색 보행자 신호등이 꺼지고 빨간색 보행자 신호등이 켜지며 신호등은 다시 빨간색 → 노란색 → 초록색으로 돌아온다

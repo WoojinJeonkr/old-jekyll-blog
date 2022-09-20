@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Print LCD
-categories: arduino
-date: 2022-09-10 18:10:18 +09:00
-comments: false
+subtitle : LCD에 문자를 출력해보자
+author : WoojinJeon
+categories: Arduino
+
+tags : [Arduino]
 ---
 
 # 📖 목차
@@ -52,4 +54,4 @@ void loop()
 ```
 
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Print-LCD.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/video/Print-LCD.gif?raw=true"/>

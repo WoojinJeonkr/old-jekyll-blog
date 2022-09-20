@@ -1,9 +1,11 @@
 ---
 layout: post
 title: SOS distress signal
-categories: arduino
-date: 2022-09-04 18:33:17 +0900
-comments: false
+subtitle : SOS 모스 부호 생성기를 구현해보자
+author : WoojinJeon
+categories: Arduino
+
+tags : [Arduino]
 ---
 
 # 📖 목차
@@ -29,4 +31,4 @@ comments: false
 <script src="https://gist.github.com/WoojinJeonkr/f21b3e16cac515e5e87d8dbc297329d0.js"></script>
 
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/SOS-distress-signal.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/video/SOS-distress-signal.gif?raw=true"/>

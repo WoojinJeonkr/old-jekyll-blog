@@ -1,5 +1,7 @@
-_site/
-.sass-cache/
+*.gem
+.bundle
+.sass-cache
+_site
 # git
 .jekyll-cache
 # gemfile

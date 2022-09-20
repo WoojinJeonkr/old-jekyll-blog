@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Breathing LED
-categories: arduino
-date: 2022-09-06 19:51:59 +0900
-comments: false
+subtitle : PWM으로 RGB LED 페이더를 구현해보자
+author : WoojinJeon
+categories: Arduino
+
+tags : [Arduino]
 ---
 
 # 📖 목차
@@ -13,7 +15,7 @@ comments: false
 4. [회로 연결 및 작동](#회로연결및작동)
 
 # ⛳️ 구현 목표 <a name="구현목표"></a>
-Pulse-width modulation(PWM)을 제어하여 LED가 점차 켜지고 꺼지면서<br/> 부드러운 밝기가 출력되는 RGB LED 페이더를 구현한다.
+Pulse-width modulation(PWM)을 제어하여 LED가 점차 켜지고 꺼지면서 부드러운 밝기가 출력되는 RGB LED 페이더를 구현한다.
 
 # ⚙️ 사용 부품 <a name="사용부품"></a>
 
@@ -29,4 +31,4 @@ Pulse-width modulation(PWM)을 제어하여 LED가 점차 켜지고 꺼지면서
 <script src="https://gist.github.com/WoojinJeonkr/ce7a27fb8815ca80d2f90d051eaace47.js"></script>
 
 # 🖳 회로 연결 및 작동 <a name="회로연결및작동"></a>
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Breathing-LED.gif?raw=true"/>
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/video/Breathing-LED.gif?raw=true"/>

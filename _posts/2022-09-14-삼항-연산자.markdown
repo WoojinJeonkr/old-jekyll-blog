@@ -1,9 +1,11 @@
 ---
 layout: post
 title: 삼항 연산자
-categories: python
-date: 2022-09-14 16:17:24 +09:00
-comments: false
+subtitle : 삼항 연산자란 무엇일까?
+author : WoojinJeon
+categories: Python
+
+tags : [Python]
 ---
 
 # 목차
@@ -36,7 +38,7 @@ print("Good") if score > 80 else print("BAD')
 # 2. 문제 <a name = "문제"></a>
 <a href="https://www.acmicpc.net/problem/2753" target="_blank" rel="noopener noreferrer">문제 풀어보러 가기</a><br/>
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/img/baekjoon-2753.png?raw=true" style="width:100%">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon-2753.png?raw=true" style="width:100%">
 
 <br/>
 
