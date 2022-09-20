@@ -2,8 +2,4 @@
 .bundle
 .sass-cache
 _site
-# git
-.jekyll-cache
-# gemfile
-Gemfile
 Gemfile.lock

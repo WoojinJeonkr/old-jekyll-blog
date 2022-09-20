@@ -1,0 +1,62 @@
+I"�<h1 id="-목차">📖 목차</h1>
+<ol>
+  <li><a href="#진법">진법이란?</a></li>
+  <li><a href="#진법변환">진법을 변환하는 방법</a></li>
+  <li><a href="#nto10">n진법을 10진법으로 변환하는 방법</a></li>
+  <li><a href="#10to2816">10진법을 2진법, 8진법, 16진법으로 변환하는 방법</a></li>
+  <li><a href="#nton">n진법을 n진법으로 변환하는 방법</a></li>
+  <li><a href="#problem">문제 - 백준 1550번. 16진수</a></li>
+</ol>
+
+<p><br /></p>
+
+<h1 id="1-진법이란-">1. 진법이란? <a name="진법"></a></h1>
+<p>수를 셀 때, 자릿수가 올라가는 단위를 기준으로 하는 셈법의 총칭으로<br /> ‘위치적 기수법’이라고도 한다.<br />
+일반적으로는 10진법을 주로 사용하며, 시계는 12진법과 60진법의 조합, <br /> 컴퓨터에서는 2진법과 16진법 또는 3진법 등이 이용된다. <br />
+또한 암호학에서는 26진수가 사용되기도 한다.<br /></p>
+
+<h1 id="2-진법을-변환하는-방법-">2. 진법을 변환하는 방법 <a name="진법변환"></a></h1>
+<p>어떤 수를 n진법으로 변환하려면 그 수를 0이 될 때까지 n으로 나누고,<br /> 그 나머지를 거꾸로 읽어 올라가면 된다.<br />
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/base-change.jpg?raw=true" /></p>
+
+<h1 id="3-n진법을-10진법으로-변환하는-방법-">3. n진법을 10진법으로 변환하는 방법 <a name="nto10"></a></h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">int</span><span class="p">(</span><span class="n">string</span><span class="p">,</span> <span class="n">base</span><span class="p">)</span>
+</code></pre></div></div>
+<p>의 형태로 작성한다.<br /></p>
+
+<p>ex) 2진법 –&gt; 10진법</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="mi">10010</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+</code></pre></div></div>
+
+<h1 id="4-10진법을-2진법-8진법-16진법으로-변환하는-방법-">4. 10진법을 2진법, 8진법, 16진법으로 변환하는 방법 <a name="10to2816"></a></h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="n">number</span><span class="p">)[</span><span class="mi">2</span><span class="p">:])</span> <span class="c1"># 2진법
+</span><span class="k">print</span><span class="p">(</span><span class="nb">oct</span><span class="p">(</span><span class="n">number</span><span class="p">)[</span><span class="mi">2</span><span class="p">:])</span> <span class="c1"># 8진법
+</span><span class="k">print</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">number</span><span class="p">)[</span><span class="mi">2</span><span class="p">:])</span> <span class="c1"># 16진법
+</span></code></pre></div></div>
+<p>결과는 모두 문자열로 출력된다.</p>
+
+<h1 id="5-n진법을-n진법으로-변환하는-방법-">5. n진법을 n진법으로 변환하는 방법 <a name="nton"></a></h1>
+
+<p>다음은 16진법을 2진법으로 변환하는 과정이다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">string</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="n">string</span><span class="p">.</span><span class="n">digits</span><span class="o">+</span><span class="n">string</span><span class="p">.</span><span class="n">ascii_lowercase</span>
+<span class="k">def</span> <span class="nf">convert</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">base</span><span class="p">)</span> <span class="p">:</span>
+    <span class="n">q</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="nb">divmod</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">base</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">q</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="n">tmp</span><span class="p">[</span><span class="n">r</span><span class="p">]</span> 
+    <span class="k">else</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="n">convert</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">base</span><span class="p">)</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">[</span><span class="n">r</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">convert</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="mi">16</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h1 id="6-문제---백준-1550번-16진수-">6. 문제 - <a href="https://www.acmicpc.net/problem/1550" target="_blank" rel="noopener noreferrer">백준 1550번. 16진수</a> <a name="problem"></a></h1>
+
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon%201550.png?raw=true" /></p>
+
+<h2 id="풀이">풀이</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(),</span> <span class="mi">16</span><span class="p">))</span>
+</code></pre></div></div>
+:ET

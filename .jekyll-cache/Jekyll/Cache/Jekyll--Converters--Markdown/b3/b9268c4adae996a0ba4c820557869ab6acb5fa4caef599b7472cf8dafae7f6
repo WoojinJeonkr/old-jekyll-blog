@@ -1,0 +1,83 @@
+I"i<h1 id="-목차">📖 목차</h1>
+<ol>
+  <li><a href="#구현목표">구현 목표</a></li>
+  <li><a href="#사용부품">사용 부품</a></li>
+  <li><a href="#코드">코드</a></li>
+  <li><a href="#회로연결및작동">회로 연결 및 작동</a></li>
+</ol>
+
+<h1 id="️-구현-목표-">⛳️ 구현 목표 <a name="구현목표"></a></h1>
+<p>온도 센서를 이용하여 온도가 일정 범위에 도달하면 버저가 울리도록 구현한다.</p>
+
+<h1 id="️-사용-부품-">⚙️ 사용 부품 <a name="사용부품"></a></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>부품명</th>
+      <th>개수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arduino UNO R3</td>
+      <td>   1</td>
+    </tr>
+    <tr>
+      <td>Prototype Shield with Breadboard</td>
+      <td>   1</td>
+    </tr>
+    <tr>
+      <td>Jumper M/M</td>
+      <td>   5</td>
+    </tr>
+    <tr>
+      <td>Buzzer</td>
+      <td>   1</td>
+    </tr>
+    <tr>
+      <td>Tem. Sensor</td>
+      <td>   1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="-코드-">👨‍💻 코드 <a name="코드"></a></h1>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">float</span> <span class="n">sinVal</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">toneVal</span><span class="p">;</span>
+<span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">tepTimer</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">(){</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span> <span class="c1">// 부저 핀 정의</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span> <span class="c1">// 시리얼 통신 속도를 9600bps로 정의</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">loop</span><span class="p">(){</span>
+  <span class="kt">int</span> <span class="n">val</span><span class="p">;</span> <span class="c1">// 온도 센서의 값 저장</span>
+  <span class="kt">double</span> <span class="n">data</span><span class="p">;</span> <span class="c1">// 온도 값을 변환하여 저장</span>
+  <span class="n">val</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span> <span class="c1">// 온도 센서를 아날로그 핀으로 변환하고 값을 읽음</span>
+  <span class="n">data</span> <span class="o">=</span> <span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="n">val</span><span class="o">*</span><span class="p">(</span><span class="mi">5</span><span class="o">/</span><span class="mf">10.24</span><span class="p">);</span> <span class="c1">// 전압 값을 온도 값으로 변환</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">data</span> <span class="o">&gt;</span> <span class="mi">27</span><span class="p">){</span> <span class="c1">// 만약 온도가 27도보다 높으면 버저가 소리를 냄</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">x</span><span class="o">&lt;</span><span class="mi">180</span><span class="p">;</span><span class="n">x</span><span class="o">++</span><span class="p">){</span>
+      <span class="n">sinVal</span> <span class="o">=</span> <span class="p">(</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="mf">3.1412</span><span class="o">/</span><span class="mi">180</span><span class="p">)));</span>
+      <span class="n">toneVal</span> <span class="o">=</span> <span class="mi">2000</span> <span class="o">+</span> <span class="p">(</span><span class="kt">int</span><span class="p">(</span><span class="n">sinVal</span><span class="o">*</span><span class="mi">1000</span><span class="p">));</span>
+      <span class="n">tone</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="n">toneVal</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="c1">// 그렇제 않다면(온도가 27도보다 낮거나 같은 경우)</span>
+  	<span class="n">noTone</span><span class="p">(</span><span class="mi">8</span><span class="p">);</span> <span class="c1">// 버저 끄기</span>
+  <span class="p">}</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">millis</span><span class="p">()</span> <span class="o">-</span> <span class="n">tepTimer</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">){</span> <span class="c1">// 500ms마다 직렬 포트가 온도 값 출력</span>
+  	<span class="n">tepTimer</span> <span class="o">=</span> <span class="n">millis</span><span class="p">();</span>
+    <span class="c1">// 'temperature: data값 C'의 형태로 시리얼 모니터에 출력됨</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">"temperature: "</span><span class="p">);</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">"C"</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="-회로-연결-및-작동-">🖳 회로 연결 및 작동 <a name="회로연결및작동"></a></h1>
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Temperature-Alarm.gif?raw=true" /></p>
+:ET

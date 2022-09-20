@@ -1,0 +1,54 @@
+I"<<h1 id="-목차">📖 목차</h1>
+<ol>
+  <li><a href="#구현목표">구현 목표</a></li>
+  <li><a href="#사용부품">사용 부품</a></li>
+  <li><a href="#코드">코드</a></li>
+  <li><a href="#회로연결및작동">회로 연결 및 작동</a></li>
+</ol>
+
+<h1 id="️-구현-목표-">⛳️ 구현 목표 <a name="구현목표"></a></h1>
+<p>RGB LED를 사용하여 무작위로 다른 색을 만드는 방법을 학습한다.</p>
+<blockquote>
+  <p><b> RGB LED </b> <br />
+적색, 청색, 녹색 LED를 결합해 각 조명의 다른 값을 조정해 다양한 색상을 표시할 수 있다.</p>
+</blockquote>
+
+<h1 id="️-사용-부품-">⚙️ 사용 부품 <a name="사용부품"></a></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>부품명</th>
+      <th>개수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arduino UNO R3</td>
+      <td>   1</td>
+    </tr>
+    <tr>
+      <td>Prototype Shield with Breadboard</td>
+      <td>   1</td>
+    </tr>
+    <tr>
+      <td>Jumper M/M</td>
+      <td>   4</td>
+    </tr>
+    <tr>
+      <td>Resistor 220Ω</td>
+      <td>   3</td>
+    </tr>
+    <tr>
+      <td>5MM RGB LED</td>
+      <td>   1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="-코드-">👨‍💻 코드 <a name="코드"></a></h1>
+<script src="https://gist.github.com/WoojinJeonkr/d3028b1d0a511a626ce4ea5faaf32fb8.js"></script>
+
+<h1 id="-회로-연결-및-작동-">🖳 회로 연결 및 작동 <a name="회로연결및작동"></a></h1>
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/video/Color-RGB-LED.gif?raw=true" /></p>
+:ET
