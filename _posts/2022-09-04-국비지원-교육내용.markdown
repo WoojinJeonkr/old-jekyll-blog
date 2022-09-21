@@ -16,8 +16,11 @@ tags : [Education, Python, Java, ML/DL, Cloud, KDT]
 
 <p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 18px;"><b>교육 내용</b></p>
 
-<p>
-<img src="https://img.shields.io/badge/Java-orange?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Python-white?style=flat&logo=Python&logoColor=blue"/> <img src="https://img.shields.io/badge/R-white?style=flat&logo=R&logoColor=276DC3"/> <img src="https://img.shields.io/badge/Tensorflow-white?style=flat&logo=Tensorflow&logoColor=FF6F00"/></p>
+<table>
+    <tr>
+        <td><img src="https://img.shields.io/badge/Java-orange?style=flat-square&logo=Java&logoColor=white"/><img src="https://img.shields.io/badge/Python-white?style=flat&logo=Python&logoColor=blue"/><img src="https://img.shields.io/badge/R-white?style=flat&logo=R&logoColor=276DC3"/><img src="https://img.shields.io/badge/Tensorflow-white?style=flat&logo=Tensorflow&logoColor=FF6F00"/></td>
+    </tr>
+</table>
 
 <p style="border-bottom: 2px solid #3FAFE4; padding: 0.1em; font-size: 18px;"><b>진행한 프로젝트</b></p>
 
