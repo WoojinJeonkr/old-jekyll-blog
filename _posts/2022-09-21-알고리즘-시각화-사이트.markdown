@@ -3,9 +3,9 @@ layout : post
 title : 알고리즘 시각화 사이트
 subtitle : 내가 짠 코드가 어떻게 작동하는지 알아볼 수 있을까?
 author : WoojinJeon
-categories : site
+categories : Site
 
-tags : [site, algoritm]
+tags : [Site, algoritm]
 ---
 
 # <a href="https://pythontutor.com" target="_blank" rel="noopener noreferrer">pythontutor.com</a>
