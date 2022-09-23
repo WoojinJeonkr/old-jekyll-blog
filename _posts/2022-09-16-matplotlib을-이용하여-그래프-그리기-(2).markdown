@@ -3,9 +3,9 @@ layout : post
 title : matplotlib을 이용하여 그래프 그리기 (2)
 subtitle : 선 그래프와 산점도는 어떻게 그릴 수 있을까?
 author : WoojinJeon
-categories: EDA
+categories: Python
 
-tags : [EDA]
+tags : [Python, matplotlib, graph, lineplot, scatterplot]
 ---
 
 <!--index-->
