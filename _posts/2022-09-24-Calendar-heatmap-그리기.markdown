@@ -11,7 +11,7 @@ tags : [Python, calmap, graph, Calendarheatmap]
 ## 1. calmap
 시계열 데이터를 히트맵으로 표현하는데 사용하는 라이브러리이다.
 
-### 2. 라이브러리 설치
+## 2. 라이브러리 설치
 ```python
 pip install calmap
 ```
