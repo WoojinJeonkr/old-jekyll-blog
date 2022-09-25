@@ -5,7 +5,7 @@ subtitle : matplotlib과 막대 그래프를 그리는 방법에 대해 알아�
 author : WoojinJeon
 categories: Python
 
-tags : [Python, matplotlib, graph, barplot]
+tags : [Python, matplotlib, graph, barchart]
 ---
 
 # 목차

@@ -5,7 +5,7 @@ subtitle : 선 그래프와 산점도는 어떻게 그릴 수 있을까?
 author : WoojinJeon
 categories: Python
 
-tags : [Python, matplotlib, graph, lineplot, scatterplot]
+tags : [Python, matplotlib, graph, linechart, scatterplot]
 ---
 
 <!--index-->
