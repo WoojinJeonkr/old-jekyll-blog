@@ -1,6 +1,6 @@
 ---
 layout : post
-title : matplotlib을 이용하여 그래프 그리기 (2)
+title : matplotlib을 이용하여 그래프 그리기 (3)
 subtitle : 측정값이나 데이터의 비중은 어떻게 표현할 수 있을까?
 author : WoojinJeon
 categories: Python
@@ -72,7 +72,7 @@ plt.savefig('pieplot_label.png')
 ```
 <img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/pieplot_label.png?raw=true">
 
-## 4. Pie Chart에서 특정 부분의 데이터의 비율 바 그래프로 표시하기
+## 4. Pie Chart + Bar Chart
 
 ```python
 # 라이브러리 불러오기
