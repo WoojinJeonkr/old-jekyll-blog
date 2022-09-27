@@ -41,6 +41,7 @@ tags : [Education, Python, Java, ML/DL, Cloud, KDT]
                 <li>고객 및 제품 정보 기반 통계</li>
             </ul>
         <li>담당: 상품 구매 후기 페이지, 통계 페이지</li>
+        <li><a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/Spring_web_shoppingmall.pdf" target="_blank" rel="noopener noreferrer">프로젝트 보러가기</a></li>
     </ul>
 </details>
 <details>
