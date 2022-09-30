@@ -5,7 +5,7 @@ subtitle : 6개월 간의 국비지원교육을 마치고..
 author : WoojinJeon
 categories: Education
 
-tags : [Education, Python, Java, ML/DL, Cloud, KDT]
+tags : [Education, Python, Java, ML/DL, KDT]
 ---
 
 # 머신러닝-딥러닝을 활용한 공공데이터 분석전문가 양성과정
