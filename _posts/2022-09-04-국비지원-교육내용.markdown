@@ -8,65 +8,29 @@ categories: Education
 tags : [Education, Python, Java, ML/DL, Cloud, KDT]
 ---
 
-# 머신러닝-딥러닝을 활용한 공공데이터 분석전문가 양성과정
+## 머신러닝-딥러닝을 활용한 공공데이터 분석전문가 양성과정
 
 <a href="https://blog.naver.com/wooeric1" target="_blank" rel="noopener noreferrer" style="color:green">블로그 바로가기</a>
 
 2021년 12월 28일부터 2022년 06월 22일까지 수강했던 내용들을 정리하였다.<br/>
 
-# 교육 내용
+### 1. 교육 내용
 
 |           Part          |                                                 세부내용                                                 | 시간 |
 |:-----------------------:|:--------------------------------------------------------------------------------------------------------:|:----:|
-|      웹앱서비스개발     | Java, Python 기초 / HTML / CSS / JavaScript / DBMS SQL, NoSQL / JAVA, JSP, JDBCSpring, Mybatis / Android | 320h |
+|      웹앱서비스개발     | Java, Python 기초 / HTML / CSS / JavaScript / DBMS SQL, NoSQL /<br/> JAVA, JSP, JDBCSpring, Mybatis / Android | 320h |
 |         통계분석        |                                         통계 기초 / R 프로그래밍                                         |  40h |
 |        데이터분석       |                   파이썬문법 / 데이터크롤링 데이터전처리 / 데이터분석 (파이썬) / 시각화                  | 160h |
 |         머신러닝        |        신경망 구성 이해 / 지도학습, 비지도학습 심층신경망 / 퍼셉트론 / Tensorflow / DNN, CNN, RNN        | 112h |
-|  데이터서비스 프로젝트  |                                시각화 게시판 개발 / 반응형 웹 서비스 개발                                |  80h |
+|  데이터서비스<br/> 프로젝트  |                                시각화 게시판 개발 / 반응형 웹 서비스 개발                                |  80h |
 | 공공데이터분석<br/>프로젝트 |                                  미세먼지 데이터 분석 / 질병 데이터 분석                                 | 208h |
 |       취업역량향상      |                            이력서 자소서 첨삭 / 데이터분석기업 / 분석모의면접                            |  24h |
 |         기업특강        |                                            IT 기업인 초빙 강의                                           |  16h |
 
-# 진행한 프로젝트
+### 2. 진행한 프로젝트
 
-<details>
-    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">여성의류 쇼핑몰 웹사이트 구현</a></summary>
-    <ul>
-        <li>인원: 4명</li>
-        <li>기능</li>
-            <ul>
-                <li>상품 추천</li>
-                <li>상품 정보 조회 및 구매 후기</li>
-                <li>고객센터 및 QnA</li>
-                <li>고객 및 제품 정보 기반 통계</li>
-            </ul>
-        <li>담당: 상품 구매 후기 페이지, 통계 페이지</li>
-        <li><a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/Spring_shoppingmall.pdf" target="_blank" rel="noopener noreferrer">프로젝트 보러가기</a></li>
-    </ul>
-</details>
-<details>
-    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMallML" target="_blank" rel="noopener noreferrer" style="color: #0B711F">ShoppingMallML</a></summary>
-    <ul>
-        <li>인원: 3명</li>
-        <li>기능</li> 
-            <ul>
-                <li>카테고리 예측</li>
-                <li>분류 모델 정확도 / 구매 빈도 시각화</li>
-                <li>구매 후기 긍정 부정 여부 분석</li>
-            </ul>
-        <li>담당: 카테고리 예측, 후기 긍정 부정 분석</li>
-    </ul>
-</details>
-<details>
-    <summary><a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">Chatbot 구현</a></summary>
-    <ul>
-        <li>인원: 3명</li>
-        <li>기능</li>
-        <ul>
-            <li>상품 추천</li>
-            <li>의류 문의</li>
-            <li>구매 목록</li>
-            <li>일상 대화</li>
-        </ul>
-    </ul>
-</details>
+|                  프로젝트명                  | 인원 | 기능                                                                                          | 담당한 부분                             |    프로젝트 보러가기    |
+|:--------------------------------------------:|:----:|-----------------------------------------------------------------------------------------------|-----------------------------------------|:-----------------------:|
+| <a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">여성의류 쇼핑몰 웹사이트 구현</a> |  4명 | 1. 상품 추천<br/> 2. 상품 정보 조회 및 구매 후기<br/> 3. 고객센터 및 QnA<br/> 4. 고객 및 제품 정보 기반 통계 | 1. 상품 구매 후기 페이지<br/> 2. 통계 페이지 |   <a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/Spring_shoppingmall.pdf" target="_blank" rel="noopener noreferrer">Spring_shoppingmall</a>   |
+|          <a href="https://github.com/WoojinJeonkr/ShoppingMallML" target="_blank" rel="noopener noreferrer" style="color: #0B711F">여성의류 쇼핑몰 ML부분 구현</a>         |  3명 | 1. 카테고리 예측<br/> 2. 분류 모델 정확도 / 구매 빈도 시각화<br/> 3. 구매 후기 긍정 부정 여부 분석      | 1. 카테고리 예측<br/> 2. 후기 긍정/부정 분석 | <a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/Django_web_shoppingmall.pdf" target="_blank" rel="noopener noreferrer">Django_web_shoppingmall</a> |
+|         <a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">Chatbot 구현</a>       |  3명 | 1. 상품 추천<br/> 2. 의류 문의<br/> 3. 구매 목록<br/> 4. 일상 대화                                           | 상품 추천 + α                           |         <a href="https://github.com/WoojinJeonkr/ShoppingMall" target="_blank" rel="noopener noreferrer" style="color: #0B711F">Chatbot</a>         |
