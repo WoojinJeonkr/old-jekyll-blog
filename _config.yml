@@ -134,7 +134,7 @@ sitemap: True
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-night_mode: "auto"
+night_mode: "off"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -211,4 +211,10 @@ markdown: kramdown
 kmarkdown:
   input: GFM
 
-plugins: [jekyll-feed, jekyll-seo-tag, jekyll-sitemap, jekyll-paginate, jekyll-spaceship, jekyll-linkpreview]
+plugins: 
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-spaceship
+- jekyll-linkpreview]
