@@ -1,7 +1,6 @@
 .jekyll-linkpreview-wrapper {
-    max-width: 1200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 .jekyll-linkpreview-wrapper-inner {
     border: 1px solid rgba(0,0,0,.1);
@@ -9,9 +8,8 @@
 }
 .jekyll-linkpreview-content {
     position: relative;
-    height: 120px;
+    height: 100px;
     overflow: hidden;
-    margin-top: 5px;
     margin-bottom: 10px;
 }
 .jekyll-linkpreview-image {
@@ -20,25 +18,24 @@
     right: 0;
 }
 .jekyll-linkpreview-image img {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
 }
 .jekyll-linkpreview-body {
-    margin-top: 10px;
-    margin-right: 200px;
+    margin-right: 110px;
 }
-h2.jekyll-linkpreview-title{
-    font-size: 20px;
-    margin-top: 2px;
+.jekyll-linkpreview-body-nog {
+    margin-right: 10px;
+}
+.jekyll-linkpreview-title {
+    font-size: 17px;
     margin: 0 0 2px;
     line-height: 1.3;
-    /* display:block; Add this  */
 }
 .jekyll-linkpreview-description {
     line-height: 1.5;
     font-size: 13px;
-    margin-top: 10px;
 }
 .jekyll-linkpreview-footer {
-    font-size: 0px;
-} 
+    font-size: 11px;
+}
