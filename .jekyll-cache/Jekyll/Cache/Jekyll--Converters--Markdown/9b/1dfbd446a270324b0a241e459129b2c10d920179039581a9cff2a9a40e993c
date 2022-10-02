@@ -1,0 +1,65 @@
+I"e<h2 id="1-calmap">1. calmap</h2>
+<p>시계열 데이터를 히트맵으로 표현하는데 사용하는 라이브러리이다.</p>
+
+<h2 id="2-라이브러리-설치">2. 라이브러리 설치</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="n">calmap</span>
+</code></pre></div></div>
+
+<p>calmap을 통해 다음과 같은 깃허브의 Contribution 그래프를 그릴 수 있다.<br />
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/my_github_contribution_plot_20220923.png?raw=true" /></p>
+
+<h2 id="3-calendar-heatmap-그리기">3. Calendar heatmap 그리기</h2>
+<p>DatetimeIndex가 있는 Pandas 시리즈로 가중치 이벤트가 있다고 가정한다.<br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 필요한 라이브러리 가져오기
+</span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">calmap</span>
+
+<span class="c1"># 시드 설정
+</span><span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">seed</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">ord</span><span class="p">,</span> <span class="s">'calmap'</span><span class="p">)))</span>
+</code></pre></div></div>
+
+<p>700일 동안 임의의 날짜에 할당된 임의의 부동 소수점 값으로 500개의 이벤트 데이터를 생성한다.<br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 데이터 생성
+</span><span class="n">all_days</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">date_range</span><span class="p">(</span><span class="s">'1/15/2014'</span><span class="p">,</span> <span class="n">periods</span><span class="o">=</span><span class="mi">700</span><span class="p">,</span> <span class="n">freq</span><span class="o">=</span><span class="s">'D'</span><span class="p">)</span>
+<span class="n">days</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">choice</span><span class="p">(</span><span class="n">all_days</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
+<span class="n">events</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">Series</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">randn</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">days</span><span class="p">)),</span> <span class="n">index</span><span class="o">=</span><span class="n">days</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 기본적으로 yearplot은 첫번째 연도를 표시하고 하루의 값을 합산한다.
+</span><span class="n">year</span> <span class="o">=</span> <span class="n">calmap</span><span class="p">.</span><span class="n">yearplot</span><span class="p">(</span><span class="n">events</span><span class="p">)</span>
+<span class="n">year</span><span class="p">.</span><span class="n">figure</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'yearplot.png'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/yearplot.png?raw=true" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># year 인수를 통해 어떤 연도를 표시할지 선택할 수 있다.
+# 2015년에 대한 calendarmap 표현하기
+</span><span class="n">year_2015</span> <span class="o">=</span> <span class="n">calmap</span><span class="p">.</span><span class="n">yearplot</span><span class="p">(</span><span class="n">events</span><span class="p">,</span> <span class="n">year</span><span class="o">=</span><span class="mi">2015</span><span class="p">)</span>
+<span class="n">year_2015</span><span class="p">.</span><span class="n">figure</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'yearplot_2015.png'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/yearplot_2015.png?raw=true" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># calendarplot을 사용하여 모든 연도에 대한 데이터를 표시할 수도 있다.
+# 2014년과 2015년의 데이터 calendarmap으로 표현하기
+</span><span class="n">calendar</span> <span class="o">=</span> <span class="n">calmap</span><span class="p">.</span><span class="n">calendarplot</span><span class="p">(</span><span class="n">events</span><span class="p">,</span> <span class="n">monthticks</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">daylabels</span><span class="o">=</span><span class="s">'MTWTFSS'</span><span class="p">,</span>
+                    <span class="n">dayticks</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="n">cmap</span><span class="o">=</span><span class="s">'YlGn'</span><span class="p">,</span>
+                    <span class="n">fillcolor</span><span class="o">=</span><span class="s">'grey'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                    <span class="n">fig_kws</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">)))</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'calendarplot.png'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/calendarplot.png?raw=true" /></p>
+
+<h2 id="4-참고-자료">4. 참고 자료</h2>
+<ul>
+  <li><a href="https://pythonhosted.org/calmap/">Calendar heatmaps from Pandas time series data</a></li>
+  <li><a href="https://pypi.org/project/calmap/">pypi.org - calmap 0.0.9</a></li>
+  <li><a href="https://towardsdatascience.com/create-githubs-style-contributions-plot-for-your-time-series-data-79df84ec93da">Create GitHub’s style contributions plot for your Time Series data</a></li>
+</ul>
+:ET

@@ -1,0 +1,71 @@
+I"�<h2 id="1-시계열-데이터">1. 시계열 데이터</h2>
+<p>시간 순서로 배열된 데이터의 한 종류로 시간에 걸쳐 순차적으로 기록된다.<br />
+다음과 같은 데이터를 시계열 데이터로 볼 수 있다.</p>
+<li>주식수익률 데이터를 포함한 재무데이터</li>
+<li>인플레이션, 소비자 물가를 포함한 각종 경제 관련 데이터</li>
+<li>시간 순으로 기록된 정당 지지율</li>
+<p><br /></p>
+
+<h2 id="2-시계열-데이터를-시각화하는-방법">2. 시계열 데이터를 시각화하는 방법</h2>
+<p>시계열 도표는 주어진 메트릭이 시간에 따라 어떻게 변하는지 시각화하는 데 사용된다.<br />
+시계열 도표를 그리는 방법은 다음과 같다.<br /></p>
+<li>선 그래프</li>
+<li>히스토그램과 밀도 분포</li>
+<li>상자 수염 그림</li>
+<li>히트맵</li>
+<li>시차 도표 또는 산점도</li>
+<li>자기상관도표</li>
+<p><br /></p>
+
+<h2 id="3-시계열-도표">3. 시계열 도표</h2>
+<p>이 문서에서는 선 그래프를 통해 시계열 데이터를 다루는 방법에 대해 알아본다.<br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 라이브러리 불러오기
+</span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="c1"># 데이터 가져오기
+</span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'https://github.com/mwaskom/seaborn-data/raw/master/flights.csv'</span><span class="p">)</span>
+
+<span class="c1"># 영어로 된 달 이름을 수로 바꾸기
+</span><span class="n">month2int</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'January'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="s">'February'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="s">'March'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="s">'April'</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="s">'May'</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+    <span class="s">'June'</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+    <span class="s">'July'</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span>
+    <span class="s">'August'</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+    <span class="s">'September'</span><span class="p">:</span> <span class="mi">9</span><span class="p">,</span>
+    <span class="s">'October'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s">'November'</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+    <span class="s">'December'</span><span class="p">:</span> <span class="mi">12</span>
+<span class="p">}</span>
+
+<span class="c1"># 컬럼의 값 일괄 변환
+</span><span class="n">df</span><span class="p">[</span><span class="s">'month'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">'month'</span><span class="p">].</span><span class="nb">map</span><span class="p">(</span><span class="n">month2int</span><span class="p">)</span>
+
+<span class="c1"># 날짜 형식 변환
+</span><span class="n">df</span><span class="p">[</span><span class="s">'day'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">df</span><span class="p">[</span><span class="s">'date'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[[</span><span class="s">'year'</span><span class="p">,</span> <span class="s">'month'</span><span class="p">,</span> <span class="s">'day'</span><span class="p">]])</span>
+
+<span class="c1"># 시각화
+# 12개월 단위로 이동평균 구하기
+</span><span class="n">df</span><span class="p">[</span><span class="s">'1y'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">'passengers'</span><span class="p">].</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="mi">12</span><span class="p">).</span><span class="n">mean</span><span class="p">()</span>
+<span class="c1"># 월별 승객 수(passengers)의 그래프에 12개월 이동 평균선을 빨간색으로 표시
+</span><span class="n">ax</span> <span class="o">=</span> <span class="n">df</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'date'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'passengers'</span><span class="p">)</span>
+<span class="n">df</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'date'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'1y'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'red'</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'time_series_line_plot.png'</span><span class="p">)</span>
+</code></pre></div></div>
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/time_series_line_plot.png?raw=true" /></p>
+
+<h2 id="5-참고-자료">5. 참고 자료</h2>
+<ul>
+  <li><a href="http://aispiration.com/finance/stat-time-series-basics.html">데이터 과학 – 금융(Finance) &gt; 시계열 데이터 다루기(padr, tibbletime, lubridate)</a></li>
+  <li><a href="https://mindscale.kr/course/pandas-basic/timeseries/">18. 시계열 데이터</a></li>
+  <li><a href="https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#2.-Bubble-plot-with-Encircling">Top 50 matplotlib Visualizations – The Master Plots (with full python code)</a></li>
+  <li><a href="https://machinelearningmastery.com/time-series-data-visualization-with-python/">Time Series Data Visualization with Python</a></li>
+</ul>
+:ET
