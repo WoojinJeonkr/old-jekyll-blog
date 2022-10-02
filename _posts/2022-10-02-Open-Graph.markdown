@@ -41,17 +41,18 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 
 ### 01. 세팅
 
-{% linkpreview "https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" %}
+<a href="https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" target="_blank" rel="noopener noreferrer">세팅 방법 보러가기</a>
 
 위의 글을 따라 작성해보자. 알아보기 쉽게 정리되어 있다.
 
-### 02. 출력
+### 02. 오류
 
-{% linkpreview "https://github.com/ysk24ok/jekyll-linkpreview" %}
+로컬에서 실행했을 때에는 잘 출력되는데 원격으로 실행해서 서버에 띄우려고 하면 build error가 뜨면서 작동되지 않았다..
+다른 방법을 찾아보자..
 
 ## 5. metatags.io/
 
-{% linkpreview "https://metatags.io/" %}
+<a href="https://metatags.io/" target="_blank" rel="noopener noreferrer">사이트 바로가기</a>
 
 콘텐츠를 편집하고 실험한 다음 Google, Facebook, Twitter 등에서 웹페이지가 어떻게 보일지 미리 볼 수 있는 사이트이다.<br>
 
