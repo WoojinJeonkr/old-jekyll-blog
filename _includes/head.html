@@ -2,14 +2,41 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Google-translate-->
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+  
   <!-- seo: 검색 엔진 최적화-->
   {%- seo -%}
+  
+  <!-- Primary Meta Tags -->
+  <title>Home | Woojin’s DevPocket</title>
+  <meta name="title" content="Home | Woojin’s DevPocket">
+  <meta name="description" content="Woojin’s DevPocket Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://woojinjeonkr.github.io/">
+  <meta property="og:title" content="Home | Woojin’s DevPocket">
+  <meta property="og:description" content="Woojin’s DevPocket Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+  <meta property="og:image" content="https://woojinjeonkr.github.io/assets/images/banners/home.jpeg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://woojinjeonkr.github.io/">
+  <meta property="twitter:title" content="Home | Woojin’s DevPocket">
+  <meta property="twitter:description" content="Woojin’s DevPocket Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+  <meta property="twitter:image" content="https://woojinjeonkr.github.io/assets/images/banners/home.jpeg">
+  
   <link rel="icon" href="{{ site.favicon }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  
+  <!-- Customized css -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/linkpreview.css" media="screen">
+  
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include extensions/google-analytics.html -%}
