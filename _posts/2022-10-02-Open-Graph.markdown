@@ -47,8 +47,7 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 
 ### 02. 출력
 
-{% assign jekyll_linkpreview_page = "https://github.com/ysk24ok/jekyll-linkpreview" %}
-{% linkpreview jekyll_linkpreview_page %}
+{% linkpreview "https://github.com/ysk24ok/jekyll-linkpreview" %}
 
 ## 5. metatags.io/
 
