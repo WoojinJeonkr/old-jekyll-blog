@@ -41,22 +41,17 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 
 ### 01. 세팅
 
-{% raw %}
 {% linkpreview "https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" %}
-{% endraw %}
 
 위의 글을 따라 작성해보자. 알아보기 쉽게 정리되어 있다.
 
 ### 02. 출력
 
-{% raw %}
 {% linkpreview "https://github.com/ysk24ok/jekyll-linkpreview" %}
-{% endraw %}
+
 ## 5. metatags.io/
 
-{% raw %}
 {% linkpreview "https://metatags.io/" %}
-{% endraw %}
 
 콘텐츠를 편집하고 실험한 다음 Google, Facebook, Twitter 등에서 웹페이지가 어떻게 보일지 미리 볼 수 있는 사이트이다.<br>
 
