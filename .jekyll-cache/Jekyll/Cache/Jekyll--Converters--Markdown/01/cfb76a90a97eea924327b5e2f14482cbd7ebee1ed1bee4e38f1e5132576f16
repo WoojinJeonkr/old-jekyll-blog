@@ -1,0 +1,65 @@
+I"�<h2 id="1-open-graph">1. Open Graph</h2>
+<p>Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 목적으로 웹 페이지 내 메타데이터 사용을 표준화하기 위해 만든 인터넷 프로토콜이다.<br />페이지 제목처럼 간단하거나 동영상 길이만큼 구체적인 세부 정보를 제공할 수 있다.<br /></p>
+
+<h2 id="2-open-graph가-필요한-이유">2. Open Graph가 필요한 이유</h2>
+<p>인터넷의 콘텐츠는 일반적으로 다른 사람과 공유한다는 하나 이상의 목표를 염두에 두고 만들어진다.<br />친구 1명에게만 보내는 경우가 아닌 여러 사람에게 공유하고 싶거나 미리보기를 사용하는 소셜 네트워크나 앱에서 공유하려는 경우 Open Graph를 사용하므로써 내용을 상대방에게 미리 보여줄 수 있다.<br />대부분의 소셜 미디어 플랫폼에서는 오픈 그래프 태그가 없어도 title과 description 정도는 미리보기로 표시해주지만 이는 실제 페이지의 콘텐츠 내용과 다를 수 있고, 그것만으로는 이 페이지가 어떤 정보를 보여줄지 사용자가 예상하기 어렵다. 소셜 미디어의 급성장으로는 최근에는 많은 웹사이트들이 og 태그를 사용하고 있는데, 만약 공유받은 웹사이트의 미리보기에 썸네일도 없고 페이지 title만 있는 경우 사용자 입장에서는 클릭해도 괜찮은 페이지인지 망설여지게 될 수 있다.<br /></p>
+
+<h2 id="3-open-graph-태그">3. Open Graph 태그</h2>
+
+<h3 id="01-기본-태그">01. 기본 태그</h3>
+<ol>
+  <li><b>og:title</b> : 사이트의 제목 태그</li>
+  <li><b>og:type</b> :  사이트의 종류 스타일 ex) video, movie</li>
+  <li><b>og:image</b> : 사이트를 나타낼 대표 이미지</li>
+  <li><b>og:url</b> : 사이트의 대표 url</li>
+</ol>
+
+<h3 id="02-옵션-태그">02. 옵션 태그</h3>
+<ol>
+  <li><b>og:audio</b> : 사이트에 포함되는 오디오 파일 url</li>
+  <li><b>og:description</b> : 사이트 설명</li>
+  <li><b>og:locale</b> : 사이트 언어 선택 ex) 한글: ko_KR</li>
+  <li><b>og:locale:alternate</b> : 사이트의 다른 언어 종류 (다국적 사이트인 경우 적용)</li>
+  <li><b>og:site_name</b> : 전체 사이트의 제목이 <b>og:title</b>이라면 <b>og:site_name</b>은 좀 더 세부적인 카테고리의 제목을 의미한다.</li>
+  <li><b>og:video</b> : 사이트에 포함되는 비디오 파일 url</li>
+</ol>
+
+<h3 id="03-구조-프로퍼티">03. 구조 프로퍼티</h3>
+<p>여기서 ‘object’는 image, video, audio와 같은 태그를 의미한다.<br /></p>
+<ol>
+  <li><b>og:’object’:url</b> : object의 경로</li>
+  <li><b>og:’object’:secure_url</b> : SSL(HTTPS)의 경로</li>
+  <li><b>og:’object’:type</b> : object 타입의 종류</li>
+  <li><b>og:’object’:width</b> : object의 너비</li>
+  <li><b>og:’object’:height</b> : object의 높이</li>
+  <li><b>og:’object’:alt</b> : object 설명</li>
+</ol>
+
+<h2 id="4-jekyll에서-linkpreview-사용법">4. jekyll에서 linkpreview 사용법</h2>
+
+<h3 id="01-세팅">01. 세팅</h3>
+
+<p><a href="https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" target="_blank" rel="noopener noreferrer">세팅 방법 보러가기</a></p>
+
+<p>위의 글을 따라 작성해보자. 알아보기 쉽게 정리되어 있다.</p>
+
+<h3 id="02-오류">02. 오류</h3>
+
+<p>로컬에서 실행했을 때에는 잘 출력되는데 원격으로 실행해서 서버에 띄우려고 하면 build error가 뜨면서 작동되지 않았다..
+다른 방법을 찾아보자..</p>
+
+<h2 id="5-metatagsio">5. metatags.io/</h2>
+
+<p><a href="https://metatags.io/" target="_blank" rel="noopener noreferrer">사이트 바로가기</a></p>
+
+<p>콘텐츠를 편집하고 실험한 다음 Google, Facebook, Twitter 등에서 웹페이지가 어떻게 보일지 미리 볼 수 있는 사이트이다.<br /></p>
+
+<h2 id="6-참고-자료">6. 참고 자료</h2>
+<ul>
+  <li><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">What is Open Graph and how can I use it for my website?</a></li>
+  <li><a href="https://nowonbun.tistory.com/517">[HTML] Open graph  (오픈 그래피, og 태그)</a></li>
+  <li><a href="https://velog.io/@byeol4001/Meta-Tag-OG%EC%98%A4%ED%94%88%EA%B7%B8%EB%9E%98%ED%94%84-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">Meta Tag , OG(오픈그래프) 사용하기</a></li>
+  <li><a href="https://github.com/ysk24ok/jekyll-linkpreview">Jekyll::Linkpreview</a></li>
+  <li><a href="https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html">Jekyll 링크 미리보기 추가하기</a></li>
+</ul>
+:ET

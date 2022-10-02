@@ -1,4 +1,4 @@
-I"�<h2 id="1-open-graph">1. Open Graph</h2>
+I"�<h2 id="1-open-graph">1. Open Graph</h2>
 <p>Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 목적으로 웹 페이지 내 메타데이터 사용을 표준화하기 위해 만든 인터넷 프로토콜이다.<br />페이지 제목처럼 간단하거나 동영상 길이만큼 구체적인 세부 정보를 제공할 수 있다.<br /></p>
 
 <h2 id="2-open-graph가-필요한-이유">2. Open Graph가 필요한 이유</h2>
@@ -39,80 +39,17 @@
 
 <h3 id="01-세팅">01. 세팅</h3>
 
-<div class="jekyll-linkpreview-wrapper">
-  <p><a href="https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" target="_blank">https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html</a></p>
-  <div class="jekyll-linkpreview-wrapper-inner">
-    <div class="jekyll-linkpreview-content">
-<div class="jekyll-linkpreview-image">
-  <a href="https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" target="_blank">
-    <img src="https://leeminjoo.github.io/logo.png" />
-  </a>
-</div>
-
-      <div class="jekyll-linkpreview-body">
-        <h2 class="jekyll-linkpreview-title">
-          <a href="https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" target="_blank">Jekyll 링크 미리보기 추가하기</a>
-        </h2>
-        <div class="jekyll-linkpreview-description">Jekyll 기반 Gihub Page에 아래와 같이 링크 미리보기 설정 방법을 정리했습니다.</div>
-      </div>
-    </div>
-    <div class="jekyll-linkpreview-footer">
-      <a href="//leeminjoo.github.io" target="_blank">leeminjoo.github.io</a>
-    </div>
-  </div>
-</div>
+<p><a href="https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html" target="_blank" rel="noopener noreferrer">세팅 방법 보러가기</a></p>
 
 <p>위의 글을 따라 작성해보자. 알아보기 쉽게 정리되어 있다.</p>
 
 <h3 id="02-출력">02. 출력</h3>
 
-<div class="jekyll-linkpreview-wrapper">
-  <p><a href="https://github.com/ysk24ok/jekyll-linkpreview" target="_blank">https://github.com/ysk24ok/jekyll-linkpreview</a></p>
-  <div class="jekyll-linkpreview-wrapper-inner">
-    <div class="jekyll-linkpreview-content">
-<div class="jekyll-linkpreview-image">
-  <a href="https://github.com/ysk24ok/jekyll-linkpreview" target="_blank">
-    <img src="https://opengraph.githubassets.com/db7b78b7dd28dc57238b29277e122a11565da1ae68caedf273f368c9f2bd55ff/ysk24ok/jekyll-linkpreview" />
-  </a>
-</div>
-
-      <div class="jekyll-linkpreview-body">
-        <h2 class="jekyll-linkpreview-title">
-          <a href="https://github.com/ysk24ok/jekyll-linkpreview" target="_blank">GitHub - ysk24ok/jekyll-linkpreview: Jekyll plugin to generate link preview</a>
-        </h2>
-        <div class="jekyll-linkpreview-description">Jekyll plugin to generate link preview. Contribute to ysk24ok/jekyll-linkpreview development by creating an account on GitHub.</div>
-      </div>
-    </div>
-    <div class="jekyll-linkpreview-footer">
-      <a href="//github.com" target="_blank">github.com</a>
-    </div>
-  </div>
-</div>
+<p><img src="" /></p>
 
 <h2 id="5-metatagsio">5. metatags.io/</h2>
 
-<div class="jekyll-linkpreview-wrapper">
-  <p><a href="https://metatags.io/" target="_blank">https://metatags.io/</a></p>
-  <div class="jekyll-linkpreview-wrapper-inner">
-    <div class="jekyll-linkpreview-content">
-<div class="jekyll-linkpreview-image">
-  <a href="https://metatags.io/" target="_blank">
-    <img src="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
-  </a>
-</div>
-
-      <div class="jekyll-linkpreview-body">
-        <h2 class="jekyll-linkpreview-title">
-          <a href="https://metatags.io/" target="_blank">Meta Tags — Preview, Edit and Generate</a>
-        </h2>
-        <div class="jekyll-linkpreview-description">With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!</div>
-      </div>
-    </div>
-    <div class="jekyll-linkpreview-footer">
-      <a href="//metatags.io" target="_blank">metatags.io</a>
-    </div>
-  </div>
-</div>
+<p><a href="https://metatags.io/" target="_blank" rel="noopener noreferrer">사이트 바로가기</a></p>
 
 <p>콘텐츠를 편집하고 실험한 다음 Google, Facebook, Twitter 등에서 웹페이지가 어떻게 보일지 미리 볼 수 있는 사이트이다.<br /></p>
 
