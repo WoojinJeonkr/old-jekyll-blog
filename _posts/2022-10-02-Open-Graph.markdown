@@ -61,4 +61,4 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 - [[HTML] Open graph  (오픈 그래피, og 태그)](https://nowonbun.tistory.com/517)
 - [Meta Tag , OG(오픈그래프) 사용하기](https://velog.io/@byeol4001/Meta-Tag-OG%EC%98%A4%ED%94%88%EA%B7%B8%EB%9E%98%ED%94%84-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 - [Jekyll::Linkpreview](https://github.com/ysk24ok/jekyll-linkpreview)
-- []()
+- [Jekyll 링크 미리보기 추가하기](https://leeminjoo.github.io/jekyll-setting/2021/06/20/Git-page-link-preview.html)
