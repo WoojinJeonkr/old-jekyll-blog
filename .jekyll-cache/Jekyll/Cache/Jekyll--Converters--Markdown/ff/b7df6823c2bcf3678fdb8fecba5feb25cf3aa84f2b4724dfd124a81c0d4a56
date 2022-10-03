@@ -1,0 +1,138 @@
+I"�]<h2 id="1-pie-chart">1. Pie Chart</h2>
+<p>범주별 구성 비율을 원형으로 표현한 그래프이다<br />
+Pie Chart의 특징은 다음과 같다.<br /></p>
+<ol>
+  <li>차원별로 측정값의 비중을 보여주기 위한 목적으로 사용</li>
+  <li>전체 측정값의 합을 360도(비율 : 100%)로 정의하고 차원의 구분값에 따른 측정값의 비율에 맞춰 각 영역의 파이 차트 각도를 표현</li>
+  <li>부채꼴의 중심각을 구성 비율에 비례한다</li>
+</ol>
+
+<h2 id="2-기본적인-pie-chart-그리기">2. 기본적인 Pie Chart 그리기</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># matplotlib 라이브러리 불러오기
+</span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="c1"># 원형 차트: 슬라이스가 시계 반대 방향으로 정렬되고 플롯된다.
+</span><span class="n">labels</span> <span class="o">=</span> <span class="s">'Frogs'</span><span class="p">,</span> <span class="s">'Hogs'</span><span class="p">,</span> <span class="s">'Dogs'</span><span class="p">,</span> <span class="s">'Logs'</span>
+<span class="n">sizes</span> <span class="o">=</span> <span class="p">[</span><span class="mi">15</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+<span class="n">explode</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># 부채꼴이 파이 차트의 중심에서 벗어나는 정도 설정
+</span>
+<span class="n">fig1</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax1</span><span class="p">.</span><span class="n">pie</span><span class="p">(</span><span class="n">sizes</span><span class="p">,</span> <span class="n">explode</span><span class="o">=</span><span class="n">explode</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span> <span class="n">autopct</span><span class="o">=</span><span class="s">'%1.1f%%'</span><span class="p">,</span>
+        <span class="n">shadow</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">startangle</span><span class="o">=</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">ax1</span><span class="p">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'equal'</span><span class="p">)</span> <span class="c1"># 가로 세로 비율이 같으면 파이가 원으로 그려진다.
+</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'basic_pieplot.png'</span><span class="p">)</span>
+</code></pre></div></div>
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/basic_pieplot.png?raw=true" /></p>
+
+<h2 id="3-범례와-값이-표시된-pie-chart-그리기">3. 범례와 값이 표시된 Pie Chart 그리기</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 라이브러리 불러오기
+</span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="c1"># 플롯 지정
+</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">subplot_kw</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">aspect</span><span class="o">=</span><span class="s">"equal"</span><span class="p">))</span>
+
+<span class="c1"># recipe data 생성
+</span><span class="n">recipe</span> <span class="o">=</span> <span class="p">[</span><span class="s">"375 g flour"</span><span class="p">,</span> <span class="s">"75 g sugar"</span><span class="p">,</span> <span class="s">"250 g butter"</span><span class="p">,</span> <span class="s">"300 g berries"</span><span class="p">]</span>
+
+<span class="c1"># recipe data를 data와 label로 분류
+</span><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">recipe</span><span class="p">]</span>
+<span class="n">ingredients</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">.</span><span class="n">split</span><span class="p">()[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">recipe</span><span class="p">]</span>
+
+<span class="c1"># 절대값을 표시하여 자동 백분율 레이블 지정을 확장하는 함수
+</span><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">pct</span><span class="p">,</span> <span class="n">allvals</span><span class="p">):</span>
+    <span class="n">absolute</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nb">round</span><span class="p">(</span><span class="n">pct</span><span class="o">/</span><span class="mf">100.</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">allvals</span><span class="p">)))</span>
+    <span class="k">return</span> <span class="s">"{:.1f}%</span><span class="se">\n</span><span class="s">({:d} g)"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">pct</span><span class="p">,</span> <span class="n">absolute</span><span class="p">)</span>
+
+<span class="c1"># pieplot 그리기
+</span><span class="n">wedges</span><span class="p">,</span> <span class="n">texts</span><span class="p">,</span> <span class="n">autotexts</span> <span class="o">=</span> <span class="n">ax</span><span class="p">.</span><span class="n">pie</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">autopct</span><span class="o">=</span><span class="k">lambda</span> <span class="n">pct</span><span class="p">:</span> <span class="n">func</span><span class="p">(</span><span class="n">pct</span><span class="p">,</span> <span class="n">data</span><span class="p">),</span>
+                                <span class="n">textprops</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s">"w"</span><span class="p">))</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">legend</span><span class="p">(</span><span class="n">wedges</span><span class="p">,</span> <span class="n">ingredients</span><span class="p">,</span>
+        <span class="n">title</span><span class="o">=</span><span class="s">"Ingredients"</span><span class="p">,</span>
+        <span class="n">loc</span><span class="o">=</span><span class="s">"center left"</span><span class="p">,</span>
+        <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">setp</span><span class="p">(</span><span class="n">autotexts</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s">"bold"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"Matplotlib bakery: A pie"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'pieplot_label.png'</span><span class="p">)</span>
+</code></pre></div></div>
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/pieplot_label.png?raw=true" /></p>
+
+<h2 id="4-pie-chart--bar-chart">4. Pie Chart + Bar Chart</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 라이브러리 불러오기
+</span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="nn">matplotlib.patches</span> <span class="kn">import</span> <span class="n">ConnectionPatch</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="c1"># figure 생성 및 축 지정
+</span><span class="n">fig</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">wspace</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="c1"># pie chart 매개변수 지정
+</span><span class="n">overall_ratios</span> <span class="o">=</span> <span class="p">[.</span><span class="mi">27</span><span class="p">,</span> <span class="p">.</span><span class="mi">56</span><span class="p">,</span> <span class="p">.</span><span class="mi">17</span><span class="p">]</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Approve'</span><span class="p">,</span> <span class="s">'Disapprove'</span><span class="p">,</span> <span class="s">'Undecided'</span><span class="p">]</span>
+<span class="n">explode</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="c1"># rotate so that first wedge is split by the x-axis
+</span><span class="n">angle</span> <span class="o">=</span> <span class="o">-</span><span class="mi">180</span> <span class="o">*</span> <span class="n">overall_ratios</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">wedges</span><span class="p">,</span> <span class="o">*</span><span class="n">_</span> <span class="o">=</span> <span class="n">ax1</span><span class="p">.</span><span class="n">pie</span><span class="p">(</span><span class="n">overall_ratios</span><span class="p">,</span> <span class="n">autopct</span><span class="o">=</span><span class="s">'%1.1f%%'</span><span class="p">,</span> <span class="n">startangle</span><span class="o">=</span><span class="n">angle</span><span class="p">,</span>
+                    <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span> <span class="n">explode</span><span class="o">=</span><span class="n">explode</span><span class="p">)</span>
+
+<span class="c1"># bar chart 매개변수 지정
+</span><span class="n">age_ratios</span> <span class="o">=</span> <span class="p">[.</span><span class="mi">33</span><span class="p">,</span> <span class="p">.</span><span class="mi">54</span><span class="p">,</span> <span class="p">.</span><span class="mi">07</span><span class="p">,</span> <span class="p">.</span><span class="mi">06</span><span class="p">]</span>
+<span class="n">age_labels</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Under 35'</span><span class="p">,</span> <span class="s">'35-49'</span><span class="p">,</span> <span class="s">'50-65'</span><span class="p">,</span> <span class="s">'Over 65'</span><span class="p">]</span>
+<span class="n">bottom</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">width</span> <span class="o">=</span> <span class="p">.</span><span class="mi">2</span>
+
+<span class="c1"># 범례 표시 설정
+</span><span class="k">for</span> <span class="n">j</span><span class="p">,</span> <span class="p">(</span><span class="n">height</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">reversed</span><span class="p">([</span><span class="o">*</span><span class="nb">zip</span><span class="p">(</span><span class="n">age_ratios</span><span class="p">,</span> <span class="n">age_labels</span><span class="p">)])):</span>
+    <span class="n">bottom</span> <span class="o">-=</span> <span class="n">height</span>
+    <span class="n">bc</span> <span class="o">=</span> <span class="n">ax2</span><span class="p">.</span><span class="n">bar</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">bottom</span><span class="o">=</span><span class="n">bottom</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'C0'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">label</span><span class="p">,</span>
+                 <span class="n">alpha</span><span class="o">=</span><span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.25</span> <span class="o">*</span> <span class="n">j</span><span class="p">)</span>
+    <span class="n">ax2</span><span class="p">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">bc</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">height</span><span class="si">:</span><span class="p">.</span><span class="mi">0</span><span class="o">%</span><span class="si">}</span><span class="s">"</span><span class="p">],</span> <span class="n">label_type</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+
+<span class="n">ax2</span><span class="p">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">'Age of approvers'</span><span class="p">)</span>
+<span class="n">ax2</span><span class="p">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">ax2</span><span class="p">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'off'</span><span class="p">)</span>
+<span class="n">ax2</span><span class="p">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span> <span class="mf">2.5</span> <span class="o">*</span> <span class="n">width</span><span class="p">,</span> <span class="mf">2.5</span> <span class="o">*</span> <span class="n">width</span><span class="p">)</span>
+
+<span class="c1"># 두 그림 사이에 선 긋기
+</span><span class="n">theta1</span><span class="p">,</span> <span class="n">theta2</span> <span class="o">=</span> <span class="n">wedges</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">theta1</span><span class="p">,</span> <span class="n">wedges</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">theta2</span>
+<span class="n">center</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="n">wedges</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">center</span><span class="p">,</span> <span class="n">wedges</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">r</span>
+<span class="n">bar_height</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">age_ratios</span><span class="p">)</span>
+
+<span class="c1"># 상단 연결선 그리기
+</span><span class="n">x</span> <span class="o">=</span> <span class="n">r</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">180</span> <span class="o">*</span> <span class="n">theta2</span><span class="p">)</span> <span class="o">+</span> <span class="n">center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">r</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">180</span> <span class="o">*</span> <span class="n">theta2</span><span class="p">)</span> <span class="o">+</span> <span class="n">center</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">con</span> <span class="o">=</span> <span class="n">ConnectionPatch</span><span class="p">(</span><span class="n">xyA</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">bar_height</span><span class="p">),</span> <span class="n">coordsA</span><span class="o">=</span><span class="n">ax2</span><span class="p">.</span><span class="n">transData</span><span class="p">,</span>
+                    <span class="n">xyB</span><span class="o">=</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span> <span class="n">coordsB</span><span class="o">=</span><span class="n">ax1</span><span class="p">.</span><span class="n">transData</span><span class="p">)</span>
+<span class="n">con</span><span class="p">.</span><span class="n">set_color</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">con</span><span class="p">.</span><span class="n">set_linewidth</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">ax2</span><span class="p">.</span><span class="n">add_artist</span><span class="p">(</span><span class="n">con</span><span class="p">)</span>
+
+<span class="c1"># 하단 연결선 그리기
+</span><span class="n">x</span> <span class="o">=</span> <span class="n">r</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">180</span> <span class="o">*</span> <span class="n">theta1</span><span class="p">)</span> <span class="o">+</span> <span class="n">center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">r</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">180</span> <span class="o">*</span> <span class="n">theta1</span><span class="p">)</span> <span class="o">+</span> <span class="n">center</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">con</span> <span class="o">=</span> <span class="n">ConnectionPatch</span><span class="p">(</span><span class="n">xyA</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">coordsA</span><span class="o">=</span><span class="n">ax2</span><span class="p">.</span><span class="n">transData</span><span class="p">,</span>
+                    <span class="n">xyB</span><span class="o">=</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span> <span class="n">coordsB</span><span class="o">=</span><span class="n">ax1</span><span class="p">.</span><span class="n">transData</span><span class="p">)</span>
+<span class="n">con</span><span class="p">.</span><span class="n">set_color</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">ax2</span><span class="p">.</span><span class="n">add_artist</span><span class="p">(</span><span class="n">con</span><span class="p">)</span>
+<span class="n">con</span><span class="p">.</span><span class="n">set_linewidth</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'bar_of_pie.png'</span><span class="p">)</span>
+</code></pre></div></div>
+<p><img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/bar_of_pie.png?raw=true" /></p>
+
+<h2 id="5-참고-자료">5. 참고 자료</h2>
+<ul>
+  <li><a href="https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_features.html">Basic pie chart</a></li>
+  <li><a href="https://matplotlib.org/stable/gallery/pie_and_polar_charts/bar_of_pie.html">Bar of pie</a></li>
+  <li><a href="https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html">Labeling a pie and a donut</a></li>
+  <li><a href="https://wikidocs.net/92114">Matplotlib 파이 차트 그리기</a></li>
+</ul>
+:ET
