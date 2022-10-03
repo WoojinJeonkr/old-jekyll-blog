@@ -51,9 +51,8 @@ plugins: [jekyll-youtube]
 ```md
 {% youtube "https://youtu.be/skuCUdRGA4c" %}
 ```
-아래와 같은 동영상이 나오게 된다.
-
-{% youtube "https://youtu.be/skuCUdRGA4c" %}
+동영상이 나오게 된다..<br/>
+어김없이 build error가 나왔다.. 다음 방법을 사용하자..
 
 ## 3. jekyll yat theme에서 동영상 삽입하기
 
