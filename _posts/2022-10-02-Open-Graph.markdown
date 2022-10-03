@@ -52,8 +52,6 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 ```
 와 같이 작성하면 된다.
 
-{% linkpreview "https://WoojinJeonkr.github.io" %}
-
 ### 03. 오류
 
 로컬에서 실행했을 때에는 잘 출력되는데 원격으로 실행해서 서버에 띄우려고 하면 build error가 뜨면서 작동되지 않았다..
