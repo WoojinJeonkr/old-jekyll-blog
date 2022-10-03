@@ -1,4 +1,2437 @@
+<<<<<<< HEAD
 ---
 layout: tags
 title: Tags
 ---
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Google-translate-->
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+  
+  <!-- seo: 검색 엔진 최적화--><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tags | Woojin’s DevPocket</title>
+<meta name="generator" content="Jekyll v4.2.2">
+<meta property="og:title" content="Tags">
+<meta name="author" content="WoojinJeon">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Woojin’s DevPocket Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+<meta property="og:description" content="Woojin’s DevPocket Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+<link rel="canonical" href="https://woojinjeonkr.github.io//jekyll-theme-yat/tags.html">
+<meta property="og:url" content="https://woojinjeonkr.github.io//jekyll-theme-yat/tags.html">
+<meta property="og:site_name" content="Woojin’s DevPocket">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Tags">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"WoojinJeon"},"description":"Woojin’s DevPocket Success is the sum of small efforts, repeated day in and day out. -Robert Collier","headline":"Tags","url":"https://woojinjeonkr.github.io//jekyll-theme-yat/tags.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Primary Meta Tags -->
+  <title>Woojin’s DevPocket</title>
+  <meta name="title" content="Woojin’s DevPocket">
+  <meta name="description" content="Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://woojinjeonkr.github.io/">
+  <meta property="og:title" content="Woojin’s DevPocket">
+  <meta property="og:description" content="Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+  <meta property="og:image" content="https://woojinjeonkr.github.io/assets/images/banners/home.jpeg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://woojinjeonkr.github.io/">
+  <meta property="twitter:title" content="Woojin’s DevPocket">
+  <meta property="twitter:description" content="Success is the sum of small efforts, repeated day in and day out. -Robert Collier">
+  <meta property="twitter:image" content="https://woojinjeonkr.github.io/assets/images/banners/home.jpeg">
+  
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://woojinjeonkr.github.io//jekyll-theme-yat/feed.xml" title="Woojin's DevPocket">
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "true" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'G-XPVW058LPJ', 'auto');
+      ga('send', 'pageview');
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="Woojin's DevPocket" src="" onerror="this.style.display='none'">
+  Woojin's DevPocket
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/about.html">CONTACT ME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/categories.html">CATEGORIES</a><a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('off' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="page-segments">
+  <ul class="page-segments-list">
+    
+    <h2 id="Arduino" class="segment-name">Arduino</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 10, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/10/Print-LCD.html">
+    Print LCD
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 09, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/09/Temperature-Alarm.html">
+    Temperature Alarm
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 08, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/08/Alarm.html">
+    Alarm
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 07, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/07/Color-RGB-LED.html">
+    Color RGB LED
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 06, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/06/Breathing-LED.html">
+    Breathing LED
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 05, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/05/Interactive-traffic-lights.html">
+    Interactive traffic lights
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 04, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/04/SOS-distress-signal.html">
+    SOS distress signal
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 03, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/arduino/2022/09/03/Blink-a-LED.html">
+    Blinking a LED
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="CS" class="segment-name">CS</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 07, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/cs/2022/09/07/%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%82%B4%EB%B6%80%EC%9D%98-%EC%96%B8%EC%96%B4-%EC%B2%B4%EA%B3%84-(1).html">
+    컴퓨터 내부의 언어 체계 (1)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 06, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/cs/2022/09/06/CS-%EA%B3%B5%EB%B6%80%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0.html">
+    CS 공부를 시작하며
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="CSS" class="segment-name">CSS</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 22, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/22/CSS-%EC%97%B0%EC%8A%B5-%EC%82%AC%EC%9D%B4%ED%8A%B8.html">
+    CSS 연습 사이트
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Calendarheatmap" class="segment-name">Calendarheatmap</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 24, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/24/Calendar-heatmap-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    Calendar heatmap 그리기
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Deviation" class="segment-name">Deviation</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 26, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/26/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(4).html">
+    matplotlib을 이용하여 그래프 그리기 (4)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="EDA" class="segment-name">EDA</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 17, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/17/%EB%B3%B4%EC%9C%A1%ED%86%B5%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91-%ED%98%84%ED%99%A9.html">
+    보육통계 데이터로 알아보는 어린이집 현황
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 13, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/13/%EC%84%9C%EC%9A%B8%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%84%BC%ED%84%B0-%EC%9B%94%EB%B3%84-%EC%96%B8%EC%96%B4%EB%B3%84-%EC%83%81%EB%8B%B4%EC%8B%A4%EC%A0%81%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%83%81%EB%8B%B4-%EC%96%B8%EC%96%B4-%EB%B6%84%EC%84%9D.html">
+    서울글로벌센터 월별 언어별 상담실적을 활용한 상담 언어 분석
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 13, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/13/%EC%84%9C%EC%9A%B8-%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90-%EC%9D%B4%EC%9A%A9%EA%B0%9D-%ED%98%84%ED%99%A9%EC%9C%BC%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90-%EC%9D%B4%EC%9A%A9%EC%9E%90-%EC%B6%94%EC%9D%B4.html">
+    서울 한강공원 이용객 현황으로 알아보는 한강공원 이용자 추이
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Education" class="segment-name">Education</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 19, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/19/%EC%84%9C%EC%9A%B8-%EC%8B%9C%EB%AF%BC%EC%83%9D%ED%99%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%8F%84%EC%8B%9C%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-(%EA%B5%90%EC%9C%A1).html">
+    서울 시민생활 데이터를 활용한 도시문제 해결 경진대회 (교육)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 18, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/18/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EC%A7%81%EB%AC%B4%EC%BA%A0%ED%94%84-2%EA%B8%B0.html">
+    스타트업 직무캠프 2기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 04, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/04/%EA%B5%AD%EB%B9%84%EC%A7%80%EC%9B%90-%EA%B5%90%EC%9C%A1%EB%82%B4%EC%9A%A9.html">
+    국비지원교육
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Hexo" class="segment-name">Hexo</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 30, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/30/Jekyll-vs-Hugo-vs-Hexo.html">
+    Jekyll vs Hugo vs Hexo
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Hugo" class="segment-name">Hugo</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 30, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/30/Jekyll-vs-Hugo-vs-Hexo.html">
+    Jekyll vs Hugo vs Hexo
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Java" class="segment-name">Java</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 04, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/04/%EA%B5%AD%EB%B9%84%EC%A7%80%EC%9B%90-%EA%B5%90%EC%9C%A1%EB%82%B4%EC%9A%A9.html">
+    국비지원교육
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Jekyll" class="segment-name">Jekyll</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 30, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/30/Jekyll-vs-Hugo-vs-Hexo.html">
+    Jekyll vs Hugo vs Hexo
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="KDT" class="segment-name">KDT</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 04, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/04/%EA%B5%AD%EB%B9%84%EC%A7%80%EC%9B%90-%EA%B5%90%EC%9C%A1%EB%82%B4%EC%9A%A9.html">
+    국비지원교육
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Learn_code" class="segment-name">Learn_code</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 29, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/29/%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%B9%A8%EB%A6%AC-%EB%B0%B0%EC%9A%B0%EB%8A%94%EB%8D%B0-%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%ED%8C%81.html">
+    코드를 빨리 배우는데 도움이 되는 3가지 팁
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="ML/DL" class="segment-name">ML/DL</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 04, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/04/%EA%B5%AD%EB%B9%84%EC%A7%80%EC%9B%90-%EA%B5%90%EC%9C%A1%EB%82%B4%EC%9A%A9.html">
+    국비지원교육
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Numpy" class="segment-name">Numpy</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 19, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/19/%EC%84%9C%EC%9A%B8-%EC%8B%9C%EB%AF%BC%EC%83%9D%ED%99%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%8F%84%EC%8B%9C%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-(%EA%B5%90%EC%9C%A1).html">
+    서울 시민생활 데이터를 활용한 도시문제 해결 경진대회 (교육)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="OpenGraph" class="segment-name">OpenGraph</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 02, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/02/Open-Graph.html">
+    Open Graph
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Organizationchart" class="segment-name">Organizationchart</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 23, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/23/%EC%A1%B0%EC%A7%81%EB%8F%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    조직도 그리기
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Pandas" class="segment-name">Pandas</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 19, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/19/%EC%84%9C%EC%9A%B8-%EC%8B%9C%EB%AF%BC%EC%83%9D%ED%99%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%8F%84%EC%8B%9C%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-(%EA%B5%90%EC%9C%A1).html">
+    서울 시민생활 데이터를 활용한 도시문제 해결 경진대회 (교육)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Python" class="segment-name">Python</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 27, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/27/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(5).html">
+    matplotlib을 이용하여 그래프 그리기 (5)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 26, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/26/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(4).html">
+    matplotlib을 이용하여 그래프 그리기 (4)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 25, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/25/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(3).html">
+    matplotlib을 이용하여 그래프 그리기 (3)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 24, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/24/Calendar-heatmap-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    Calendar heatmap 그리기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 23, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/23/%EC%A1%B0%EC%A7%81%EB%8F%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    조직도 그리기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 19, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/19/%EC%84%9C%EC%9A%B8-%EC%8B%9C%EB%AF%BC%EC%83%9D%ED%99%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%8F%84%EC%8B%9C%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-(%EA%B5%90%EC%9C%A1).html">
+    서울 시민생활 데이터를 활용한 도시문제 해결 경진대회 (교육)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 19, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/19/%EB%B9%84%EA%B5%90%EB%A7%89%EB%8C%80%EA%B7%B8%EB%9E%98%ED%94%84%EC%99%80-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B2%B9%EC%B3%90-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    비교막대그래프와 그래프 겹쳐 그리기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 16, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/16/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(2).html">
+    matplotlib을 이용하여 그래프 그리기 (2)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 15, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/15/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(1).html">
+    matplotlib을 이용하여 그래프 그리기 (1)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 14, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/14/%EC%82%BC%ED%95%AD-%EC%97%B0%EC%82%B0%EC%9E%90.html">
+    삼항 연산자
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 12, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/12/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98.html">
+    최대공약수와 최소공배수
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 11, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/11/%EC%A7%84%EB%B2%95-%EB%8B%A4%EB%A3%A8%EA%B8%B0.html">
+    진법 다루기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 04, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/04/%EA%B5%AD%EB%B9%84%EC%A7%80%EC%9B%90-%EA%B5%90%EC%9C%A1%EB%82%B4%EC%9A%A9.html">
+    국비지원교육
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Site" class="segment-name">Site</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 22, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/22/CSS-%EC%97%B0%EC%8A%B5-%EC%82%AC%EC%9D%B4%ED%8A%B8.html">
+    CSS 연습 사이트
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 21, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/21/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8B%9C%EA%B0%81%ED%99%94-%EC%82%AC%EC%9D%B4%ED%8A%B8.html">
+    알고리즘 시각화 사이트
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 20, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/20/jekyll-theme-site-%EC%B6%94%EC%B2%9C.html">
+    jekyll theme site 추천
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Skill" class="segment-name">Skill</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 03, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/03/jekyll-youtube-plugin.html">
+    jekyll youtube plugin
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Oct 02, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/02/Open-Graph.html">
+    Open Graph
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Oct 01, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/01/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%95%EA%B7%9C%ED%99%94.html">
+    데이터 정규화
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 30, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/30/Jekyll-vs-Hugo-vs-Hexo.html">
+    Jekyll vs Hugo vs Hexo
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 29, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/29/%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%B9%A8%EB%A6%AC-%EB%B0%B0%EC%9A%B0%EB%8A%94%EB%8D%B0-%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%ED%8C%81.html">
+    코드를 빨리 배우는데 도움이 되는 3가지 팁
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 28, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/28/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.html">
+    정규표현식
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 09, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/09/%EC%BD%94%EB%93%9C-%EB%B8%94%EB%A1%9D%EC%9D%84-%EC%B6%94%EA%B0%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95.html">
+    코드 블록을 추가하는 방법
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Startup" class="segment-name">Startup</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 18, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/18/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EC%A7%81%EB%AC%B4%EC%BA%A0%ED%94%84-2%EA%B8%B0.html">
+    스타트업 직무캠프 2기
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="Style" class="segment-name">Style</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 22, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/22/CSS-%EC%97%B0%EC%8A%B5-%EC%82%AC%EC%9D%B4%ED%8A%B8.html">
+    CSS 연습 사이트
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="algoritm" class="segment-name">algoritm</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 21, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/21/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8B%9C%EA%B0%81%ED%99%94-%EC%82%AC%EC%9D%B4%ED%8A%B8.html">
+    알고리즘 시각화 사이트
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="barchart" class="segment-name">barchart</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 15, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/15/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(1).html">
+    matplotlib을 이용하여 그래프 그리기 (1)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="calmap" class="segment-name">calmap</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 24, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/24/Calendar-heatmap-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    Calendar heatmap 그리기
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="data" class="segment-name">data</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 01, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/01/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%95%EA%B7%9C%ED%99%94.html">
+    데이터 정규화
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 19, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/education/2022/09/19/%EC%84%9C%EC%9A%B8-%EC%8B%9C%EB%AF%BC%EC%83%9D%ED%99%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%8F%84%EC%8B%9C%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-(%EA%B5%90%EC%9C%A1).html">
+    서울 시민생활 데이터를 활용한 도시문제 해결 경진대회 (교육)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 17, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/17/%EB%B3%B4%EC%9C%A1%ED%86%B5%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91-%ED%98%84%ED%99%A9.html">
+    보육통계 데이터로 알아보는 어린이집 현황
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 13, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/13/%EC%84%9C%EC%9A%B8%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%84%BC%ED%84%B0-%EC%9B%94%EB%B3%84-%EC%96%B8%EC%96%B4%EB%B3%84-%EC%83%81%EB%8B%B4%EC%8B%A4%EC%A0%81%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%83%81%EB%8B%B4-%EC%96%B8%EC%96%B4-%EB%B6%84%EC%84%9D.html">
+    서울글로벌센터 월별 언어별 상담실적을 활용한 상담 언어 분석
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 13, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/13/%EC%84%9C%EC%9A%B8-%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90-%EC%9D%B4%EC%9A%A9%EA%B0%9D-%ED%98%84%ED%99%A9%EC%9C%BC%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90-%EC%9D%B4%EC%9A%A9%EC%9E%90-%EC%B6%94%EC%9D%B4.html">
+    서울 한강공원 이용객 현황으로 알아보는 한강공원 이용자 추이
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="database" class="segment-name">database</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 01, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/01/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%95%EA%B7%9C%ED%99%94.html">
+    데이터 정규화
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="graph" class="segment-name">graph</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 27, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/27/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(5).html">
+    matplotlib을 이용하여 그래프 그리기 (5)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 26, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/26/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(4).html">
+    matplotlib을 이용하여 그래프 그리기 (4)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 25, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/25/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(3).html">
+    matplotlib을 이용하여 그래프 그리기 (3)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 24, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/24/Calendar-heatmap-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    Calendar heatmap 그리기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 23, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/23/%EC%A1%B0%EC%A7%81%EB%8F%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    조직도 그리기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 16, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/16/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(2).html">
+    matplotlib을 이용하여 그래프 그리기 (2)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 15, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/15/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(1).html">
+    matplotlib을 이용하여 그래프 그리기 (1)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="html" class="segment-name">html</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 02, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/02/Open-Graph.html">
+    Open Graph
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="jekyll" class="segment-name">jekyll</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 03, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/03/jekyll-youtube-plugin.html">
+    jekyll youtube plugin
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 20, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/20/jekyll-theme-site-%EC%B6%94%EC%B2%9C.html">
+    jekyll theme site 추천
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Dec 07, 2018</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/jekyll/2018/12/07/welcome-to-jekyll.html">
+    Welcome to Jekyll!
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="jekyll-theme-yat" class="segment-name">jekyll-theme-yat</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 03, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/03/jekyll-youtube-plugin.html">
+    jekyll youtube plugin
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="jekyll-youtube" class="segment-name">jekyll-youtube</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 03, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/03/jekyll-youtube-plugin.html">
+    jekyll youtube plugin
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="linechart" class="segment-name">linechart</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 16, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/16/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(2).html">
+    matplotlib을 이용하여 그래프 그리기 (2)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="matplotlib" class="segment-name">matplotlib</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 27, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/27/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(5).html">
+    matplotlib을 이용하여 그래프 그리기 (5)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 26, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/26/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(4).html">
+    matplotlib을 이용하여 그래프 그리기 (4)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 25, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/25/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(3).html">
+    matplotlib을 이용하여 그래프 그리기 (3)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 23, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/23/%EC%A1%B0%EC%A7%81%EB%8F%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0.html">
+    조직도 그리기
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 16, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/16/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(2).html">
+    matplotlib을 이용하여 그래프 그리기 (2)
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 15, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/15/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(1).html">
+    matplotlib을 이용하여 그래프 그리기 (1)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="nomalization" class="segment-name">nomalization</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 01, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/01/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%95%EA%B7%9C%ED%99%94.html">
+    데이터 정규화
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="pdf" class="segment-name">pdf</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 17, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/17/%EB%B3%B4%EC%9C%A1%ED%86%B5%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91-%ED%98%84%ED%99%A9.html">
+    보육통계 데이터로 알아보는 어린이집 현황
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 13, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/13/%EC%84%9C%EC%9A%B8%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%84%BC%ED%84%B0-%EC%9B%94%EB%B3%84-%EC%96%B8%EC%96%B4%EB%B3%84-%EC%83%81%EB%8B%B4%EC%8B%A4%EC%A0%81%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%83%81%EB%8B%B4-%EC%96%B8%EC%96%B4-%EB%B6%84%EC%84%9D.html">
+    서울글로벌센터 월별 언어별 상담실적을 활용한 상담 언어 분석
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Sep 13, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/eda/2022/09/13/%EC%84%9C%EC%9A%B8-%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90-%EC%9D%B4%EC%9A%A9%EA%B0%9D-%ED%98%84%ED%99%A9%EC%9C%BC%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90-%EC%9D%B4%EC%9A%A9%EC%9E%90-%EC%B6%94%EC%9D%B4.html">
+    서울 한강공원 이용객 현황으로 알아보는 한강공원 이용자 추이
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="piechart" class="segment-name">piechart</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 25, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/25/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(3).html">
+    matplotlib을 이용하여 그래프 그리기 (3)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="plugin" class="segment-name">plugin</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Oct 03, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/10/03/jekyll-youtube-plugin.html">
+    jekyll youtube plugin
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="regex" class="segment-name">regex</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 28, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/28/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.html">
+    정규표현식
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="scatterplot" class="segment-name">scatterplot</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 16, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/16/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(2).html">
+    matplotlib을 이용하여 그래프 그리기 (2)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="static_site_generator" class="segment-name">static_site_generator</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 30, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/30/Jekyll-vs-Hugo-vs-Hexo.html">
+    Jekyll vs Hugo vs Hexo
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="theme" class="segment-name">theme</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 20, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/site/2022/09/20/jekyll-theme-site-%EC%B6%94%EC%B2%9C.html">
+    jekyll theme site 추천
+  </a>
+</span>
+ </li>
+        
+      
+        
+        <li> 
+<span class="post-meta">Dec 07, 2018</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/jekyll/2018/12/07/welcome-to-jekyll.html">
+    Welcome to Jekyll!
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="time_series_plot" class="segment-name">time_series_plot</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 27, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/python/2022/09/27/matplotlib%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC%EA%B8%B0-(5).html">
+    matplotlib을 이용하여 그래프 그리기 (5)
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="tips" class="segment-name">tips</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Sep 29, 2022</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/skill/2022/09/29/%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%B9%A8%EB%A6%AC-%EB%B0%B0%EC%9A%B0%EB%8A%94%EB%8D%B0-%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%ED%8C%81.html">
+    코드를 빨리 배우는데 도움이 되는 3가지 팁
+  </a>
+</span>
+ </li>
+        
+      
+    
+    <h2 id="yat" class="segment-name">yat</h2>
+      
+      
+        
+        <li> 
+<span class="post-meta">Dec 07, 2018</span>
+<span>
+  <a class="post-link" href="/jekyll-theme-yat/jekyll/2018/12/07/welcome-to-jekyll.html">
+    Welcome to Jekyll!
+  </a>
+</span>
+ </li>
+        
+      
+    
+  </ul>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="/jekyll-theme-yat/index.html">
+        All<span>38</span>
+      </a>
+    </li>
+
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Arduino">
+          Arduino <span>8</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-CS">
+          CS <span>2</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-CSS">
+          CSS <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Calendarheatmap">
+          Calendarheatmap <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Deviation">
+          Deviation <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-EDA">
+          EDA <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Education">
+          Education <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Hexo">
+          Hexo <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Hugo">
+          Hugo <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Java">
+          Java <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Jekyll">
+          Jekyll <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-KDT">
+          KDT <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Learn_code">
+          Learn_code <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-ML/DL">
+          ML/DL <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Numpy">
+          Numpy <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-OpenGraph">
+          OpenGraph <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Organizationchart">
+          Organizationchart <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Pandas">
+          Pandas <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Python">
+          Python <span>13</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Site">
+          Site <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Skill">
+          Skill <span>7</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Startup">
+          Startup <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-Style">
+          Style <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-algoritm">
+          algoritm <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-barchart">
+          barchart <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-calmap">
+          calmap <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-data">
+          data <span>5</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-database">
+          database <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-graph">
+          graph <span>7</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-html">
+          html <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-jekyll">
+          jekyll <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-jekyll-theme-yat">
+          jekyll-theme-yat <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-jekyll-youtube">
+          jekyll-youtube <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-linechart">
+          linechart <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-matplotlib">
+          matplotlib <span>6</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-nomalization">
+          nomalization <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-pdf">
+          pdf <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-piechart">
+          piechart <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-plugin">
+          plugin <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-regex">
+          regex <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-scatterplot">
+          scatterplot <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-static_site_generator">
+          static_site_generator <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-theme">
+          theme <span>2</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-time_series_plot">
+          time_series_plot <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-tips">
+          tips <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/tags.html#h-yat">
+          yat <span>1</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2017-2022 WoojinJeon</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/jekyll-theme-yat/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+>>>>>>> da7842d (jekyll build from Action a8146cc30588870f6f90a8b1a0484608a470ba31)
