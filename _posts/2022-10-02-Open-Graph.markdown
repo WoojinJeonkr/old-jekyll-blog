@@ -45,7 +45,16 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 
 위의 글을 따라 작성해보자. 알아보기 쉽게 정리되어 있다.
 
-### 02. 오류
+### 02. 작성
+
+```md
+{% linkpreview "https://WoojinJeonkr.github.io" %}
+```
+와 같이 작성하면 된다.
+
+{% linkpreview "https://WoojinJeonkr.github.io" %}
+
+### 03. 오류
 
 로컬에서 실행했을 때에는 잘 출력되는데 원격으로 실행해서 서버에 띄우려고 하면 build error가 뜨면서 작동되지 않았다..
 다른 방법을 찾아보자..
