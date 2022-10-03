@@ -52,11 +52,11 @@ plugins: [jekyll-youtube]
 ## 3. jekyll yat theme에서 동영상 삽입하기
 
 ```md
-![](//https://www.youtube.com/watch?v=kvHUXPzxTAw)
+![](//www.youtube.com/watch?v=kvHUXPzxTAw)
 ```
 와 같이 작성하면 다음과 같은 동영상이 나오게 된다.
 
-![](//https://www.youtube.com/watch?v=kvHUXPzxTAw)
+![](//www.youtube.com/watch?v=kvHUXPzxTAw)
 
 jekyll yat theme를 사용하면 jekyll-youtube plugin을 따로 설치하지 않아도 동영상을 삽입하는데 어려움이 없다.
 
