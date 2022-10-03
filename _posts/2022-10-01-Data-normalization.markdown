@@ -1,6 +1,6 @@
 ---
 layout : post
-title : 데이터 정규화
+title : Data-normalization
 subtitle : 데이터 정규화 과정에 대해 알아보자
 categories : Skill
 tags : [Skill, data, database, nomalization]
