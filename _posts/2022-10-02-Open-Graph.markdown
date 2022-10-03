@@ -47,9 +47,9 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 
 ### 02. 작성
 
-```md
-{% linkpreview "https://WoojinJeonkr.github.io" %}
-```
+{% raw %}
+{% linkpreview "미리보기할 링크 주소" %}
+{% endraw %}
 와 같이 작성하면 된다.
 
 ### 03. 오류
