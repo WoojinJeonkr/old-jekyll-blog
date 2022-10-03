@@ -1,4 +1,4 @@
-I"<h2 id="1-open-graph">1. Open Graph</h2>
+I",<h2 id="1-open-graph">1. Open Graph</h2>
 <p>Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 목적으로 웹 페이지 내 메타데이터 사용을 표준화하기 위해 만든 인터넷 프로토콜이다.<br />페이지 제목처럼 간단하거나 동영상 길이만큼 구체적인 세부 정보를 제공할 수 있다.<br /></p>
 
 <h2 id="2-open-graph가-필요한-이유">2. Open Graph가 필요한 이유</h2>
@@ -45,7 +45,28 @@
 
 <h3 id="02-작성">02. 작성</h3>
 
-<p>{% linkpreview “미리보기할 링크 주소” %}</p>
+<div class="jekyll-linkpreview-wrapper">
+  <p><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/" target="_blank">https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/</a></p>
+  <div class="jekyll-linkpreview-wrapper-inner">
+    <div class="jekyll-linkpreview-content">
+<div class="jekyll-linkpreview-image">
+  <a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/" target="_blank">
+    <img src="https://www.freecodecamp.org/news/content/images/2020/03/open-graph.jpg" />
+  </a>
+</div>
+
+      <div class="jekyll-linkpreview-body">
+        <h2 class="jekyll-linkpreview-title">
+          <a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/" target="_blank">What is Open Graph and how can I use it for my website?</a>
+        </h2>
+        <div class="jekyll-linkpreview-description">It can take a lot of time to build content and maintain a website. How can we make sure our content stands out when getting shared on social feeds around the internet?  * What is Open Graph?  * Why do I need it?  * What happens if</div>
+      </div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="//www.freecodecamp.org" target="_blank">www.freecodecamp.org</a>
+    </div>
+  </div>
+</div>
 
 <p>와 같이 작성하면 된다.</p>
 

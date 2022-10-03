@@ -47,9 +47,8 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 
 ### 02. 작성
 
-{% raw %}
-{% linkpreview "미리보기할 링크 주소" %}
-{% endraw %}
+{% linkpreview "https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/" %}
+
 와 같이 작성하면 된다.
 
 ### 03. 오류
