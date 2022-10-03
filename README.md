@@ -1,3 +1,2 @@
-# woojin's DevPocket
-
-## 1. Theme: [yat](https://github.com/jeffreytse/jekyll-theme-yat)
+# Woojin's DevPocket
+## Theme: Yet another theme

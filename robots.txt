@@ -1,1 +1,0 @@
-Sitemap: https://woojinjeonkr.github.io//jekyll-theme-yat/sitemap.xml
