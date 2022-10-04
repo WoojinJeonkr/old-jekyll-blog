@@ -37,7 +37,7 @@ tags : [Skill, WS, WAS, scale_up, scale_out]
 
 <br>
 
-![scale up vs scale out](assets/../../_site/assets/images/post_image/scale_up_out.png){: .align-center}
+![scale up vs scale out](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/scale_up_out.png?raw=true)
 *https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/*
 
 ## 3. 참고 자료
