@@ -1,0 +1,138 @@
+I"0<h2 id="1-for-loop">1. for loop</h2>
+<p>조건에 의해 지정된 횟수만큼 코드 블록을 실행하는데 사용된다.<br /></p>
+<ul>
+  <li>형태</li>
+</ul>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="p">(</span><span class="nx">첫번째</span> <span class="nx">표현식</span><span class="p">;</span> <span class="nx">두번째</span> <span class="nx">표현식</span><span class="p">;</span> <span class="nx">세번째</span> <span class="nx">표현식</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">반복적으로</span> <span class="nx">실행될</span> <span class="nx">문장</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>예시</li>
+</ul>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="p">(</span><span class="dl">"</span><span class="s2">Block statement execution no.</span><span class="dl">"</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>결과</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Block statement execution no.0
+Block statement execution no.1
+Block statement execution no.2
+</code></pre></div></div>
+
+<h2 id="2-for--of-loop">2. for … of loop</h2>
+<p>배열, 목록 또는 튜플 컬렉션의 요소를 반복하고 접근할 수 있다.<br />
+컬렉션(ex. array, list 또는 tuple)에서 요소를 반환하므로 위에 표시된 기존의 for 루프를 사용할 필요가 없으며 문자열 값에서 문자를 반환한다.<br /></p>
+
+<ul>
+  <li>예시 1</li>
+</ul>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">];</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">val</span> <span class="k">of</span> <span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>결과 1</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10
+20
+30
+40
+</code></pre></div></div>
+
+<ul>
+  <li>예시 2</li>
+</ul>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">str</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Hello World</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">char</span> <span class="k">of</span> <span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">char</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>결과 2</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>H
+e
+l
+l
+o
+ 
+W
+o
+r
+l
+d
+</code></pre></div></div>
+
+<h2 id="3-for--in-loop">3. for … in loop</h2>
+<p>리스트나 컬렉션을 반복하고 각 반복에서 인덱스를 반환한다.<br />
+array, list 또는 tuple과 함께 사용할 수 있다.<br /></p>
+
+<ul>
+  <li>예시 1</li>
+</ul>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">];</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">index</span> <span class="k">in</span> <span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">index</span><span class="p">);</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">index</span><span class="p">]);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>결과 1</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0
+10
+1
+20
+2
+30
+3
+40
+</code></pre></div></div>
+
+<p>위의 예시 1의 for 부분에서 괄호 안에 var 대신 let을 사용할 수도 있다.<br />
+이 경우 let 뒤에 오는 변수를 for … in 반복문 외부에서 사용할 수 없다.<br /></p>
+
+<ul>
+  <li>예시 2</li>
+</ul>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">];</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">index2</span> <span class="k">in</span> <span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">index2</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">index2</span><span class="p">);</span>
+</code></pre></div></div>
+
+<ul>
+  <li>결과 2</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0
+1
+2
+3
+</code></pre></div></div>
+<p>위와 같이 출력되고 ‘Compile Error: cannot find index2’라는 오류 메세지가 출력된다.</p>
+:ET
