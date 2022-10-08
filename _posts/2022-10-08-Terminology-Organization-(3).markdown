@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Terminology Organization (2)
+title : Terminology Organization (3)
 subtitle : ==와 ===, equals의 차이에 대해 알아보자.
 categories : TypeScript
 tags : [TypeScript, ==, ===, equals]
@@ -33,9 +33,9 @@ system.out.println(a.equals(c)) // true
 ```
 
 ## 4. 정리
-== : value를 비교하는 경우 사용되며 연산 전 피연산자들을 먼저 비교할 수 있는 형태로 변환시키고, 사용자가 원하지 않는 강제 형변환이 이루어질 수 있다.
-=== : value와 data type 모두 비교하는 경우 사용되며 형변환을 하지 않고 연산한다.
-equals : 내용 자체를 비교하는 경우 사용되며 주소값이 다르더라도 내용이 같다면 True로 출력된다.
+- == : value를 비교하는 경우 사용되며 연산 전 피연산자들을 먼저 비교할 수 있는 형태로 변환시키고, 사용자가 원하지 않는 강제 형변환이 이루어질 수 있다.
+- === : value와 data type 모두 비교하는 경우 사용되며 형변환을 하지 않고 연산한다.
+- equals : 내용 자체를 비교하는 경우 사용되며 주소값이 다르더라도 내용이 같다면 True로 출력된다.
 
 # 5. 참고 자료
 - [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
