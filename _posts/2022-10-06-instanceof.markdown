@@ -1,6 +1,6 @@
 ---
 layout : post
-title : [TypeScript] instanceof
+title : instanceof
 subtitle : instanceof와 다형성에 대해 알아보자
 categories : TypeScript
 tags : [TypeScript, instanceof, Polymorphism]
