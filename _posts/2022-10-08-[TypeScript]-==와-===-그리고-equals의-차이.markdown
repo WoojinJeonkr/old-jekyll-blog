@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Terminology Organization (3)
+title : [TypeScript] ==와 === 그리고 equals의 차이
 subtitle : ==와 ===, equals의 차이에 대해 알아보자.
 categories : TypeScript
 tags : [TypeScript, ==, ===, equals]

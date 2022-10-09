@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Terminology Organization (1)
+title : WS와 WAS, scale up과 scale out
 subtitle : WS와 WAS, scale up과 scale out의 차이에 대해 알아보자
 categories : Skill
 tags : [Skill, WS, WAS, scale_up, scale_out]
