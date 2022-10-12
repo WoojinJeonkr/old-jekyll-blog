@@ -24,7 +24,7 @@ npm i react-router-dom
 - 클라이언트 측 라우팅을 건너뛰고 브라우저가 전환을 정상적으로 처리하도록 하는데 사용 가능
 - 특정 주소로 이동
 
-- [Link에 대해 자세히 알아보기](https://reactrouter.com/en/main/components/link)
+    [Link에 대해 자세히 알아보기](https://reactrouter.com/en/main/components/link)
 
 ## 3. Navigate
 
@@ -32,9 +32,9 @@ npm i react-router-dom
 - useNavigate를 둘러싼 component wrapper이며 props와 동일한 모든 인수를 허용
 - 특정 행동 수행 시 해당 주소로 이동
 
-- [Navigate에 대해 자세히 알아보기](https://reactrouter.com/en/main/components/navigate)
+  [Navigate에 대해 자세히 알아보기](https://reactrouter.com/en/main/components/navigate)
 
 ## 4. 참고 자료
 - [React Router DOM](https://www.npmjs.com/package/react-router-dom)
-- [Link](https://reactrouter.com/en/main/components/link)
-- [Navigate](https://reactrouter.com/en/main/components/navigate)
+- ['Link'](https://reactrouter.com/en/main/components/link)
+- ['Navigate'](https://reactrouter.com/en/main/components/navigate)
