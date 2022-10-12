@@ -36,5 +36,5 @@ npm i react-router-dom
 
 ## 4. 참고 자료
 - [React Router DOM](https://www.npmjs.com/package/react-router-dom)
-- [<Link>](https://reactrouter.com/en/main/components/link)
-- [<Navigate>](https://reactrouter.com/en/main/components/navigate)
+- [Link](https://reactrouter.com/en/main/components/link)
+- [Navigate](https://reactrouter.com/en/main/components/navigate)
