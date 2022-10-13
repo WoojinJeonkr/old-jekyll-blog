@@ -6,7 +6,7 @@ categories : TypeScript
 tags : [TypeScript, JavaScript, TypeScript]
 ---
 
-> `GeekWeek 2022` -  <a href="https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/" target="_blank" rel="noopener noreferrer" style="color : green">Difference between TypeScript and JavaScript</a>를 번역한 글입니다.
+> GeekWeek 2022 -  <a href="https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/" target="_blank" rel="noopener noreferrer" style="color : green">Difference between TypeScript and JavaScript</a>를 번역한 글입니다.
 
 ## 1 . 그림으로 보는 TypeScript와 JavaScript의 관계
 
