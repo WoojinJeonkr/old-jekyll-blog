@@ -18,22 +18,22 @@ Behind Story, 직역하면 뒷 이야기이다. 어떤 일에 얽힌 알려지�
 
 ## 04. 비하인드 스토리
 
-1. Toss팀 워크스토리
+- Toss팀 워크스토리
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B26O0mjIsUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-2. STAIR (Flutter 개발자 스토리)
+- STAIR (Flutter 개발자 스토리)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2S-KkvFuLWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-3. Apple - More - Developer Stories - The story behind the apps
+- Apple - More - Developer Stories - The story behind the apps
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cGqtGGcnbtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-4. Push(Flutter 개발자 스토리)
+- Push(Flutter 개발자 스토리)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0LqTlDXtzg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-5. WORK STORY : Ryan | video game developer
+- WORK STORY : Ryan | video game developer
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nm_l_dsgIiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-6. The Story Behind Gears of War's New Developer
+- The Story Behind Gears of War's New Developer
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YDsulcUr2bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 5. 참고 자료
