@@ -17,8 +17,4 @@ tags : [Skill, codepen]
 
 ## 03. 사용 예시
 
-```
-{% include codepen.html hash="zYjbbRG" title="Hello World!" %}
-```
-
 {% include codepen.html hash="zYjbbRG" title="Hello World!" %}
