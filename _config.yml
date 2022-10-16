@@ -182,6 +182,9 @@ defaults:
 # Pagination setting
 # paginate: 5
 
+# codepen
+codepen_username: calomys
+
 # Disqus comments
 # disqus:
 #   shortname: "Your Disqus username"
