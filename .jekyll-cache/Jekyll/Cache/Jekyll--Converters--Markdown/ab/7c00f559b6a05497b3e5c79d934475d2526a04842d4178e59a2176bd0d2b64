@@ -1,4 +1,4 @@
-I"0<h2 id="1-for-loop">1. for loop</h2>
+I"I<h2 id="1-for-loop">1. for loop</h2>
 <p>조건에 의해 지정된 횟수만큼 코드 블록을 실행하는데 사용된다.<br /></p>
 <ul>
   <li>형태</li>
@@ -135,4 +135,10 @@ array, list 또는 tuple과 함께 사용할 수 있다.<br /></p>
 3
 </code></pre></div></div>
 <p>위와 같이 출력되고 ‘Compile Error: cannot find index2’라는 오류 메세지가 출력된다.</p>
+
+<h2 id="4-참고-자료">4. 참고 자료</h2>
+<ul>
+  <li><a href="https://www.tutorialsteacher.com/typescript/for-loop">TypeScript - for Loops</a></li>
+  <li><a href="https://pythontutor.com/visualize.html#mode=edit">pythontutor.com - Write code in JavaScript ES6</a></li>
+</ul>
 :ET

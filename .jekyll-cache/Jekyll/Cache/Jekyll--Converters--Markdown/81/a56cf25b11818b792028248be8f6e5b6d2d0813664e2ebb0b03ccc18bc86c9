@@ -1,0 +1,68 @@
+I"�<h2 id="1-dto-data-transfer-object">1. DTO (Data Transfer Object)</h2>
+<ul>
+  <li>데이터를 전달하기 위한 객체</li>
+  <li>여러 레이어 사이에서 DTO를 사용할 수 있지만, 주로 View와 Controller 사이에서 데이터를 주고 받을 때 활용</li>
+  <li>getter/setter 메소드를 포함하고, 이외의 비즈니스 로직은 포함하지 않음
+    <ul>
+      <li>setter를 가지는 경우 가변 객체로 활용 가능</li>
+      <li>setter가 아닌 생성자로 초기화하는 경우 데이터를 전달하는 과정에서 데이터가 변조되지 않는 불변 객체로 활용 가능</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="2-vo-value-object">2. VO (Value Object)</h2>
+<ul>
+  <li>값 자체를 표현하는 객체</li>
+  <li>객체들의 주소가 달라도 값이 같으면 동일한 것으로 판단</li>
+  <li>getter 메소드와 함께 비즈니스 로직도 포함할 수 있지만 setter 메소드를 가지지 않음</li>
+  <li>값 비교를 위해 equals()와 hashCode() 메소드를 오버라이딩 해줘야 함</li>
+</ul>
+
+<h2 id="3-entity">3. Entity</h2>
+<ul>
+  <li>실제 DB 테이블과 매핑되는 핵심 클래스</li>
+  <li>Entity를 기준으로 테이블이 생성되고 스키마가 변경됨</li>
+  <li>요청이나 응답값 전달 class로 사용 불가</li>
+  <li>id로 구분되며 비즈니스 로직 사용 가능</li>
+  <li>DTO와 같이 setter를 가지는 경우 가변 객체로 활용 가능</li>
+</ul>
+
+<h2 id="4-정리">4. 정리</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">분류</th>
+      <th style="text-align: center">DTO</th>
+      <th style="text-align: center">VO</th>
+      <th style="text-align: center">ENTITY</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">정의</td>
+      <td style="text-align: center">레이어간 데이터 전송용 객체</td>
+      <td style="text-align: center">값 표현용 객체</td>
+      <td style="text-align: center">DB 테이블 매핑용 객체</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">상태 변경 여부</td>
+      <td style="text-align: center">가변 또는 불변 객체</td>
+      <td style="text-align: center">불변 객체</td>
+      <td style="text-align: center">가변 또는 불변 객체</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">로직 포함 여부</td>
+      <td style="text-align: center">로직 포함 불가</td>
+      <td style="text-align: center">로직 포함 가능</td>
+      <td style="text-align: center">로직 포함 가능</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="5-reference">5. Reference</h2>
+<ul>
+  <li><a href="https://tecoble.techcourse.co.kr/post/2021-05-16-dto-vs-vo-vs-entity/">Tecoble - DTO vs VO vs Entity</a></li>
+  <li><a href="https://stackoverflow.com/questions/72025894/list-differences-dto-vo-entity-domain-model">List differences: DTO, VO, Entity, Domain, Model</a></li>
+</ul>
+:ET

@@ -1,0 +1,41 @@
+I"�	<h2 id="1-material-ui란">1. Material-UI란?</h2>
+<ul>
+  <li>Google의 Material Design 시스템 구현을 특징으로 하는 포괄적인 오픈 소스 React 구성 요소 라이브러리</li>
+  <li>디자인이 아름답고 구성 요소 위에 사용자 정의 디자인 시스템을 쉽게 구현할 수 있는 사용자 정의 옵션 모음을 제공</li>
+</ul>
+
+<h2 id="2-장점">2. 장점</h2>
+<ul>
+  <li>빠른 로딩</li>
+  <li>디자인적으로 뛰어남</li>
+  <li>직관적인 사용자 정의 기능의 광범위한 세트 포함</li>
+  <li>백엔드 개발자와 덜 기술적인 디자이너의 진입 장벽을 줄여 팀이 보다 효과적으로 협업할 수 있도록 도와줌</li>
+  <li>React 생태계에서 가장 큰 UI 커뮤니티 보유</li>
+</ul>
+
+<h2 id="3-설치">3. 설치</h2>
+
+<h3 id="01-요구사항">01. 요구사항</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>React : v16.8.0 ~
+TypeScript : v3.2 ~
+</code></pre></div></div>
+
+<h3 id="02-설치">02. 설치</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yarn add @mui/material @mui/styled-engine-sc
+</code></pre></div></div>
+
+<h2 id="4-material-uicore와-muimaterial의-차이">4. @material-ui/core와 @mui/material의 차이</h2>
+<p>yarn으로 mui를 설치하려고 하는 경우 <code class="language-plaintext highlighter-rouge">yarn add @material-ui/core</code>와 <code class="language-plaintext highlighter-rouge">yarn add @mui/material</code>로 설치하는 2가지 방법을 볼 수 있다. <br />
+두 방법 모두 mui를 설치할 수 있지만 최신 버전이 적용된 mui는 2번째 방법인 <code class="language-plaintext highlighter-rouge">yarn add @mui/material</code>이다. <br />
+MUI v4였던 시절에서 MUI v5로 넘어오면서 <code class="language-plaintext highlighter-rouge">@material-ui/</code>에서 <code class="language-plaintext highlighter-rouge">@mui/</code>로 바뀌었다.</p>
+
+<h2 id="5-참고-자료">5. 참고 자료</h2>
+<ul>
+  <li><a href="https://yarnpkg.com/package/@mui/material">‘@mui/material’</a></li>
+  <li><a href="https://yarnpkg.com/package/@material-ui/core#readme">‘@material-ui/core’</a></li>
+  <li><a href="https://mui.com/material-ui/getting-started/overview/">Material UI - Overview</a></li>
+  <li><a href="https://dev.classmethod.jp/articles/prepare-to-move-mui-v4-to-v5/">MUI v4에서 v5로 이사 준비</a></li>
+</ul>
+:ET
