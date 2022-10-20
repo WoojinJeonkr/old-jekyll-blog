@@ -1,0 +1,8 @@
+I"]<h2 id="01-jekyll-mathjax">01. Jekyll Mathjax</h2>
+<ul>
+  <li>MathJax가 수식 입력의 핵심이다.</li>
+  <li>JavaScript 라이브러리로 Tex 문법으로 작성된 수식을 표시해주는 기능을 한다.</li>
+  <li>다른 내용에 inline으로 수식을 입력할 경우 <code class="language-plaintext highlighter-rouge">\\( 입력하고자 하는 내용 \\)</code> 의 형식으로 입력한다.</li>
+  <li>별도의 줄에 수식을 입력하는 경우 <code class="language-plaintext highlighter-rouge">$$ 입력하고자 하는 내용 $$</code> 의 형식으로 입력한다.</li>
+</ul>
+:ET
