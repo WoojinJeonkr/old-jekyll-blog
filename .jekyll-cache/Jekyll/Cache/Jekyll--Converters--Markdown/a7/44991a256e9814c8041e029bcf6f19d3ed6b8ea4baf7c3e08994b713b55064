@@ -1,0 +1,41 @@
+I"�<h2 id="01-position">01. position</h2>
+<p>position 속성은 HTML 문서 상에서 요소가 배치되는 방식을 결정한다.<br />
+요소의 정확한 위치 지정을 위해서 top, left, bottom, right 속성과 함께 사용된다.<br /></p>
+
+<h3 id="1-static">1. static</h3>
+<ul>
+  <li>position 속성을 별도로 지정해주지 않으면 적용되는 기본값</li>
+  <li>position 속성이 static인 요소는 HTML 문서 상에서 원래 있어야하는 위치에 배치된다.</li>
+  <li>position 속성이 static일 때 top, left, right, bottom은 무시되며 요소들이 HTML에 작성된 순서 그대로 브라우저 화면에 표시된다.</li>
+</ul>
+
+<h3 id="2-relative">2. relative</h3>
+<ul>
+  <li>요소를 원래 위치에서 벗어나게 배치할 수 있다</li>
+  <li>요소의 위치 지정은 top, bottom, left, right 속성을 이용해서, 요소가 원래 위치에 있을 때의 상하좌우로 부터 얼마나 떨어지게 할지를 지정할 수 있다.</li>
+</ul>
+
+<h3 id="3-absolute">3. absolute</h3>
+<ul>
+  <li>position 속성이 absolute일 때 해당 요소는 배치 기준을 자신이 아닌 상위 요소에서 찾는다.</li>
+  <li>DOM 트리를 따라 올라가다가 position 속성이 static이 아닌 첫 번째 상위 요소가 해당 요소의 배치 기준으로 설정된다.</li>
+  <li>만약에 해당 요소 상위에 position 속성이 static이 아닌 요소가 없다면, DOM 트리에 최상위에 있는 &lt;body&gt; 요소가 배치 기준이 된다.</li>
+</ul>
+
+<h3 id="4-fixed">4. fixed</h3>
+<ul>
+  <li>요소를 항상 고정된(fixed) 위치에 배치할 수 있다.</li>
+  <li>fixed 속성값의 배치 기준이 자신이나 부모 요소가 아닌 뷰포트(viewport), 즉 브라우저 전체화면이다.</li>
+</ul>
+
+<h3 id="5-sticky">5. sticky</h3>
+<ul>
+  <li>브라우저 화면을 스크롤링할 때 효과가 나타난다.</li>
+  <li>스크롤링 시 sticky를 적용한 요소가 화면 상단에 끈적하게(sticky) 붙어서 움직이지 않는다.</li>
+</ul>
+
+<h2 id="02-reference">02. Reference</h2>
+<ul>
+  <li><a href="https://www.daleseo.com/css-position/">CSS의 position 속성으로 HTML 요소 배치하기</a></li>
+</ul>
+:ET
