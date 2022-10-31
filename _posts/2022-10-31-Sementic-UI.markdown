@@ -9,7 +9,7 @@ tags : [TypeScript, CSS]
 ## 01. Install
 Semantic UI React는 React 구성 요소를 제공하고 Semantic UI는 CSS 스타일시트로 테마를 제공한다.<br>
 
-### 1. 설치 1
+### 1. yarn/npm
 yarn이나 npm을 사용해서 설치할 수 있다.
 
 ```bash
