@@ -6,7 +6,7 @@ categories : React
 tags : [React, Term]
 ---
 
-## 1. React 기술 용어 모음 20가지 (20 Glossary of React Terms)
+## 1. React 기술 용어 모음 20가지
 
 ### 01. 싱글 페이지 애플리케이션(Single-page application, SPA)
 
