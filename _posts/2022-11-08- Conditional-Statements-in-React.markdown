@@ -139,9 +139,7 @@ function Component() {
   var now = 'info';
   return (
     <div>
-      {
-        TabUI[now]
-      }
+      { TabUI[now] }
     </div>
   )
 } 
