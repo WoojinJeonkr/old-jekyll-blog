@@ -12,4 +12,4 @@ tags: [React, CRUD, Button, onClick]
 
 ## 02. Reference
 
-- [johir - React CRUD](https://codepen.io/jrayhan/pen/zNwWbx)
+- [ryan pagaduan - Crud React DataTable](https://codepen.io/jrayhan/pen/zNwWbx)
