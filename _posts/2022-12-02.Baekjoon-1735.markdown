@@ -1,0 +1,28 @@
+---
+layout: post
+title: Baekjoon 1735
+subtitle: 분수합
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1735.png?raw=true">
+
+## 02. Solution
+
+```Python
+def gcd(x, y):
+    if y == 0:
+        return x
+    x, y = y, x % y 
+    return gcd(x, y)
+
+n1, d1 = map(int, input().split())
+n2, d2 = map(int, input().split())
+n = n1*d2 + d1*n2
+d = d1*d2
+g = gcd(max(n,d), min(n,d))
+print(n//g, d//g)
+```
