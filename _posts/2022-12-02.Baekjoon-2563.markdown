@@ -1,0 +1,28 @@
+---
+layout: post
+title: Baekjoon 2563
+subtitle: 색종이
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2563.png?raw=true">
+
+## 02. Solution
+
+```Python
+N = int(input())
+arr = [[0 for _ in range(101)] for _ in range(101)]
+
+for _  in range(N):
+    a, b = map(int, input().split())
+    for i in range(a, a+10):
+        for j in range(b, b+10):
+            arr[i][j] = 1
+count = 0
+for c in arr:
+    count += c.count(1)
+print(count)
+```
