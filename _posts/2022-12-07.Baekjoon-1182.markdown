@@ -1,0 +1,30 @@
+---
+layout: post
+title: Baekjoon 1182
+subtitle: 부분 수열의 합
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1182.png?raw=true">
+
+## 02. Solution
+
+```Python
+def cal_number(index, sum):
+    global count
+    if index >= n:
+        return
+    sum += ls[index]
+    if sum == s:
+        count += 1
+    cal_number(index + 1, sum - ls[index])
+    cal_number(index + 1, sum)
+n, s = map(int, input().split())
+ls = list(map(int, input().split()))
+count = 0
+cal_number(0, 0)
+print(count)
+```
