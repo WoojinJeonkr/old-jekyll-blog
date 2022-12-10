@@ -1,0 +1,38 @@
+---
+layout: post
+title: Baekjoon 1406
+subtitle: 에디터
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1406_problem.png?raw=true">
+
+## 02. Input & Output
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1406_input_output.png?raw=true">
+
+## 03. Solution
+
+```Python
+import sys
+
+left = list(input())
+right = []
+
+for _ in range(int(input())):
+    command = list(sys.stdin.readline().split())
+    if command[0] == 'L' and left:
+        right.append(left.pop())
+    elif command[0] == 'D' and right:
+        left.append(right.pop())
+    elif command[0] == 'B' and left:
+        left.pop()
+    elif command[0] == 'P':
+        left.append(command[1])
+
+answer = left + right[::-1]
+print(''.join(answer))
+```
