@@ -1,0 +1,42 @@
+---
+layout: post
+title: Baekjoon 2644
+subtitle: 촌수계산
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2644.png?raw=true">
+
+## 02. Input & Output
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2644_input_output.png?raw=true">
+
+## 03. Solution
+
+```Python
+from collections import deque
+
+def bfs(node):
+    queue = deque()
+    queue.append(node)
+    while queue:
+        node = queue.popleft()
+        for n in graph[node]:
+            if check[n] == 0:
+                check[n] = check[node]+1
+                queue.append(n)
+
+n = int(input())
+graph = [[] for _ in range(n+1)]
+s, e = map(int, input().split())
+for _ in range(int(input())):
+    u, v = map(int, input().split())
+    graph[u].append(v)
+    graph[v].append(u)
+check = [0]*(n+1)
+bfs(s)
+print(check[e] if check[e] > 0 else -1)
+```
