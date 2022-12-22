@@ -1,0 +1,35 @@
+---
+layout: post
+title: Baekjoon 2740
+subtitle: 행렬 곱셈
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2740.png?raw=true">
+
+## 02. Solution
+
+```Python
+N, M = map(int, input().split()) 
+matrix1 = [] 
+for _ in range(N): 
+    matrix1.append(list(map(int, input().split()))) 
+S, K = map(int, input().split()) 
+matrix2 = []
+for _ in range(S): 
+    matrix2.append(list(map(int, input().split())))
+    
+result = [[0 for _ in range(K)] for _ in range(N)] 
+for n in range(N): 
+    for k in range(K): 
+        for m in range(M): 
+            result[n][k] += matrix1[n][m] * matrix2[m][k] 
+            
+for row in result: 
+    for num in row: 
+        print(num, end=' ') 
+    print()
+```
