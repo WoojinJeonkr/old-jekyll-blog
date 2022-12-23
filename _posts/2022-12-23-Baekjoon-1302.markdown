@@ -1,0 +1,38 @@
+---
+layout: post
+title: Baekjoon 1302
+subtitle: 베스트셀러
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1302.png?raw=true">
+
+## 02. Input & Output
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1302_input_output_01.png?raw=true">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1302_input_output_02.png?raw=true">
+
+## 03. Solution
+
+```Python
+N = int(input())
+best = {}
+for i in range(N):
+    book = input()
+    if book not in best:
+        best[book] = 1
+    else:
+        best[book] += 1
+
+max_book = []
+value = max(best.values())
+
+for i in best:
+    if value == best[i]:
+        max_book.append(i)
+
+print(sorted(max_book)[0])
+```
