@@ -1,0 +1,22 @@
+---
+layout: post
+title: Baekjoon 10825
+subtitle: 국영수
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_10825.png?raw=true">
+
+## 02. Solution
+
+```Python
+students = []
+
+for _ in range(int(input())):
+    students.append(list(input().split()))
+
+[print(student[0]) for student in sorted(students, key = lambda s: (-int(s[1]), int(s[2]), -int(s[3]), s[0]))]
+```
