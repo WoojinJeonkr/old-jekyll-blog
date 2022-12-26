@@ -1,0 +1,30 @@
+---
+layout: post
+title: Baekjoon 10707
+subtitle: 수도요금
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_10707.png?raw=true">
+
+## 02. Solution
+
+```Python
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+P = int(input())
+x = A * P
+if C < P:
+    y = B + ((P - C) * D)
+else:
+    y = B
+if x < y:
+    print(x)
+else:
+    print(y)
+```
