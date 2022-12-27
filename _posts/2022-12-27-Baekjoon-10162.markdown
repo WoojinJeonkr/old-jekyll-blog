@@ -1,0 +1,26 @@
+---
+layout: post
+title: Baekjoon 10707
+subtitle: 수도요금
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_10162.png?raw=true">
+
+## 02. Solution
+
+```Python
+T = int(input())
+
+if T % 10 != 0:
+    print(-1)
+else:
+    A = B = C = 0
+    A = T // 300
+    B = (T % 300) // 60
+    C = (T % 300) % 60 // 10
+    print(A, B, C)
+```
