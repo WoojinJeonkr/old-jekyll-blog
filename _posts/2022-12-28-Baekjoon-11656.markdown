@@ -1,0 +1,26 @@
+---
+layout: post
+title: Baekjoon 11656
+subtitle: 접미사 배열
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_11656.png?raw=true">
+
+## 02. Solution
+
+```Python
+s = input()
+answer = []
+
+for i in range(len(s)):
+    answer.append(s[i:])
+
+answer.sort()
+
+for i in answer:
+    print(i)
+```
