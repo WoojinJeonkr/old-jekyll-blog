@@ -1,0 +1,27 @@
+---
+layout: post
+title: Baekjoon 1699
+subtitle: 제곱수의 합
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1699.png?raw=true">
+
+## 02. Solution
+
+```Python
+n = int(input())
+dp = [i for i in range (n + 1)]
+
+for i in range(1, n + 1):
+    for j in range(1, i):
+        if (j * j) > i:
+            break
+        if dp[i] > dp[i - j * j] + 1:
+            dp[i] = dp[i - j * j] + 1
+
+print(dp[n])
+```
