@@ -1,0 +1,24 @@
+---
+layout: post
+title: Baekjoon 11815
+subtitle: 짝수? 홀수?
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_11815.png?raw=true">
+
+## 02. Solution
+
+```Python
+N = int(input())
+X = list(map(int, input().split()))
+
+for i in range(N):
+    if X[i] == (int(X[i] ** 0.5) ** 2):
+        print(1, end = " ")
+    else:
+        print(0, end = " ")
+```
