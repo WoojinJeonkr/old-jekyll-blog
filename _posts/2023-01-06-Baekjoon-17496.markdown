@@ -1,0 +1,18 @@
+---
+layout: post
+title: Baekjoon 17496
+subtitle: 스타후르츠
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_17496.png?raw=true">
+
+## 02. Solution
+
+```Python
+N, C, T, P = map(int, input().split())
+print((N-1)//C * T * P)
+```
