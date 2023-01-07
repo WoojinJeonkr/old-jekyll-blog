@@ -1,0 +1,25 @@
+---
+layout: post
+title: Baekjoon 2355
+subtitle: 시그마
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2355.png?raw=true">
+
+## 02. Solution
+
+```Python
+a, b = map(int, input().split())
+
+n_max = max(a, b)
+n_min = min(a, b)
+
+n = n_max - n_min
+s = (n * (n + 1)) // 2
+
+print(s + (n_min * (n + 1)))
+```
