@@ -1,0 +1,26 @@
+---
+layout: post
+title: Baekjoon 2331
+subtitle: 반복수열
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2331.png?raw=true">
+
+## 02. Solution
+
+```Python
+A, P = map(int, input().split())
+lst = [A]
+while True:
+    tmp = 0
+    for i in str(lst[-1]):
+        tmp += int(i) ** P
+    if tmp in lst:
+        break
+    lst.append(tmp)
+print(lst.index(tmp))
+```
