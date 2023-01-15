@@ -1,0 +1,25 @@
+---
+layout: post
+title: Baekjoon 2991
+subtitle: 사나운 개
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2991.png?raw=true">
+
+## 02. Solution
+
+```Python
+A, B, C, D = map(int, input().split())
+li = list(map(int, input().split()))
+for n in li:
+    attacked = 0
+    if 0 < n % (A+B) <= A:
+        attacked += 1
+    if 0 < n % (C+D) <= C:
+        attacked += 1
+    print(attacked)
+```
