@@ -1,0 +1,21 @@
+---
+layout: post
+title: Baekjoon 2747
+subtitle: 피보나치 수열
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2747.png?raw=true">
+
+## 02. Solution
+
+```Python
+n = int(input())
+a, b = 0, 1
+for i in range(n):
+    a, b = b, a+b
+print(a)
+```
