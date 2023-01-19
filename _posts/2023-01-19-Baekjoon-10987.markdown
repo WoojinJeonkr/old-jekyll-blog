@@ -1,0 +1,21 @@
+---
+layout: post
+title: Baekjoon 10987
+subtitle: 모음의 개수
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_10987.png?raw=true">
+
+## 02. Solution
+
+```Python
+cnt = 0
+for i in input():
+    if i in ['a', 'e', 'i', 'o', 'u']:
+        cnt += 1
+print(cnt)
+```
