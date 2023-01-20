@@ -1,0 +1,29 @@
+---
+layout: post
+title: Baekjoon 11728
+subtitle: 배열 합치기
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_11728.png?raw=true">
+
+## 02. Solution
+
+```Python
+n, m = map(int, input().split())
+a = list(map(int,input().split()))
+b = list(map(int,input().split()))
+answer = []
+a_start, b_start = 0, 0
+while a_start < n or b_start<m:
+    if b_start >= m or (a_start < n and a[a_start] <= b[b_start]):
+        answer.append(a[a_start])
+        a_start += 1
+    else:
+        answer.append(b[b_start])
+        b_start += 1
+print(' '.join(list(map(str,answer))))
+```
