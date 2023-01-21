@@ -72,7 +72,7 @@ public class SwaggerConfig {
 
 - [Docket Bean 공식 문서](https://springfox.github.io/springfox/javadoc/2.7.0/springfox/documentation/spring/web/plugins/Docket.html "Docket Bean에 관한 자세한 설명 확인하기")
 
-### 2-3. Spring MVC 프로젝트인 경우 다음과 같은 추가 설정이 필요하다.
+### 2-3. Spring MVC 프로젝트인 경우 추가 설정
 
 ```Java
 public class SwaggerConfig implements WebMvcConfigurer {
