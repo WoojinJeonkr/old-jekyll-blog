@@ -1,0 +1,18 @@
+---
+layout: post
+title: Baekjoon 3049
+subtitle: 다각형의 대각선
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_3049.png?raw=true">
+
+## 02. Solution
+
+```Python
+n = int(input())
+print(n*(n-1)*(n-2)*(n-3)//24)
+```
