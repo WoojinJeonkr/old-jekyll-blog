@@ -1,0 +1,43 @@
+---
+layout: post
+title: Baekjoon 6603
+subtitle: 로또
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_6603_problem.png?raw=true">
+
+## 02. Input & Output
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_6603_input_output.png?raw=true">
+
+## 03. Solution
+
+```Python
+def dfs(dep):
+    if dep == 6:
+        print(*li)
+        return;
+    for i in range(n):
+        if check[i]:
+            continue
+        li.append(nums[i])
+        check[i] = 1
+        dfs(dep+1)
+        li.pop()
+        for j in range(i+1, n):
+            check[j] = 0
+        
+while 1:
+    t = list(map(int, input().split()))
+    n, nums = t[0], t[1:]
+    if n == 0:
+        break
+    li = []
+    check = [0]*n
+    dfs(0)
+    print()
+```
