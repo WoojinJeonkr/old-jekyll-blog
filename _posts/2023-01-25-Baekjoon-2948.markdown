@@ -1,0 +1,20 @@
+---
+layout: post
+title: Baekjoon 2948
+subtitle: 2009년
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2948.png?raw=true">
+
+## 02. Solution
+
+```Python
+months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+days = ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday"]
+D, M = map(int, input().split())
+print(days[(sum(months[:M-1]) + D) % 7])
+```
