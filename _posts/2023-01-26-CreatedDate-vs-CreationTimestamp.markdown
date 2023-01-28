@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Between CreationTimestamp and CreatedDate
-subtitle: `@creadtedDate`와 `@CreationTimestamp`의 차이에 대해 알아보자
+title: CreatedDate vs CreationTimestamp
+subtitle: creadtedDate와 CreationTimestamp의 차이에 대해 알아보자
 categories: Spring boot
 tags: [Spring boot, JPA, annotation]
 ---
