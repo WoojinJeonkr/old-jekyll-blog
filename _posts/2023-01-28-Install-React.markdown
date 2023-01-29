@@ -18,12 +18,12 @@ tags: [React]
 
 - 터미널에 다음 명령어를 입력한다.
 
-```
+```console
 npx create-react-app <만들고자 하는 프로젝트명>
 ```
 
 만약 TypeScript를 사용한다면 다음 명령어를 입력한다.
 
-```
+```console
 npx create-react-app <만들고자 하는 프로젝트명> --template typescript
 ```
