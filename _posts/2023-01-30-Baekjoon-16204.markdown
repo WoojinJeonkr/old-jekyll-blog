@@ -1,0 +1,18 @@
+---
+layout: post
+title: Baekjoon 16204
+subtitle: 카드 뽑기
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_16204.png?raw=true">
+
+## 02. Solution
+
+```Python
+N, M, K = map(int, input().split())
+print(min(M, K) + min(N-M, N-K))
+```
