@@ -1,0 +1,25 @@
+---
+layout: post
+title: Baekjoon 3711
+subtitle: 학번
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_3711.png?raw=true">
+
+## 02. Solution
+
+```Python
+for _ in range(int(input())):
+    n = int(input())
+    number_list = [int(input()) for i in range(n)]
+    result = 0
+    while True:
+        result += 1
+        if len({i % result for i in number_list}) == n:
+            print(result)
+            break
+```
