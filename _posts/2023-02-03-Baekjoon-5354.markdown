@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baekjoon 5354
-subtitle: J박스스
+subtitle: J박스
 categories: Python
 tags: [Python, Baekjoon]
 ---
