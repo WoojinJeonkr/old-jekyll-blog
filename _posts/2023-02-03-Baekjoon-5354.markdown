@@ -1,0 +1,27 @@
+---
+layout: post
+title: Baekjoon 5354
+subtitle: J박스스
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_5354.png?raw=true">
+
+## 02. Solution
+
+```Python
+for _ in range(int(input())):
+    n = int(input())
+    if n < 3:
+        for i in range(n):
+            print('#'*n)
+        print()
+    else:
+        print('#'*n)
+        for i in range(n-2):
+            print('#' + 'J'*(n-2) + '#')
+        print('#'*n, '\n')
+```
