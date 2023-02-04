@@ -1,0 +1,24 @@
+---
+layout: post
+title: Baekjoon 2720
+subtitle: 세탁소 사장 동혁
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2720.png?raw=true">
+
+## 02. Solution
+
+```Python
+for _ in range(int(input())):
+    c = int(input())
+    d = [25, 10, 5, 1]
+    lst = []
+    for n in d:
+        lst.append(c // n)
+        c = c % n
+    print(*lst)
+```
