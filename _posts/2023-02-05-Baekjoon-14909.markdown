@@ -1,0 +1,22 @@
+---
+layout: post
+title: Baekjoon 14909
+subtitle: 양수 개수 세기기
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_14909.png?raw=true">
+
+## 02. Solution
+
+```Python
+num_lst = list(map(int, input().split()))
+cnt = 0
+for i in num_lst:
+    if i > 0:
+        cnt += 1
+print(count)
+```
