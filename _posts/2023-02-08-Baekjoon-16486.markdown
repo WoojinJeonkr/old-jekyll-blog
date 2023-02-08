@@ -1,0 +1,21 @@
+---
+layout: post
+title: Baekjoon 16486
+subtitle: 운동장 한 바퀴
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_16486.png?raw=true">
+
+## 02. Solution
+
+```Python
+d1 = int(input())
+d2 = int(input())
+pi = 3.141592
+ans = d1*2 + 2*d2*pi
+print(ans)
+```
