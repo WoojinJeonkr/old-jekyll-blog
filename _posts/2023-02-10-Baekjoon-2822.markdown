@@ -1,0 +1,38 @@
+---
+layout: post
+title: Baekjoon 15700
+subtitle: 타일 채우기 4
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_2822.png?raw=true">
+
+## 02. Solution
+
+```Python
+score = []
+
+for i in range(8):
+    score.append(int(input()))
+s_score = sorted(score, reverse=True)
+
+big = []
+
+for i in range(5):
+    big.append(s_score[i])
+
+sum = 0
+tmp = []
+
+for i in big:
+    sum += i
+    tmp.append(score.index(i))
+print(sum)
+
+tmp_s = sorted(tmp)
+for i in tmp_s:
+    print(i + 1, end=' ')
+```
