@@ -1,0 +1,27 @@
+---
+layout: post
+title: Baekjoon 1718
+subtitle: 암호
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1718.png?raw=true">
+
+## 02. Solution
+
+```Python
+text, key = input(), input()
+
+ans = ''
+
+for i in range(len(text)):
+    if text[i] == ' ':
+        ans += ' '
+    else:
+        ans += chr((ord(text[i]) - ord(key[i%len(key)]) - 1) % 26 + ord('a'))
+
+print(ans)
+```
