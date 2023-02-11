@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Baekjoon 15700
-subtitle: 타일 채우기 4
+title: Baekjoon 2822
+subtitle: 점수 계산
 categories: Python
 tags: [Python, Baekjoon]
 ---
