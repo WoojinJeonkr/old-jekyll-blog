@@ -1,0 +1,33 @@
+---
+layout: post
+title: Baekjoon 3986
+subtitle: 좋은 단어
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_3986.png?raw=true">
+
+## 02. Solution
+
+```Python
+n = int(input())
+cnt = 0
+for _ in range(n):
+    s = input().rstrip()
+    stack = []
+    for i in s:
+        if len(stack) == 0:
+            stack.append(i)
+        else:
+            if stack[-1] == i:
+                stack.pop()
+            else:
+                stack.append(i)
+    if len(stack)==0:
+        cnt +=1
+
+print(cnt)
+```
