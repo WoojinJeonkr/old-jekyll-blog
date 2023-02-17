@@ -1,0 +1,31 @@
+---
+layout: post
+title: Baekjoon 1822
+subtitle: 차집합
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1822.png?raw=true">
+
+## 02. Solution
+
+```Python
+N = map(int, input().split())
+
+A = set(map(int, input().split()))
+B = set(map(int, input().split()))
+
+ans = []
+for n in A:
+    if n not in B:
+        ans.append(n)
+
+ans.sort()
+print(len(ans))
+
+if len(ans) != 0:
+    print(*ans)
+```
