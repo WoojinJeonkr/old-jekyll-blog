@@ -1,0 +1,24 @@
+---
+layout: post
+title: Baekjoon 9550
+subtitle: 아이들은 사탕을 좋아해
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_9550.png?raw=true">
+
+## 02. Solution
+
+```Python
+T = int(input())
+for case in range(T):
+    N, K = map(int, input().split(' '))
+    candies = list(map(int, input().split(' ')))
+    kid = 0
+    for candy in candies:
+        kid += candy // K
+    print(kid)
+```
