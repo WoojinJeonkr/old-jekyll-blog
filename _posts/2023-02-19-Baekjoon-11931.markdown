@@ -1,0 +1,29 @@
+---
+layout: post
+title: Baekjoon 11931
+subtitle: 수 정렬하기 4
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_11931.png?raw=true">
+
+## 02. Solution
+
+```Python
+import sys
+
+N = int(sys.stdin.readline())
+
+num = []
+
+for _ in range(0, N):
+    num.append(int(sys.stdin.readline()))
+
+num.sort()
+num.reverse()
+for i in range(0, N):
+    print(num[i])
+```
