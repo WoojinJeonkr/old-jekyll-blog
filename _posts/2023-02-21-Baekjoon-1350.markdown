@@ -1,0 +1,26 @@
+---
+layout: post
+title: Baekjoon 1350
+subtitle: 진짜 공간
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1350.png?raw=true">
+
+## 02. Solution
+
+```Python
+n = int(input())
+lst = list(map(int, input().split()))
+m = int(input())
+sum = 0
+for i in lst:
+    if i % m == 0:
+        sum += i // m
+    else:
+        sum += i // m + 1
+print(sum * m)
+```
