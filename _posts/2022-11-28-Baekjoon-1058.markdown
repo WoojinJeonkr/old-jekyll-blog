@@ -8,7 +8,7 @@ tags: [Baekjoon, Python]
 
 # 01. Baekjoon 1058
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1058.png?raw=true">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1058.png?raw=true">
 
 # 02. 풀이
 

@@ -8,12 +8,12 @@ tags: [Python, Baekjoon]
 
 ## 01. Problem
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1302.png?raw=true">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1302.png?raw=true">
 
 ## 02. Input & Output
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1302_input_output_01.png?raw=true">
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_1302_input_output_02.png?raw=true">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1302_input_output_01.png?raw=true">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1302_input_output_02.png?raw=true">
 
 ## 03. Solution
 

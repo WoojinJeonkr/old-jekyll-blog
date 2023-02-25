@@ -8,7 +8,7 @@ tags: [Python, Baekjoon]
 
 ## 01. Problem
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_11728.png?raw=true">
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_11728.png?raw=true">
 
 ## 02. Solution
 
