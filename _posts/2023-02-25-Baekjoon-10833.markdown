@@ -1,0 +1,22 @@
+---
+layout: post
+title: Baekjoon 10833
+subtitle: 사과
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon_10833.png?raw=true">
+
+## 02. Solution
+
+```Python
+ans = 0
+N = int(input())
+for _ in range(N):
+    x, y = map(int, input().split())
+    ans += y % x
+print(ans)
+```
