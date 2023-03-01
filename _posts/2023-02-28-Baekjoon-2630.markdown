@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baekjoon 2630
-subtitle: 색종이 만들기기
+subtitle: 색종이 만들기
 tags: [Python, Baekjoon]
 ---
 
