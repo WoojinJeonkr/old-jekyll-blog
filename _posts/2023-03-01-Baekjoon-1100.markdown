@@ -1,0 +1,29 @@
+---
+layout: post
+title: Baekjoon 1100
+subtitle: 하얀 칸
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1100.png?raw=true">
+
+## 02. Solution
+
+```Python
+board = []
+
+for i in range(8):
+    board.append(list(map(str, input())))
+
+res = 0
+
+for i in range(8):
+    for j in range(8):
+        if (i + j) % 2 == 0:
+            if board[i][j] == 'F':
+                res += 1
+
+print(res)
+```
