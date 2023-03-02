@@ -1,0 +1,24 @@
+---
+layout: post
+title: Baekjoon 11005
+subtitle: 진법 변환 2
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_11005.png?raw=true">
+
+## 02. Solution
+
+```Python
+nums = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+n, b = map(int,input().split())
+ans = ''
+
+while n:
+    ans = nums[n % b] + ans
+    n //= b
+
+print(ans)
+```
