@@ -1,0 +1,22 @@
+---
+layout: post
+title: Baekjoon 5598
+subtitle: 카이사르 암호
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_5598.png?raw=true">
+
+## 02. Solution
+
+```Python
+lst = list(input())
+for i in range(len(lst)):
+    k = ord(lst[i]) - 3
+    if k < ord('A'):
+        k += 26
+    lst[i] = chr(k)
+print(''.join(lst))
+```
