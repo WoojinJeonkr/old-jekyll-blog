@@ -1,0 +1,23 @@
+---
+layout: post
+title: Baekjoon 2993
+subtitle: 세 부분
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_2993.png?raw=true">
+
+## 02. Solution
+
+```Python
+w = input()
+lst = []
+for i in range(len(w)-2):
+    for j in range(i+1, len(w)-1):
+        for k in range(j+1, len(w)):
+            t = w[:j][::-1] + w[j:k][::-1] + w[k:][::-1]
+            lst.append(t)
+print(min(lst))
+```
