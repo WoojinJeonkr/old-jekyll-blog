@@ -1,0 +1,21 @@
+---
+layout: post
+title: Baekjoon 2921
+subtitle: 도미노
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_2921.png?raw=true">
+
+## 02. Solution
+
+```Python
+N = int(input())
+ans = 1 * (N + 2)
+
+for i in range(2, N+1):
+    ans += i * (N + 2)
+print(ans)
+```
