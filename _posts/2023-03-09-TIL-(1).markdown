@@ -2,7 +2,7 @@
 layout: post
 title: TIL (1)
 subtitle: 오늘 새로 알게 된 내용에 대해 정리
-tags: [Python, Baekjoon]
+tags: [React]
 ---
 
 ## 01. 'yarn'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
