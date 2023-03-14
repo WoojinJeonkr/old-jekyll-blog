@@ -11,19 +11,18 @@ tags: [React]
 애플리케이션에서 많은 양의 데이터를 표시해야 하는 경우 사용할 수 있다<br />
 자바스크립트 기반의 오픈 소스 그리드로 무료와 상용버전을 제공한다<br />
 
-![ag-grid](../../WoojinJeonkr.github.io/assets/images/post_image/ag%20grid.gif)
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/ag-grid.gif?raw=true">
 
 ## 02. mui table
 
 Material UI는 현재 가장 많이 쓰이고 있는 React UI 컴포넌트 라이브러리 중에 하나이다.<br />
 많은 컴포넌트와 깔끔한 디자인이 특징이다.
 
-![mui table](../../WoojinJeonkr.github.io/assets/images/post_image/mui_table.png)
-
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/mui-table.png?raw=true">
 
 ## 03. ag-grid와 mui table 사용 상태
 
-![stats](../../WoojinJeonkr.github.io/assets/images/post_image/ag-grid_status.png)
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/ag-grid_status.png?raw=true">
 
 ## 04. Reference
 
