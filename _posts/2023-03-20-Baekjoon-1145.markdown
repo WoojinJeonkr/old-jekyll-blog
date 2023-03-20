@@ -1,0 +1,27 @@
+---
+layout: post
+title: Baekjoon 1145
+subtitle: 숫자 맞추기 게임
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1145.png?raw=true">
+
+## 02. Solution
+
+```Python
+lst = list(map(int, input().split()))
+
+n = min(lst)
+while 1:
+    count = 0
+    for i in lst:
+        if n % i == 0:
+            count += 1
+    if count > 2:
+        break
+    n += 1
+print(n)
+```
