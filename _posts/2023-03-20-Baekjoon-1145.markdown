@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baekjoon 1145
-subtitle: 숫자 맞추기 게임
+subtitle: 적어도 대부분의 배수
 tags: [Python, Baekjoon]
 ---
 
