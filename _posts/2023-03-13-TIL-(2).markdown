@@ -2,7 +2,7 @@
 layout: post
 title: TIL (2)
 subtitle: 오늘 새로 알게 된 내용에 대해 정리
-tags: [React]
+tags: [TIL]
 ---
 
 ## 01. .npmrc
