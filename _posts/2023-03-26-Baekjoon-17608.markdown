@@ -1,0 +1,31 @@
+---
+layout: post
+title: Baekjoon 17608
+subtitle: 막대기
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_17608.png?raw=true">
+
+## 02. Solution
+
+```Python
+import sys
+
+heights = []
+N = int(sys.stdin.readline())
+n = current = before = 0
+
+for i in range(N):
+    heights.append(int(sys.stdin.readline()))
+
+for _ in range(N):
+    current = heights.pop()
+    if current > before:
+        n += 1
+        before = current
+
+print(n)
+```
