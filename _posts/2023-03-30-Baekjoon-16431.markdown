@@ -1,0 +1,26 @@
+---
+layout: post
+title: Baekjoon 11170
+subtitle: 0의 개수수
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_16431.png?raw=true">
+
+## 02. Solution
+
+```Python
+Br, Bc = map(int, input().split())
+Dr, Dc = map(int, input().split())
+Jr, Jc = map(int, input().split())
+B = max(abs(Jr-Br), abs(Jc-Bc))
+D = abs(Jr-Dr) + abs(Jc-Dc)
+if B == D:
+    print("tie")
+elif B < D:
+    print("bessie")
+else:
+    print("daisy")
+```
