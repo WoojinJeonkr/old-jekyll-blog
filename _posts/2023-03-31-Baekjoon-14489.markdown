@@ -1,0 +1,18 @@
+---
+layout: post
+title: Baekjoon 14489
+subtitle: 치킨 두 마리 (...)
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_14489.png?raw=true">
+
+## 02. Solution
+
+```Python
+A, B = map(int, input().split())
+C = int(input())
+print(A + B - 2*C if A + B >= 2*C else A + B)
+```
