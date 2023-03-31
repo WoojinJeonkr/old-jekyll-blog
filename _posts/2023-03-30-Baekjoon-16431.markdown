@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baekjoon 11170
-subtitle: 0의 개수수
+subtitle: 0의 개수
 tags: [Python, Baekjoon]
 ---
 
