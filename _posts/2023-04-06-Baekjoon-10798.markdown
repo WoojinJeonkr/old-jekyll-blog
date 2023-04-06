@@ -1,0 +1,42 @@
+---
+layout: post
+title: Baekjoon 10798
+subtitle: 세로 읽기
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_10798.png?raw=true">
+
+## 02. Solution
+
+```Python
+words = []
+for _ in range(5):
+    words.append(input())
+for i in range(max(len(e) for e in words)):
+    for j in range(5):
+        if i < len(words[j]):
+            print(words[j][i], end='')
+```
+
+## 03. Chat GPT가 작성한 코드
+
+```Python
+# 입력 받기
+lines = []
+for i in range(5):
+    line = input().strip()
+    lines.append(line)
+
+# 각 문자열의 최대 길이 계산
+max_length = max(len(line) for line in lines)
+
+# 각 문자열에서 i번째 글자 추출하여 출력
+for i in range(max_length):
+    for j in range(5):
+        if i < len(lines[j]):
+            print(lines[j][i], end='')
+print()
+```
