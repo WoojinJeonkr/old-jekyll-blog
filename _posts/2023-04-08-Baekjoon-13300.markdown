@@ -1,0 +1,31 @@
+---
+layout: post
+title: Baekjoon 13300
+subtitle: 방 배정
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_13300.png?raw=true">
+
+## 02. Solution
+
+```Python
+n, k = map(int, input().split())
+student = [[0]*2 for _ in range(6)]
+
+for _ in range(n):
+    s, y = map(int, input().split())
+    student[y-1][s-1] += 1
+
+ans = 0
+for a in range(6):
+    for b in range(2):
+        if(student[a][b]%k == 0):
+            ans += student[a][b]/k
+        else:
+            ans += student[a][b]//k + 1
+print(int(ans))
+```
+
