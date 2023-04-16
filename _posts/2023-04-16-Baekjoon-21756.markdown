@@ -1,0 +1,22 @@
+---
+layout: post
+title: Baekjoon 21756
+subtitle: 주사위 네개
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_21756.png?raw=true">
+
+## 02. Solution
+
+```Python
+n = int(input())
+mylist = list(range(1, n+1))
+
+while len(mylist) > 1:
+    mylist = mylist[1::2]
+
+print(mylist[0])
+```
