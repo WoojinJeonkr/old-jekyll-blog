@@ -1,0 +1,50 @@
+---
+layout: post
+title: Baekjoon 14916
+subtitle: 거스름돈
+tags: [Python, Baekjoon, Java 11]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_14916.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 48ms)
+
+```Python
+n = int(input())
+mylist = list(range(1, n+1))
+
+while len(mylist) > 1:
+    mylist = mylist[1::2]
+
+print(mylist[0])
+```
+
+### 02. Java 11 (memory: 17740KB, time: 220ms)
+
+```Java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int num = n % 5;
+        int cnt = 0;
+
+        if (n == 1 || n == 3) {
+            System.out.println(-1);
+            System.exit(0);
+        } else if (num % 2 == 0) {
+            System.out.println(n / 5 + num / 2);
+            System.exit(0);
+        } else {
+            System.out.println((n / 5) - 1 + (num + 5) / 2);
+            System.exit(0);
+        }
+    }
+}
+```
