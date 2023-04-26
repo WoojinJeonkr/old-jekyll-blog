@@ -1,0 +1,19 @@
+---
+layout: post
+title: Baekjoon 25628
+subtitle: 햄버거 만들기
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_25628.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31388KB, time: 44ms)
+
+```Python
+A, B = map(int, input().split())
+print(min(A//2, B))
+```
