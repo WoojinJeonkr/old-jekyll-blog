@@ -1,0 +1,25 @@
+---
+layout: post
+title: Baekjoon 10813
+subtitle: 공 바꾸기
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_10813.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 48ms)
+
+```Python
+n, m = map(int, input().split())
+basket = [str(i + 1) for i in range(n)]
+
+for _ in range(m):
+    i, j = map(int, input().split())
+    basket[i - 1], basket[j - 1] = basket[j - 1], basket[i - 1]
+
+print(" ".join(basket))
+```
