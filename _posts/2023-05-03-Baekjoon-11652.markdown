@@ -1,0 +1,31 @@
+---
+layout: post
+title: Baekjoon 11652
+subtitle: 카드
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_11652.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 55348KB, time: 136ms)
+
+```Python
+import sys
+input_ = sys.stdin.readline
+
+n = int(input_())
+card_dict = {}
+
+for i in range(n):
+    card = int(input_())
+    if card in card_dict:
+        card_dict[card] += 1
+    else:
+        card_dict[card] = 1
+
+print(sorted(card_dict.items(), key=lambda x: (-x[1], x[0]))[0][0])
+```
