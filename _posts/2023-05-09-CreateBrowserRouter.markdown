@@ -107,3 +107,9 @@ function App() {
   <Footer />
 </div>
 ```
+
+## 05. Reference
+
+- [createBrowserRouter](https://reactrouter.com/en/main/routers/create-browser-router)
+- [리액트 라우터 구현 ^6.4 (BrowserRouter와 createBrowserRouter)](https://velog.io/@rmaomina/react-router-createBrowerRouter)
+- [Outlet](https://reactrouter.com/en/6.11.1/components/outlet)
