@@ -1,0 +1,28 @@
+---
+layout: post
+title: Baekjoon 1673
+subtitle: 치킨 쿠폰
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1673.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 52ms)
+
+```Python
+while 1:
+    try:
+        n, k = map(int, input().split())
+        result = 0 
+        result += n
+        while n//k:
+            result += n//k
+            n = n//k + n%k
+        print(result)
+    except:
+        break
+```
