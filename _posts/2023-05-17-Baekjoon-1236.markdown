@@ -1,0 +1,35 @@
+---
+layout: post
+title: Baekjoon 1236
+subtitle: 성 지키기
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1236.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 48ms)
+
+```Python
+rows, columns = map(int, input().split())
+board = []
+
+for _ in range(rows):
+    board.append(input())
+
+rows_without_x = 0
+columns_without_x = 0
+
+for i in range(rows):
+    if "X" not in board[i]:
+        rows_without_x += 1
+
+for j in range(columns):
+    if "X" not in [board[i][j] for i in range(rows)]:
+        columns_without_x += 1
+
+print(max(rows_without_x, columns_without_x))
+```
