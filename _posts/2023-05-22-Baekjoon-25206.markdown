@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baekjoon 25206
-subtitle: 첼시를 도와줘!
+subtitle: 너의 평점은
 tags: [Python, Baekjoon]
 ---
 
