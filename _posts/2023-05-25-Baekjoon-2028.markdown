@@ -1,0 +1,23 @@
+---
+layout: post
+title: Baekjoon 2028
+subtitle: 자기복제수
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_2028.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 44ms)
+
+```Python
+for _ in range(int(input())):
+    num = int(input())
+    if str(num * num).endswith(str(num)):
+        print("YES")
+    else:
+        print("NO")
+```
