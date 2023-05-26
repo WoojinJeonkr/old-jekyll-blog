@@ -1,0 +1,29 @@
+---
+layout: post
+title: Baekjoon 10102
+subtitle: 개표
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_10102.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 40ms)
+
+```Python
+v = int(input())
+vote = list(str(input()))
+
+count_A = vote.count('A')
+count_B = len(vote) - count_A
+
+if count_A > count_B:
+    print('A')
+elif count_A == count_B:
+    print('Tie')
+else:
+    print('B')
+```
