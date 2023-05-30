@@ -1,0 +1,19 @@
+---
+layout: post
+title: Baekjoon 5576
+subtitle: 할로윈의 사탕
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_5576.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 40ms)
+
+```Python
+w, k = [sorted([int(input()) for _ in range(10)], reverse=True)[:3] for _ in range(2)]
+print(sum(w), sum(k))
+```
