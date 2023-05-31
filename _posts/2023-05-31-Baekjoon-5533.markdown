@@ -1,0 +1,23 @@
+---
+layout: post
+title: Baekjoon 5533
+subtitle: 유니크
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_5533.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 60ms)
+
+```Python
+N = int(input())
+scoreCard = [list(map(int, input().split())) for _ in range(N)]
+
+for i in range(N):
+  score = sum(scoreCard[i][j] for j in range(3) if all(scoreCard[k][j] != scoreCard[i][j] for k in range(N) if k != i))
+  print(score)
+```
