@@ -1,0 +1,19 @@
+---
+layout: post
+title: Baekjoon 17263
+subtitle: Sort 마스터 배지훈
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_17263.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 73652KB, time: 176ms)
+
+```Python
+N = int(input())
+print(max(map(int, input().split())))
+```
