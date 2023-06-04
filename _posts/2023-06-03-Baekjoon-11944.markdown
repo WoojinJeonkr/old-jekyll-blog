@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baekjoon 11944
-subtitle: N
+subtitle: [NN](https://www.acmicpc.net/problem/11944)
 tags: [Python, Baekjoon]
 ---
 
