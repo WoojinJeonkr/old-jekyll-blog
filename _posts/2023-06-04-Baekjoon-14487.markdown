@@ -1,0 +1,20 @@
+---
+layout: post
+title: Baekjoon 14487
+subtitle: 욱제는 효도쟁이야!!
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_14487.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 36352KB, time: 56ms)
+
+```Python
+n = int(input())
+town = list(map(int, input().split()))
+print(sum(town) - max(town))
+```
