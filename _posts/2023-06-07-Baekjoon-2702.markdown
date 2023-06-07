@@ -1,0 +1,33 @@
+---
+layout: post
+title: Baekjoon 2702
+subtitle: 초6 수학
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_2702.png?raw=true">
+
+## 02. Solution
+
+### 01. Python (memory: 31256KB, time: 128ms)
+
+```Python
+def find_gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def find_lcm(a, b):
+    return a * b // find_gcd(a, b)
+
+def calculate_lcm_gcd():
+    num_tests = int(input())
+    for _ in range(num_tests):
+        a, b = map(int, input().split())
+        lcm_num, gcd_num = find_lcm(a, b), find_gcd(a, b)
+        print(lcm_num, gcd_num)
+
+calculate_lcm_gcd()
+```
