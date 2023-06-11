@@ -1,0 +1,20 @@
+---
+layout: post
+title: Baekjoon 2557
+subtitle: Hello World!
+tags: [C++, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/2557)
+
+## 02. Solution (memory: 1112KB, time: 0ms)
+
+```C++
+#include <stdio.h>
+int main() {
+    printf("Hello World!");
+    return 0;
+}
+```
