@@ -8,15 +8,9 @@ tags: [Python, Baekjoon]
 
 ## 01. Problem
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_17413_problem.png?raw=true">
+[문제 확인하기](https://www.acmicpc.net/problem/17413){:target="_blank"}
 
-## 02. Input & Output
-
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_17413_input_output_1.png?raw=true">
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_17413_input_output_2.png?raw=true">
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_17413_input_output_3.png?raw=true">
-
-## 03. Solution
+## 02. Solution
 
 ```Python
 word = list(input().rstrip())

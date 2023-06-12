@@ -7,7 +7,7 @@ tags: [Python, Baekjoon]
 
 ## 01. Problem
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_13300.png?raw=true">
+[문제 확인하기](https://www.acmicpc.net/problem/13300){:target="_blank"}
 
 ## 02. Solution
 
@@ -28,4 +28,3 @@ for a in range(6):
             ans += student[a][b]//k + 1
 print(int(ans))
 ```
-

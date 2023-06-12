@@ -7,13 +7,9 @@ tags: [Python, Baekjoon]
 
 ## 01. Problem
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_2630_problem.png?raw=true">
+[문제 확인하기](https://www.acmicpc.net/problem/2630){:target="_blank"}
 
-## 02. Input_Output
-
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_2630_input_output.png?raw=true">
-
-## 03. Solution
+## 02. Solution
 
 ```Python
 N = int(input())

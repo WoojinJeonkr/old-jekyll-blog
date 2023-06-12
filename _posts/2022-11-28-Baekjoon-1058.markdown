@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Baekjoon 1058
-subtitle: Baekjoon 문제 풀이
+subtitle: 친구
 categories: Python
 tags: [Baekjoon, Python]
 ---
 
-# 01. Baekjoon 1058
+## 01. Baekjoon 1058
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_1058.png?raw=true">
+[문제 확인하기](https://www.acmicpc.net/problem/1058){:target="_blank"}
 
-# 02. 풀이
+## 02. 풀이
 
 ```Python
 n = int(input())

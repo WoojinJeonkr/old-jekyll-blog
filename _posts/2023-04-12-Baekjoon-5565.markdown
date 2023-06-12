@@ -7,7 +7,7 @@ tags: [Python, Baekjoon]
 
 ## 01. Problem
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_5565.png?raw=true">
+[문제 확인하기](https://www.acmicpc.net/problem/5565){:target="_blank"}
 
 ## 02. Solution
 
@@ -16,4 +16,3 @@ total_price = int(input())
 for _ in range(9): total_price -= int(input())
 print(total_price)
 ```
-

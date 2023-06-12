@@ -7,7 +7,7 @@ tags: [Python, Baekjoon]
 
 ## 01. Problem
 
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post_image/baekjoon/baekjoon_5800.png?raw=true">
+[문제 확인하기](https://www.acmicpc.net/problem/5800){:target="_blank"}
 
 ## 02. Solution
 
