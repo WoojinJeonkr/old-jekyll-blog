@@ -2,7 +2,7 @@
 layout: post
 title: 현재 날짜 출력하기
 subtitle: C++ 통해 날짜 출력 방법을 알아보자
-tags: [C++, Baekjoon]
+tags: [C++]
 ---
 
 ## 01. time 헤더 파일 포함하기
