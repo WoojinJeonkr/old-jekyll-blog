@@ -1,6 +1,5 @@
 ---
 title : Drawing Graphs with matplotlib (1)
-subtitle : matplotlib과 막대 그래프를 그리는 방법에 대해 알아보자
 author : "Woojin JEON"
 categories: Python
 tags : [Python]
