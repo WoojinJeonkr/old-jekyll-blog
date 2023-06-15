@@ -1,0 +1,32 @@
+---
+layout: post
+title: Baekjoon 10872
+subtitle: 팩토리얼
+tags: [C++, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/10872){:target="_blank"}
+
+## 02. Solution 1 (memory: 2020KB, time: 0ms)
+
+```C++
+#include <iostream>
+using namespace std;
+
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * factorial(n-1);
+    }
+}
+
+int main() {
+    int num;
+    cin >> num;
+    cout << factorial(num);
+    return 0;
+}
+```

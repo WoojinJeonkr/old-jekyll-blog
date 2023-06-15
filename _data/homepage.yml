@@ -1,0 +1,17 @@
+####################### banner #######################################
+banner:
+  enable: true
+  title: "Hi, I'm Woojin JEON. <br> I strive to be a collaborative developer, growing with colleagues."
+  image: "/assets/images/banner/illustration.svg"
+  bg_image: "/assets/images/banner/banner-bg.svg"
+
+######################## call to action ###############################
+call_to_action:
+  enable: false
+  title: "Get the best jekyll templates"
+  image: "/assets/images/jekyll-muscot.svg"
+  description: "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+  button:
+    enable: true
+    label: "Visit Here"
+    link: "https://themefisher.com/jekyll-themes/"

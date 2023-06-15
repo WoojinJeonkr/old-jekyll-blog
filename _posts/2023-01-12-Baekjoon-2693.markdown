@@ -1,0 +1,21 @@
+---
+layout: post
+title: Baekjoon 2693
+subtitle: N번째 큰 수
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/2693){:target="_blank"}
+
+## 02. Solution
+
+```Python
+n = int(input())
+for i in range(n):
+    number = list(map(int, input().split()))
+    number.sort()
+    print(number[-3])
+```

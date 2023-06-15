@@ -1,0 +1,39 @@
+---
+layout : post
+title : Recommended Jekyll theme sites
+subtitle : jekyll theme는 어디서 볼 수 있을까?
+author : WoojinJeon
+categories: Site
+
+tags : [Site, jekyll, theme]
+---
+
+# 1. jekyllthemes.org
+<a href="http://jekyllthemes.org/" target="_blank" rel="noopener noreferrer"><b>테마 보러가기</b></a><br>
+<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/jeyklltheme_1.png?raw=true" style="width:100%">
+
+보이는 테마가 다 잘되지는 않는 것 같다. Demo를 눌렀을 때 사이트가 없는 경우도 종종 보인다.
+
+# 2. themes.jekyllrc.org
+<a href="http://themes.jekyllrc.org/" target="_blank" rel="noopener noreferrer"><b>테마 보러가기</b></a><br>
+<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/jeyklltheme_2.png?raw=true" style="width:100%">
+
+접속해서 사용한 적은 없지만 첫화면은 굉장히 깔끔해보인다.
+
+# 3. jekyllthemes.io
+<a href="https://jekyllthemes.io/free" target="_blank" rel="noopener noreferrer"><b>테마 보러가기</b></a><br>
+<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/jeyklltheme_3.png?raw=true" style="width:100%">
+
+유료와 무료 테마가 공존하는 사이트. 포트폴리오, 블로그와 같이 사용하고자 하는 목적에 맞는 테마를 볼 수 있다.
+
+# 4. jekyllthemes.dev
+<a href="https://jekyllthemes.dev/" target="_blank" rel="noopener noreferrer"><b>테마 보러가기</b></a><br>
+<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/jeyklltheme_4.png?raw=true" style="width:100%">
+
+카드 형식으로 테마를 볼 수 있고 옆에 목차와 비슷하게 태그를 선택해서 테마를 볼 수 있다는 장점이 있다.
+
+# 5. rubygems.org
+<a href="https://rubygems.org/" target="_blank" rel="noopener noreferrer"><b>테마 보러가기</b></a><br>
+<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/jeyklltheme_5.png?raw=true" style="width:100%">
+
+깃허브 테마를 변경하기 위해 구글링하던 도중 찾아낸 사이트. 검색을 통해 테마를 볼 수 있다.<br/> 단점으로는 미리보기가 없어 해당 테마의 레포지토리로 들어간 뒤 미리보기를 봐야 한다.
