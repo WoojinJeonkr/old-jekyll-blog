@@ -28,6 +28,7 @@ plugins:
   - jekyll-youtube
   - jekyll-gist
 
+# pagination settings
 paginate: 6
 paginate_path: "/page/:num"
 
