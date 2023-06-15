@@ -1,8 +1,8 @@
 ---
 title: Greatest Common Divisor and Least Common Multiple
 author : "Woojin JEON"
-categories: Python
-tags : [Python]
+categories: Algorithm
+tags : [Algorithm]
 ---
 
 ### 1. 약수란?

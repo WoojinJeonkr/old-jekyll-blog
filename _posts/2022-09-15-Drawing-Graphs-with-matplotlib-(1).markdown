@@ -1,25 +1,19 @@
 ---
-layout : post
 title : Drawing Graphs with matplotlib (1)
 subtitle : matplotlib과 막대 그래프를 그리는 방법에 대해 알아보자
-author : WoojinJeon
+author : "Woojin JEON"
 categories: Python
-
-tags : [Python, matplotlib, graph, barchart]
+tags : [Python]
 ---
 
-# 목차
-- [목차](#목차)
-- [1. matplotlib이란? ](#1-matplotlib이란-)
-- [2. 막대 그래프 그리기 ](#2-막대-그래프-그리기-)
+### 1. matplotlib이란?
 
-# 1. matplotlib이란? <a name = "matplotlib이란?"></a>
-Python 프로그래밍 언어 및 수학적 확장 NumPy 라이브러리를 활용한 플로팅 라이브러리<br/>
-matplotlib.pyplot 모듈의 각각의 함수를 사용해서 간편하게 그래프를 만들고 변화를 줄 수 있다.<br/>
+Python 프로그래밍 언어 및 수학적 확장 NumPy 라이브러리를 활용한 플로팅 라이브러리이다.  
+matplotlib.pyplot 모듈의 각각의 함수를 사용해서 간편하게 그래프를 만들고 변화를 줄 수 있다.
 
-# 2. 막대 그래프 그리기 <a name = "barplot"></a>
+### 2. 막대 그래프 그리기
 
-<b>수직 막대 그래프</b>의 경우<br/>
+**수직 막대 그래프**의 경우
 
 ```python
 # 라이브러리 가져오기
@@ -46,9 +40,10 @@ plt.ylabel('score')
 plt.tight_layout() # 여백 조정
 plt.savefig('barplot.png') # barplot.png로 저장
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/barplot.png?raw=true" style="width:100%">
 
-<b>수평 막대 그래프</b>의 경우
+![barplot](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/barplot.png?raw=true)
+
+**수평 막대 그래프**의 경우
 
 ```python
 import matplotlib.pyplot as plt
@@ -74,4 +69,5 @@ plt.ylabel('score')
 plt.tight_layout() # 여백 조정
 plt.savefig('barhplot.png') # barhplot.png로 저장
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/barhplot.png?raw=true" style="width:100%">
+
+![barhplot](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/barhplot.png?raw=true)
