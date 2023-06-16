@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 19532
-subtitle: 수학은 비대면강의입니다
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/19532){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 31256KB, time: 40ms)
+#### 01. Python (memory: 31256KB, time: 40ms)
 
 ```Python
 a, b, c, d, e, f = map(int, input().split())

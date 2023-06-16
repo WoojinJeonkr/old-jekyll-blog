@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 14487
-subtitle: 욱제는 효도쟁이야!!
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/14487){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 36352KB, time: 56ms)
+#### 01. Python (memory: 36352KB, time: 56ms)
 
 ```Python
 n = int(input())

@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 13241
-subtitle: 최소공배수
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/13241){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 31256KB, time: 128ms)
+#### 01. Python (memory: 31256KB, time: 128ms)
 
 ```Python
 import sys

@@ -5,11 +5,11 @@ categories: Algorithm
 tags: [Python]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5217){:target="_blank"}
 
-## 02. Solution (memory: 31256KB, time: 44ms)
+### 02. Solution (memory: 31256KB, time: 44ms)
 
 ```python
 for _ in range(int(input())):

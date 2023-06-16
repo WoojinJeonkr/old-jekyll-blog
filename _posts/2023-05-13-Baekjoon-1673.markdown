@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 1673
-subtitle: 치킨 쿠폰
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1673){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 31256KB, time: 52ms)
+#### 01. Python (memory: 31256KB, time: 52ms)
 
 ```Python
 while 1:

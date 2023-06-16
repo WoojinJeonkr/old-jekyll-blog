@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 11098
-subtitle: 첼시를 도와줘!
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/11098){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 31256KB, time: 308ms)
+#### 01. Python (memory: 31256KB, time: 308ms)
 
 ```Python
 n = int(input())
@@ -20,7 +20,7 @@ for _ in range(n):
     print(max((input().split() for _ in range(p)), key=lambda x: int(x[0]))[1])
 ```
 
-### 02. Explanation
+#### 02. Explanation
 
 ```Python
 n = int(input())

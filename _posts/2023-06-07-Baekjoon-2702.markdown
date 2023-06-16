@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 2702
-subtitle: 초6 수학
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2702){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 31256KB, time: 128ms)
+#### 01. Python (memory: 31256KB, time: 128ms)
 
 ```Python
 def find_gcd(a, b):

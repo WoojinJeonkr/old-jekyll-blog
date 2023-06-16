@@ -1,15 +1,15 @@
 ---
-layout: post
 title: Baekjoon 10872
-subtitle: 팩토리얼
-tags: [C++, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10872){:target="_blank"}
 
-## 02. Solution (memory: 2020KB, time: 0ms)
+### 02. Solution (memory: 2020KB, time: 0ms)
 
 ```C++
 #include <iostream>

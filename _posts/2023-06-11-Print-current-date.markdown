@@ -1,11 +1,11 @@
 ---
 title: Print current date
 author: "Woojin JEON"
-categories: algorithm
-tags: [C++]
+categories: Study
+tags: [Study]
 ---
 
-## 01. time 헤더 파일 포함하기
+### 01. time 헤더 파일 포함하기
 
 ```C++
 #include <stdio.h>
@@ -14,7 +14,7 @@ tags: [C++]
 
 표준 입력/출력과 시간과 관련된 함수들을 포함하고 있는 헤더 파일들입니다.
 
-## 02. 현재 시간을 변수로 저장하기
+### 02. 현재 시간을 변수로 저장하기
 
 ```C++
 int main() {
@@ -30,7 +30,7 @@ int main() {
 - time(NULL) 함수를 사용하여 현재 시간을 초 단위로 얻어와 'timer' 변수에 저장합니다.
 - localtime(&timer) 함수를 사용하여 timer에 저장된 시간을 로컬 시간으로 변환하여 'struct_m' 형식의 't' 포인터에 저장합니다.
 
-## 03. 원하는 형태로 현재 시간 변환하기
+### 03. 원하는 형태로 현재 시간 변환하기
 
 ```C++
 printf("유닉스 타임 (Unix Time): %lld 초\n\n", timer);

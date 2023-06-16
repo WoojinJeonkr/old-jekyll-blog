@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 5576
-subtitle: 할로윈의 사탕
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5576){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 31256KB, time: 40ms)
+#### 01. Python (memory: 31256KB, time: 40ms)
 
 ```Python
 w, k = [sorted([int(input()) for _ in range(10)], reverse=True)[:3] for _ in range(2)]

@@ -1,15 +1,15 @@
 ---
-layout: post
 title: Baekjoon 10699
-subtitle: 오늘 날짜
-tags: [C++, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10699){:target="_blank"}
 
-## 02. Solution (memory: 1112KB, time: 0ms)
+### 02. Solution (memory: 1112KB, time: 0ms)
 
 ```C++
 #include <stdio.h>

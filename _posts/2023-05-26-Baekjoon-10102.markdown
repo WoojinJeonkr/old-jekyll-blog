@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 10102
-subtitle: 개표
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10102){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 31256KB, time: 40ms)
+#### 01. Python (memory: 31256KB, time: 40ms)
 
 ```Python
 v = int(input())

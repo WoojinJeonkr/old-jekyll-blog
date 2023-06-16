@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 21867
-subtitle: Java Bitecode
-tags: [Python, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/21867){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. Python (memory: 33036KB, time: 52ms)
+#### 01. Python (memory: 33036KB, time: 52ms)
 
 ```Python
 N, S = int(input()), input()

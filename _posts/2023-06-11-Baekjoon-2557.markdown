@@ -1,17 +1,17 @@
 ---
-layout: post
 title: Baekjoon 2557
-subtitle: Hello World!
-tags: [C++, Baekjoon]
+author: "Woojin JEON"
+categories: Algorithm
+tags: [Algorithm]
 ---
 
-## 01. Problem
+### 01. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2557){:target="_blank"}
 
-## 02. Solution
+### 02. Solution
 
-### 01. memory: 1112KB, time: 0ms
+#### 01. memory: 1112KB, time: 0ms
 
 ```C++
 #include <stdio.h>
@@ -21,7 +21,7 @@ int main() {
 }
 ```
 
-### 02. memory: 2020KB, time: 0ms
+#### 02. memory: 2020KB, time: 0ms
 
 ```C++
 #include <iostream>
