@@ -2,7 +2,7 @@
 title: Baekjoon 20299
 author: "Woojin JEON"
 categories: Algorithm
-tags: [Python]
+tags: [Algorithm]
 ---
 
 ### 01. Problem
