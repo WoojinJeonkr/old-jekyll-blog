@@ -1,33 +1,31 @@
 ---
-layout : post
 title : matplotlib을 이용하여 그래프 그리기 (5)
-subtitle : 시계열 데이터를 시각화하는 방법
-author : WoojinJeon
-categories: Python
-
-tags : [Python, matplotlib, graph, time_series_plot]
+author : "Woojin JEON"
+categories: EDA
+tags : [EDA]
 ---
 
-## 1. 시계열 데이터
-시간 순서로 배열된 데이터의 한 종류로 시간에 걸쳐 순차적으로 기록된다.<br/>
-다음과 같은 데이터를 시계열 데이터로 볼 수 있다.
-<li>주식수익률 데이터를 포함한 재무데이터</li>
-<li>인플레이션, 소비자 물가를 포함한 각종 경제 관련 데이터</li>
-<li>시간 순으로 기록된 정당 지지율</li>
-<br/>
+### 1. 시계열 데이터
 
-## 2. 시계열 데이터를 시각화하는 방법
-시계열 도표는 주어진 메트릭이 시간에 따라 어떻게 변하는지 시각화하는 데 사용된다.<br/>
-시계열 도표를 그리는 방법은 다음과 같다.<br/>
-<li>선 그래프</li>
-<li>히스토그램과 밀도 분포</li>
-<li>상자 수염 그림</li>
-<li>히트맵</li>
-<li>시차 도표 또는 산점도</li>
-<li>자기상관도표</li>
-<br/>
+시간 순서로 배열된 데이터의 한 종류로 시간에 걸쳐 순차적으로 기록된다. 다음과 같은 데이터를 시계열 데이터로 볼 수 있다:
 
-## 3. 시계열 도표
+- 주식수익률 데이터를 포함한 재무데이터
+- 인플레이션, 소비자 물가를 포함한 각종 경제 관련 데이터
+- 시간 순으로 기록된 정당 지지율
+
+### 2. 시계열 데이터를 시각화하는 방법
+
+시계열 도표는 주어진 메트릭이 시간에 따라 어떻게 변하는지 시각화하는 데 사용됩니다. 시계열 도표를 그리는 방법은 다음과 같습니다:
+
+- 선 그래프
+- 히스토그램과 밀도 분포
+- 상자 수염 그림
+- 히트맵
+- 시차 도표 또는 산점도
+- 자기상관도표
+
+### 3. 시계열 도표
+
 이 문서에서는 선 그래프를 통해 시계열 데이터를 다루는 방법에 대해 알아본다.<br/>
 
 ```python
@@ -70,9 +68,11 @@ df.plot(x='date', y='1y', color='red', ax=ax)
 plt.tight_layout()
 plt.savefig('time_series_line_plot.png')
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/time_series_line_plot.png?raw=true">
 
-## 5. 참고 자료
+![Time Series Line Plot](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/time_series_line_plot.png?raw=true)
+
+### 5. 참고 자료
+
 - [데이터 과학 – 금융(Finance) > 시계열 데이터 다루기(padr, tibbletime, lubridate)](http://aispiration.com/finance/stat-time-series-basics.html)
 - [18. 시계열 데이터](https://mindscale.kr/course/pandas-basic/timeseries/)
 - [Top 50 matplotlib Visualizations – The Master Plots (with full python code)](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#2.-Bubble-plot-with-Encircling)

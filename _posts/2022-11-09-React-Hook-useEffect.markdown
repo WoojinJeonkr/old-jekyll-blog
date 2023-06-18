@@ -1,19 +1,18 @@
 ---
-layout: post
 title: React Hook useEffect
-subtitle: How to use useEffect Hook in React?
-categories: React
-tags: [React, React Hook, useEffect]
+author: "Woojin JEON"
+categories: Study
+tags: [Study]
 ---
 
-## 01. useEffect Hook
+### 01. useEffect Hook
 
 - 컴포넌트가 렌더링 될 때 특정 작업을 실행할 수 있도록 하는 Hook
 - 리액트의 useEffect Hook 사용 시 함수 컴포넌트에서도 side effect 사용 가능 --> LifeCycle Hook 대체 가능
 
-## 02. 각 상황별 사용 방법
+### 02. 각 상황별 사용 방법
 
-### 1. 렌더링이 완료될 때마다 실행되는 경우
+#### 1. 렌더링이 완료될 때마다 실행되는 경우
 
 ```TypeScript
 import React, { useState, useEffect } from "react";
@@ -37,7 +36,7 @@ const UseEffectTest = () => {
 export default UseEffectTest;
 ```
 
-### 2. 최초 렌더링시에만 실행되는 경우
+#### 2. 최초 렌더링시에만 실행되는 경우
 
 ```TypeScript
 import React, { useState, useEffect } from "react";
@@ -61,7 +60,7 @@ const UseEffectTest = () => {
 export default UseEffectTest;
 ```
 
-### 3. 특정 값이 변경될 때에만 실행하는 경우
+#### 3. 특정 값이 변경될 때에만 실행하는 경우
 
 ```TypeScipt
 import React, { useState, useEffect } from "react";
@@ -89,6 +88,6 @@ const UseEffectTest = () => {
 export default UseEffectTest;
 ```
 
-## 03. Reference
+### 03. Reference
 
 - [reactjs - Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)

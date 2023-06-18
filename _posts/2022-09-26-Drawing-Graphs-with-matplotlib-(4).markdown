@@ -1,19 +1,17 @@
 ---
-layout : post
 title : Drawing Graphs with matplotlib (4)
-subtitle : 편차는 그래프로 어떻게 표현할까?
-author : WoojinJeon
-categories: Python
-
-tags : [Python, matplotlib, graph, Deviation]
+author : "Woojin JEON"
+categories: EDA
+tags : [EDA]
 ---
 
-## Deviation
-편차, 기본 데이터가 평균으로부터 얼마나 떨어져 있는지에 대해 나타낸다.<br/>
+#### Deviation
 
-## 편차 막대
-단일 메트릭을 기반으로 항목이 어떻게 변하는지 확인하고 변동의 순서와 양을 시각화하려는 경우 사용한다.<br/>
-데이터에서 그룹의 성능을 빠르게 구별하는 데 도움이 되며 매우 직관적이며 즉시 요점을 전달할 수 있다.<br/>
+편차는 기본 데이터가 평균으로부터 얼마나 떨어져 있는지에 대해 나타냅니다.
+
+#### 편차 막대
+
+편차 막대는 단일 메트릭을 기반으로 항목이 어떻게 변하는지 확인하고 변동의 순서와 양을 시각화하려는 경우 사용됩니다. 데이터에서 그룹의 성능을 빠르게 구별하는 데 도움이 되며 매우 직관적이며 즉시 요점을 전달할 수 있습니다.
 
 ```python
 # 라이브러리 불러오기
@@ -40,10 +38,12 @@ plt.grid(linestyle='--', alpha=0.5)
 plt.tight_layout()
 plt.savefig('diversing_bar.png')
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/diversing_bar.png?raw=true">
 
-## 편차 막대에 값 표시하기
-차트 내 각 항목의 값을 멋지고 보기 좋은 방식으로 표시하려는 경우 사용한다.<br/>
+![Diversing Bar](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/diversing_bar.png?raw=true)
+
+### 편차 막대에 값 표시하기
+
+차트 내 각 항목의 값을 멋지고 보기 좋은 방식으로 표시하려는 경우 사용됩니다.
 
 ```python
 # 라이브러리 불러오기
@@ -73,9 +73,11 @@ plt.xlim(-2.5, 2.5)
 plt.tight_layout()
 plt.savefig('diversing_text.png')
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/diversing_text.png?raw=true">
 
-## 편차를 점으로 표시하기
+![Diversing Text](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/diversing_text.png?raw=true)
+
+### 편차를 점으로 표시하기
+
 주의를 끌고자 하는 중요한 데이터 포인트를 강조하고 차트 내에서 적절하게 추론을 제공할 수 있다.<br/>
 
 ```python
@@ -120,9 +122,11 @@ plt.grid(linestyle='--', alpha=0.5)
 plt.tight_layout()
 plt.savefig('diversing_dot.png')
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/diversing_dot.png?raw=true">
 
-## 영역 차트
+![Diversing Dot](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/diversing_dot.png?raw=true)
+
+### 영역 차트
+
 축과 선 사이의 영역을 색칠함으로써 고점과 저점뿐만 아니라 고점과 저점의 지속 시간을 더욱 강조할 수 있다.<br/>
 고점의 지속 시간이 길수록 선 아래의 면적이 커진다.<br/>
 
@@ -159,9 +163,11 @@ plt.grid(alpha=0.5)
 plt.tight_layout()
 plt.savefig('Area_chart.png')
 ```
-<img src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/Area_chart.png?raw=true">
 
-## 5. 참고 자료
+![Area Chart](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/Area_chart.png?raw=true)
+
+### 5. 참고 자료
+
 - [Deviation](https://en.wikipedia.org/wiki/Deviation)
 - [Deviation Graph](https://depictdatastudio.com/charts/deviation-graph/)
 - [Top 50 matplotlib Visualizations – The Master Plots (with full python code)](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#2.-Bubble-plot-with-Encircling)

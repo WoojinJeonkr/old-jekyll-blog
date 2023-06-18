@@ -1,28 +1,27 @@
 ---
-layout: post
 title: Shallow copy and Deep copy
-subtitle: Why use Shallow copy and Deep copy?
-categories: React
-tags: [React, copy, Shallow copy, Deep copy]
+author: "Woojin JEON"
+categories: Study
+tags: [Study]
 ---
 
-## 01. 얕은 복사(Shallow Copy)
+### 01. 얕은 복사(Shallow Copy)
 
 - 새로운 객체에 원본 객체의 프로퍼티의 값을 정확히 복사
 - 프로퍼티의 값이 객체 형태라면, 객체의 주소를 복사
 
-=> 복사된 객체는 원본 객체와 동일한 프로퍼티와 값들을 새롭게 가지지만, 주소가 복사된 프로퍼티는 새로운 형태가 아닌 같은 것을 공유
+복사된 객체는 원본 객체와 동일한 프로퍼티와 값들을 새롭게 가지지만, 주소가 복사된 프로퍼티는 새로운 형태가 아닌 같은 것을 공유한다.  
+얕은 복사를 구현하기 위해 Object.assign() (원본 객체의 열거가능한 모든 프로퍼티를 복사해줌)을 사용한다.  
 
-- 얕은 복사를 구현하기 위해 Object.assign() (원본 객체의 열거가능한 모든 프로퍼티를 복사해줌)을 사용
 - 특징
   1. Property Descriptors 가 복사되지 않는다.
   2. 프로토타입 체인 또는 열거가능하지 않은 프로퍼티는 복사되지 않는다.
   3. 기본형 타입은 변경해도 서로 영향을 끼치지 않지만, 참조형 타입인 객체는 공유하고 있기 때문에 영향을 끼치게된다.
 
-## 02. 깊은 복사(Deep Copy)
+### 02. 깊은 복사(Deep Copy)
 
-- 원본 객체를 완전히 복사
-- 주소를 복사하지 않고, 새로운 메모리 공간을 확보해 생성 => 원본과는 별개의 데이터로 판단됨
+- 원본 객체를 완전히 복사한다.
+- 주소를 복사하지 않고, 새로운 메모리 공간을 확보해 생성 => 원본과는 별개의 데이터로 판단된다.
 - 구현 방식
   - 루프 => 재귀
 
@@ -63,6 +62,6 @@ tags: [React, copy, Shallow copy, Deep copy]
     let copyObject = _.cloneDeep(mainObject);
     ```
 
-## 03. Reference
+### 03. Reference
 
 - [Javascript:Shallow and Deep Copy](https://mygumi.tistory.com/322)

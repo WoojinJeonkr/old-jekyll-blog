@@ -1,21 +1,19 @@
 ---
-layout : post
 title : Drawing Graphs with matplotlib (3)
-subtitle : 측정값이나 데이터의 비중은 어떻게 표현할 수 있을까?
-author : WoojinJeon
-categories: Python
-
-tags : [Python, matplotlib, graph, piechart]
+author : "Woojin JEON"
+categories: EDA
+tags : [EDA]
 ---
 
-## 1. Pie Chart
-범주별 구성 비율을 원형으로 표현한 그래프이다<br/>
-Pie Chart의 특징은 다음과 같다.<br/>
-1. 차원별로 측정값의 비중을 보여주기 위한 목적으로 사용
-2. 전체 측정값의 합을 360도(비율 : 100%)로 정의하고 차원의 구분값에 따른 측정값의 비율에 맞춰 각 영역의 파이 차트 각도를 표현
-3. 부채꼴의 중심각을 구성 비율에 비례한다
+### 1. Pie Chart
 
-## 2. 기본적인 Pie Chart 그리기
+범주별 구성 비율을 원형으로 표현한 그래프이다. Pie Chart의 특징은 다음과 같다.
+
+1. 차원별로 측정값의 비중을 보여주기 위한 목적으로 사용
+2. 전체 측정값의 합을 360도(비율: 100%)로 정의하고 차원의 구분값에 따른 측정값의 비율에 맞춰 각 영역의 파이 차트 각도를 표현
+3. 부채꼴의 중심각을 구성 비율에 비례한다.
+
+### 2. 기본적인 Pie Chart 그리기
 
 ```python
 # matplotlib 라이브러리 불러오기
@@ -34,9 +32,10 @@ ax1.axis('equal') # 가로 세로 비율이 같으면 파이가 원으로 그려
 plt.tight_layout()
 plt.savefig('basic_pieplot.png')
 ```
-<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/basic_pieplot.png?raw=true">
 
-## 3. 범례와 값이 표시된 Pie Chart 그리기
+![Basic Pie Plot](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/basic_pieplot.png?raw=true)
+
+### 3. 범례와 값이 표시된 Pie Chart 그리기
 
 ```python
 # 라이브러리 불러오기
@@ -70,9 +69,10 @@ ax.set_title("Matplotlib bakery: A pie")
 plt.tight_layout()
 plt.savefig('pieplot_label.png')
 ```
-<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/pieplot_label.png?raw=true">
 
-## 4. Pie Chart + Bar Chart
+![Pie Plot with Labels](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/pieplot_label.png?raw=true)
+
+### 4. Pie Chart + Bar Chart
 
 ```python
 # 라이브러리 불러오기
@@ -137,9 +137,11 @@ con.set_linewidth(4)
 plt.tight_layout()
 plt.savefig('bar_of_pie.png')
 ```
-<img src = "https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/bar_of_pie.png?raw=true">
 
-## 5. 참고 자료
+![Bar of Pie](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/bar_of_pie.png?raw=true)
+
+### 5. 참고 자료
+
 - [Basic pie chart](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_features.html)
 - [Bar of pie](https://matplotlib.org/stable/gallery/pie_and_polar_charts/bar_of_pie.html)
 - [Labeling a pie and a donut](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html)

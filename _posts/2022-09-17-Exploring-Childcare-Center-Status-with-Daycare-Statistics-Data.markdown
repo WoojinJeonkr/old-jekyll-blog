@@ -1,21 +1,16 @@
 ---
-layout : post
 title : Exploring Childcare Center Status with Daycare Statistics Data
-subtitle : 공공데이터를 통해 어린이집 현황에 대해 알아보자
-author : WoojinJeon
+author : "Woojin JEON"
 categories: EDA
-
-tags : [EDA, data, pdf]
+tags : [EDA]
 ---
 
-# 1. 분석 목적
-<li>연도별 어린이 집 현황을 확인한다</li>
-<li>연도별로 어린이집을 다니는 아동 수와
- 교직원 수를 비교해본다</li>
-<li>각 자치구마다 어린이집이 얼마나 있는지 
- 확인해본다</li>
+### 1. 분석 목적
 
-<br/>
+- 연도별 어린이 집 현황을 확인한다
+- 연도별로 어린이집을 다니는 아동 수와 교직원 수를 비교해본다
+- 각 자치구마다 어린이집이 얼마나 있는지 확인해본다
 
-# 2. 분석 결과 확인하기
-<span><a href="https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/preschool.pdf" target="_blank" rel="noopener noreferrer">분석 결과 확인하기</a></span>
+### 2. 분석 결과 확인하기
+
+[분석 결과 확인하기](https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/preschool.pdf){: target="_blank"}

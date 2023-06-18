@@ -1,8 +1,8 @@
 ---
 title: Number Systems Manipulation
 author : "Woojin JEON"
-categories: Python
-tags : [Python]
+categories: Algorithm
+tags : [Algorithm]
 ---
 
 ### 1. 진법이란?

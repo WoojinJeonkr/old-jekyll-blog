@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Display text count in Textarea
-subtitle: React Example
+author: "Woojin JEON"
 categories: React
-tags: [React, text count, Textarea]
+tags: [React]
 ---
 
 ## 01. Display text count in Textarea

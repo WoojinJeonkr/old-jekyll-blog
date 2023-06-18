@@ -9,15 +9,15 @@ tags: [Study]
 
 순수한 html에서는 스타일 속성에 문자열을 할당하여 인라인 스타일을 설정할 수 있다.
 
-{% highlight html %}
+```html
 <p style="padding:2px">Start editing to see some magic happen :)</p>
-{% endhighlight %}
+```
 
 React/tsx에서의 style 속성은 html의 style 속성과 다르게 React.CSSProperties 유형이다.
 
-{% highlight typescript %}
+```Typescript
 <div style={{padding: 2}}>This is div element</div>
-{% endhighlight %}
+```
 
 이 때 html을 반환하는 tsx문법은 react가 변환할 때 모든 속성이 props 객체의 일부가 된다.  
 따라서 렌더링때마다 style 객체가 계산되기 때문에 성능적인 면과 재사용 부분에서 추천되지 않는다.

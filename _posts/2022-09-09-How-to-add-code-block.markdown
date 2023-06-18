@@ -1,8 +1,8 @@
 ---
 title: How to add code block
 author : "Woojin JEON"
-categories: Skill
-tags : [Skill]
+categories: Blog
+tags : [Blog]
 ---
 
 ### 🧱 코드블록이란?

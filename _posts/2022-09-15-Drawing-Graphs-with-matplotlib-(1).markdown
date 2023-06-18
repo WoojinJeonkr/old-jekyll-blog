@@ -1,8 +1,8 @@
 ---
 title : Drawing Graphs with matplotlib (1)
 author : "Woojin JEON"
-categories: Python
-tags : [Python]
+categories: Algorithm
+tags : [Algorithm]
 ---
 
 ### 1. matplotlib이란?
