@@ -7,7 +7,7 @@ tags: [Algorithm]
 
 ### 01. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/10834){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/10834){:target="_blank" rel="noopener noreferrer"}
 
 ### 02. Solution (Python, memory: 31256KB, time: 84ms)
 
