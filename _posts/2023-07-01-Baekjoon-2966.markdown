@@ -23,6 +23,7 @@ for i in range(n):
         if c[i] == p[j][i % len(p[j])]: globals()[j.lower()[0]] += 1
 
 m = max(a, b, g)
+
 print(m)
 
 for j in p.keys():
