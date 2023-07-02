@@ -26,7 +26,9 @@ tags: [Algorithm]
 
 슬라이딩 윈도우를 사용하면 전체 구간을 다시 계산하지 않고도 구간의 변화에 따라 연산을 업데이트할 수 있기 때문에 효율적인 알고리즘을 설계할 수 있습니다.  
 
-[![슬라이딩 윈도우 기법](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/sliding-window-technique.jpg?raw=true "출처: geeksforgeeks - Window Sliding Technique")](https://www.geeksforgeeks.org/window-sliding-technique/){:target="_blank" rel="noopener noreferrer"}
+![슬라이딩 윈도우 기법](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/sliding-window-technique.jpg?raw=true)
+
+[이미지 출처: geeksforgeeks - Window Sliding Technique](https://www.geeksforgeeks.org/window-sliding-technique/){:target="_blank" rel="noopener noreferrer"}
 
 ### 03. Solution 1 (Python, memory: 31256KB, time: 40ms)
 
