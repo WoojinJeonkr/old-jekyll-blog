@@ -10,7 +10,7 @@ layout : default
         <div class="mb-3 post-meta">
           {% if page.author %}
           <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | capitalize }}</a>{%endif%},
-          {{ page.date | date: '%b %d, %Y' }}, 🕰️ {{ page.content | reading_time }} minutes
+          {{ page.date | date: '%b %d, %Y' }}, 🕰️ {{ page.content | reading_time: page.content }} minutes
           {% if page.tags.size >= 1 %}
           <div class="tag-list">
             {% for tag in page.tags %}
@@ -23,7 +23,7 @@ layout : default
         <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
         {% endif %}
         <div class="content mb-5">
-          {{ page.content }}
+          {{ content }}
         </div>
         <!-- comments -->
         {% if site.disqus_shortname %}
