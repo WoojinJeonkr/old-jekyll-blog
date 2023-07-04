@@ -23,7 +23,7 @@ layout : default
         <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
         {% endif %}
         <div class="content mb-5">
-          {{ content }}
+          {{ page.content }}
         </div>
         <!-- comments -->
         {% if site.disqus_shortname %}
