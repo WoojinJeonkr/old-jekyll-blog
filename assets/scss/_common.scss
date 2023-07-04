@@ -176,3 +176,11 @@ textarea.form-control{
 .page-link:focus{
   box-shadow: none;
 }
+
+.tag-list {
+  text-align: right;
+
+  a {
+    margin-left: 9px;
+  }
+}

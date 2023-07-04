@@ -10,11 +10,13 @@ layout : default
         <div class="mb-3 post-meta">
           {% if page.author %}
           <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | capitalize }}</a>{%endif%},
-          {{ page.date | date: '%b %d, %Y' }}, 🕰️ {{ page.content | reading_time }} minutes,
+          {{ page.date | date: '%b %d, %Y' }}, 🕰️ {{ page.content | reading_time }} minutes
           {% if page.tags.size >= 1 %}
-          {% for tag in page.tags %}
-          <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a>
-          {% endfor %}
+          <div class="tag-list">
+            {% for tag in page.tags %}
+            <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">#{{ tag | capitalize }}</a>
+            {% endfor %}
+          </div>
           {% endif %}
         </div>
         {% if page.image %}
