@@ -27,6 +27,7 @@ plugins:
   - jekyll/tagging
   - jekyll-youtube
   - jekyll-gist
+  - jekyll-time-to-read
 
 # pagination settings
 paginate: 6
