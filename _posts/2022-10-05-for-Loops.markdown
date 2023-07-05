@@ -7,6 +7,7 @@ tags : [TypeScript, for_of, for_in]
 ---
 
 ## 1. for loop
+
 조건에 의해 지정된 횟수만큼 코드 블록을 실행하는데 사용된다.<br/>
 - 형태
 
