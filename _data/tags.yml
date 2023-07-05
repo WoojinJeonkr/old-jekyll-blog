@@ -1,16 +1,47 @@
-- Algorithm
-- Blog
-- EDA
-- Education
-- Study
-- Jekyll
-- Skill
-- Python
-- TypeScript
-- React
-- Spring
-- Spring Boot
-- TIL
-- Baekjoon
-- Arduino
-- Engineer Information Processing
+- tag: Algorithm
+  slug: algorithm
+
+- tag: Blog
+  slug: blog
+
+- tag: EDA
+  slug: eda
+
+- tag: Education
+  slug: education
+
+- tag: Study
+  slug: study
+
+- tag: Jekyll
+  slug: jekyll
+
+- tag: Skill
+  slug: skill
+
+- tag: Python
+  slug: python
+
+- tag: TypeScript
+  slug: typescript
+
+- tag: React
+  slug: react
+
+- tag: Spring
+  slug: spring
+
+- tag: Spring Boot
+  slug: spring-boot
+
+- tag: TIL
+  slug: til
+
+- tag: Baekjoon
+  slug: baekjoon
+
+- tag: Arduino
+  slug: arduino
+
+- tag: Engineer Information Processing
+  slug: engineer-information-processing

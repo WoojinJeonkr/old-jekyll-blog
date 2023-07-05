@@ -58,6 +58,13 @@ defaults:
       permalink: post/:title:output_ext
       layout: post
 
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      permalink: /tag/:slug
+      layout: tags
+
 # Tags
 tag_page_dir: tag
 tag_page_layout: tags
