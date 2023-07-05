@@ -7,7 +7,7 @@
     {% if post.date %}
       {{ post.date | date: '%b %d, %Y' }},
     {% endif %}
-    🕰️ {% include read_time.html %}{% capture space %} {% endcapture %}
+    {% capture space %} {% endcapture %}
     {% if post.tags.size >= 1 %}
       <span class="tag-list">
         {% assign space = ' ' | rjust: 60%}
