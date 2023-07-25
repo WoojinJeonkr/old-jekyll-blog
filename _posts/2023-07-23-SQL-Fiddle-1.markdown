@@ -1,11 +1,11 @@
 ---
 title: SQL Fiddle 1
 author: "Woojin JEON"
-categories: SQL
-tags: [SQL]
+categories: Engineer Information Processing
+tags: [Engineer Information Processing]
 ---
 
-### 01. 문제 [정보처리기사 실기 2022년 2회]
+### 01. 문제 [정보처리기사 실기 2022년 2회 3번]
 
 H회사의 전체 제품 단가 보다 큰 제품 출력을 하고자 한다. 괄호안에 들어갈 알맞는 용어를 작성하시오.
 
