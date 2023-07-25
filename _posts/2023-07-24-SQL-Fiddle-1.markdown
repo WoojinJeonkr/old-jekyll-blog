@@ -37,7 +37,7 @@ ALL
 CREATE TABLE 제품(
   제조사 varchar(1) null,
   제품명 varchar(32) null,
-  단가 int(32) null);
+  단가 int null);
 ```
 
 #### 03-2. 데이터 추가
