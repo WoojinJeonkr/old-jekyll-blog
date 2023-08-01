@@ -35,7 +35,7 @@ FROM patients;
 
 ### 04. 결과
 
-| **full_name**     |
+| full_name         |
 |-------------------|
 | Donald Waterfield |
 | Mickey Baasha     |
