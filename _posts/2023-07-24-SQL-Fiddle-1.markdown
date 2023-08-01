@@ -25,7 +25,9 @@ WHERE 단가 > (     ) (SELECT 단가 FROM 제품 WHERE 제조사='H')
 
 ### 02. 정답
 
+```text/plain
 ALL
+```
 
 ### 03. SQL 실행 순서
 

@@ -25,7 +25,9 @@ WHERE col1 in(2,3) or col2 in(3,5);
 
 ### 02. 정답
 
+```text/plain
 4
+```
 
 ### 03. SQL 실행 순서
 
