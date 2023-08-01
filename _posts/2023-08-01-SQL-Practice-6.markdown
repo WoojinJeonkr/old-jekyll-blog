@@ -7,7 +7,9 @@ tags: [Engineer Information Processing]
 
 ### 01. 문제 [[SQL Practice (Difficult: Easy) 7번](https://www.sql-practice.com/)]
 
-이름과 성을 하나의 열로 연결하여 전체 이름을 표시합니다.
+각 환자의 이름, 성 및 전체 주 이름을 표시합니다.
+
+예: 'ON' 대신 'Ontario'
 
 | patient_id | first_name | last_name  | gender | birth_date | city     | province_id | allergies  | height | weight |
 |------------|------------|------------|--------|------------|----------|-------------|------------|--------|--------|
