@@ -26,13 +26,13 @@ From patients
 where YEAR(birth_date) = 2010;
 ```
 
-### 04. 결과
+### 03. 결과
 
 | total_patients |
 |----------------|
 | 1              |
 
-### 05. YEAR, MONTH, DAY 함수 사용법
+### 04. YEAR, MONTH, DAY 함수 사용법
 
 ```sql
 SELECT YEAR(GETDATE()) AS [YEAR] -- 년
