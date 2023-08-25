@@ -9,7 +9,7 @@ tags: [Algorithm]
 
 [문제 확인하기](https://www.acmicpc.net/problem/4806){:target="_blank" rel="noopener noreferrer"}
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
 ```Python
 line_count = 0
