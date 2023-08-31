@@ -7,7 +7,7 @@ tags: [Algorithm]
 
 ### 01. 문제
 
-[문제 확인하기](https://www.hackerrank.com/challenges/weather-observation-station-13/problem?isFullScreen=true&h_r=next-challenge&h_v=zen){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true){:target="_blank" rel="noopener noreferrer"}
 
 ### 02. 정답 코드 (Python)
 
