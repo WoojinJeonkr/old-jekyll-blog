@@ -1,5 +1,5 @@
 ---
-title: itertools.permutations()
+title: itertools permutations()
 author: "Woojin JEON"
 categories: Algorithm
 tags: [Algorithm]
