@@ -1,5 +1,5 @@
 ---
-title: collections OrderDicted()
+title: Exceptions
 author: "Woojin JEON"
 categories: Algorithm
 tags: [Algorithm]
