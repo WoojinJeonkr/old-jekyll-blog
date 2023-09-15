@@ -7,19 +7,20 @@ tags: [Algorithm]
 
 ### 01. 문제
 
-[문제 확인하기](https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true&h_r=next-challenge&h_v=zen){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true){:target="_blank" rel="noopener noreferrer"}
 
 ### 02. 정답 코드 (Python)
 
 ```Python
 from itertools import permutations
 
+# 입력을 문자열 S와 정수 K로 분리합니다.
 S, K = input().split()
 
-# 순열을 구한 뒤 결과인 튜플 안 두 요소를 기준으로 알파벳 순으로 정렬 후 리스트로 묶는다.
-permutation_list = sorted(list(permutations(S, int(K))), key=lambda x : (x[0], x[1]))
+# 문자열 S에서 길이가 K인 순열을 모두 생성하고 사전순으로 정렬합니다.
+permutation_list = sorted(list(permutations(S, int(K))))
 
-# 리스트 안 튜플의 요소를 서로 붙여 하나씩 출력한다.
+# 정렬된 순열을 출력합니다.
 for i in permutation_list:
     print(''.join(i))
 ```
