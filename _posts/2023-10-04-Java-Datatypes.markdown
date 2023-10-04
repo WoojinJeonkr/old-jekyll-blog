@@ -7,7 +7,7 @@ tags: [Algorithm]
 
 ### 01. 문제
 
-[문제 확인하기](https://www.hackerrank.com/challenges/java-list/problem?isFullScreen=true){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true){:target="_blank" rel="noopener noreferrer"}
 
 ### 02. 정답 코드 (Java)
 
