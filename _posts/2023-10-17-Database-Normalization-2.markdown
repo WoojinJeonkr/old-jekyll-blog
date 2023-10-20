@@ -1,8 +1,8 @@
 ---
 title: Database Normalization 2
 author: "Woojin JEON"
-categories: Algorithm
-tags: [Algorithm]
+categories: Database
+tags: [Database]
 ---
 
 ### 01. 문제
