@@ -40,7 +40,11 @@ Silverlight는 XAML을 사용하여 사용자 인터페이스를 정의하고 �
 
 현재 RoboZZle은 앞서 설명한 [RoboZZle.com](http://www.robozzle.com/beta/)(Desktop)이나 [RoboZZle Droid](https://play.google.com/store/apps/details?id=com.team242.robozzle&hl=en)에서 플레이해볼 수 있으며 [ecole 42](https://42.fr/en/homepage/), [42SEOUL](https://42seoul.kr/seoul42/main/view)에서 온라인 테스트 중 한 종류로 사용하고 있습니다.
 
-### 04. 자료 출처
+### 04. 예제 문제 및 풀이: [Leftovers](http://www.robozzle.com/beta/index.html?puzzle=376)
+
+![RoboZZle - Leftovers](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/RoboZZle_Leftovers.gif?raw=true)
+
+### 05. 자료 출처
 
 - [Igor Ostrovsky Blogging](https://igoro.com/archive/category/robozzle/)
 - [42 School Test 1-18 level Answers 2023](https://youtu.be/f6a3vI5_XEg?si=DU9zmWqPHs9PFwNR)
