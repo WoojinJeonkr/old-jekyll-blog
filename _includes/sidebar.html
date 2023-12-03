@@ -17,7 +17,7 @@
               tag[0] == 'Engineer Information Processing' or
               tag[0] == 'SQL' or
               tag[0] == 'WAS' %}
-            <a href="{{ '/search.html?query=' | append: tag[0] | slugify }}/">{{ tag[0] }} ({{ tag[1] | size }})</a><br>
+            {{ tag[0] }} ({{ tag[1] | size }})<br>
         {% endif %}
       {% endfor %}
     </ul>
