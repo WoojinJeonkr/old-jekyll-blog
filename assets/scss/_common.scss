@@ -188,10 +188,10 @@ textarea.form-control{
   top: 700px; // 배너의 높이만큼 여백을 주어 사이드바가 배너 위에 위치하도록 함
   left: 30px;
   height: calc(100% - 250px); // 전체 높이에서 배너의 높이를 빼서 사이드바의 높이를 계산
-  width: min-content; // 최소 가로 너비로 설정하여 컨텐츠의 크기에 맞게 조절
+  width: 200px; // 최소 가로 너비로 설정하여 컨텐츠의 크기에 맞게 조절
   background-color: #f8f9fa;
-  overflow-y: auto;
+  overflow-y: hidden;
   z-index: 1001;
-  padding: 20px;
+  padding: 10px;
   transition: top 0.3s ease;
 }
