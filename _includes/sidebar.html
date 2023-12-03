@@ -17,7 +17,7 @@
               tag[0] == 'Engineer Information Processing' or
               tag[0] == 'SQL' or
               tag[0] == 'WAS' %}
-          <a href="https://woojinjeonkr.github.io/tag/{{ tag[0] | slugify }}/">{{ tag[0] }} ({{ tag[1] | size }})</a><br>
+          <a href="tag/{{ tag[0] | slugify }}/">{{ tag[0] }} ({{ tag[1] | size }})</a><br>
         {% endif %}
       {% endfor %}
     </ul>
