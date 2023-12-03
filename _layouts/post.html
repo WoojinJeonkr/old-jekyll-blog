@@ -15,7 +15,7 @@ layout : default
           <div class="tag-list">
             {% for tag in page.tags %}
             {% if site.data.tags contains tag %}
-            <a href="search.html?query={{ tag | slugify }}">#{{ tag | capitalize }}</a>
+            #{{ tag | capitalize }}
             {% endif %}
             {% endfor %}
           </div>
