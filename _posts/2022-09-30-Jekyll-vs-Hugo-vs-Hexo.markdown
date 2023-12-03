@@ -4,7 +4,7 @@ title : Jekyll vs Hugo vs Hexo
 subtitle : Jekyll과 Hugo, Hexo의 차이에 대해 알아보자
 categories : Skill
 
-tags : [Skill, Jekyll, Hugo, Hexo, static_site_generator]
+tags : [Skill, Jekyll, Hugo, Hexo]
 ---
 
 ## 01. 정적 웹사이트 생성기란?
