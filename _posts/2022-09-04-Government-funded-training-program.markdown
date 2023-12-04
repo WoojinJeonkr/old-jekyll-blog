@@ -25,8 +25,8 @@ tags: [Education]
 
 ### 2. 진행한 프로젝트
 
-| 프로젝트명 | 인원 | 기능 | 담당한 부분 |
-|:------------------------:|:----:|---------------------------------|-------------------------------|
-| [여성의류 쇼핑몰 웹사이트 구현](https://github.com/WoojinJeonkr/ShoppingMall){: target="_blank"} | 4명 | 1. 상품 추천<br> 2. 상품 정보 조회 및 구매 후기<br> 3. 고객센터 및 QnA<br> 4. 고객 및 제품 정보 기반 통계 | 1. 상품 구매 후기 페이지<br> 2. 통계 페이지 |
-| [여성의류 쇼핑몰 ML부분 구현](https://github.com/WoojinJeonkr/ShoppingMallML){: target="_blank"} | 3명 | 1. 카테고리 예측<br> 2. 분류 모델 정확도 / 구매 빈도 시각화<br> 3. 구매 후기 긍정 부정 여부 분석 | 1. 카테고리 예측<br> 2. 후기 긍정/부정 분석 |
-| [Chatbot 구현](https://github.com/WoojinJeonkr/ShoppingMall){: target="_blank"} | 3명 | 1. 상품 추천<br> 2. 의류 문의<br> 3. 구매 목록<br> 4. 일상 대화 | 상품 추천 + α |
+| 프로젝트명 | 인원 | 기능 | 담당한 부분 | 확인하기 |
+|:------------------------:|:----:|---------------------------------|-------------------------------|:------:|
+| [여성의류 쇼핑몰 웹사이트 구현](https://github.com/WoojinJeonkr/ShoppingMall){: target="_blank"} | 4명 | 1. 상품 추천<br> 2. 상품 정보 조회 및 구매 후기<br> 3. 고객센터 및 QnA<br> 4. 고객 및 제품 정보 기반 통계 | 1. 상품 구매 후기 페이지<br> 2. 통계 페이지 | [확인하기](https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/shoppingmall.pdf){: target="_blank"} |
+| [여성의류 쇼핑몰 ML부분 구현](https://github.com/WoojinJeonkr/ShoppingMallML){: target="_blank"} | 3명 | 1. 카테고리 예측<br> 2. 분류 모델 정확도 / 구매 빈도 시각화<br> 3. 구매 후기 긍정 부정 여부 분석 | 1. 카테고리 예측<br> 2. 후기 긍정/부정 분석 | [확인하기](https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/shoppingmallML.pdf){: target="_blank"} |
+| [Chatbot 구현](https://github.com/WoojinJeonkr/ShoppingMall){: target="_blank"} | 3명 | 1. 상품 추천<br> 2. 의류 문의<br> 3. 구매 목록<br> 4. 일상 대화 | 상품 추천 + α | [확인하기](https://github.com/WoojinJeonkr/Chatbot){: target="_blank"} |
