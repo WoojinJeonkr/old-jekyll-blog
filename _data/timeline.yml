@@ -1,0 +1,19 @@
+- title: title 1
+  subtitle: subtitle 1
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nibh, suscipit sed rhoncus quis, blandit quis sapien. Ut congue pharetra rhoncus. Praesent finibus vitae urna quis cursus. 
+  image: /path/to/image1.jpg
+
+- title: title 2
+  subtitle: Subtitle 2
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nibh, suscipit sed rhoncus quis, blandit quis sapien. Ut congue pharetra rhoncus. Praesent finibus vitae urna quis cursus. 
+  image: /path/to/image2.jpg
+
+- title: title 3
+  subtitle: Subtitle 3
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nibh, suscipit sed rhoncus quis, blandit quis sapien. Ut congue pharetra rhoncus. Praesent finibus vitae urna quis cursus. 
+  image: /path/to/image3.jpg
+
+- title: title 4
+  subtitle: Subtitle 4
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nibh, suscipit sed rhoncus quis, blandit quis sapien. Ut congue pharetra rhoncus. Praesent finibus vitae urna quis cursus. 
+  image: /path/to/image4.jpg

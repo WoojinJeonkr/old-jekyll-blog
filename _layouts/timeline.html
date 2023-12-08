@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="container">
+    <h3 style="text-align:center; margin-top: 30px; margin-bottom: 30px;">TimeLine</h3>
+    <h4 style="text-align:center; margin-top: 30px; margin-bottom: 30px;">Journey in the Field of Development</h4>
+    <div class="row">
+      <div class="col-12">
+        <div class="timeline">
+          <ul class="timeline">
+            {% for entry in site.data.timeline %}
+                {% assign loopindex = forloop.index | modulo: 2 %}
+                {% capture class %}
+                    {% if loopindex == 0 %}
+                        timeline-inverted
+                    {% endif %}
+                {% endcapture %}
+
+                <li class="{{ class }}">
+                    <div class="timeline-image">
+                        <img class="img-circle img-responsive" src="{{ site.baseurl }}/{% if entry.image %}{{ entry.image }}{% else %}{{site.career-img}}{% endif %}" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>{{ entry.title }}</h4>
+                            <h4 class="subheading">{{ entry.subtitle }}</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">{{ entry.content }}</p>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <img class="img-circle img-responsive" src="https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/timeline/study.jpg?raw=true" alt="">
+                </div>
+            </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
