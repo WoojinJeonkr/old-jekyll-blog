@@ -10,5 +10,10 @@ $white: #fff;
 $light: #F8F8F8;
 
 // Font Variables
-$primary-font: 'Muli', sans-serif;
+$primary-font: 'Muli', 'Parisienne', 'dancing-script', 'EduTas', sans-serif;
 $icon-font: 'themify';
+
+// External web fonts
+@import url(https://fonts.googleapis.com/css2?family=Parisienne&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap);

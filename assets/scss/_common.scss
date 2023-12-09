@@ -196,6 +196,12 @@ textarea.form-control{
   transition: top 0.3s ease;
 }
 
+.custom-heading {
+  font-family: nth($primary-font, 2); // _variables.scss에서 정의한 primary-font의 2번째 font 사용
+  text-align:center;
+  line-height: 2;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -230,10 +236,11 @@ textarea.form-control{
 }
 
 .timeline>li .timeline-panel {
+  margin-top: 1%;
   float: right;
   position: relative;
   width: 70%;
-  padding: 0 20px 20px 30px;
+  padding: 0px 20px 80px 80px;
   text-align: left;
 }
 
@@ -303,16 +310,23 @@ textarea.form-control{
 }
 
 .timeline .timeline-heading h4 {
-  margin-top: 0;
+  font-family: nth($primary-font, 1);
+  font-size: 18px;
+  margin-top: 10px;
   color: inherit;
 }
 
 .timeline .timeline-heading h4.subheading {
+  font-size: 12px;
+  font-family: nth($primary-font, 3);
+  line-height: 1;
   text-transform: none;
 }
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
+  font-family: nth($primary-font, 4);
+  font-size: 14px;
   margin-bottom: 0;
 }
 

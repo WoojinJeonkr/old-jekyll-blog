@@ -2,10 +2,17 @@
 layout: default
 ---
 
+<style>
+    .sidebar {
+        display: none;
+    }
+</style>
+
 <section class="section">
   <div class="container">
-    <h3 style="text-align:center; margin-top: 30px; margin-bottom: 30px;">TimeLine</h3>
-    <h4 style="text-align:center; margin-top: 30px; margin-bottom: 30px;">Journey in the Field of Development</h4>
+    <br>
+    <h3 class="custom-heading">Journey in the Field of Development</h3>
+    <br>
     <div class="row">
       <div class="col-12">
         <div class="timeline">
@@ -25,10 +32,11 @@ layout: default
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h4>{{ entry.title }}</h4>
-                            <h4 class="subheading">{{ entry.subtitle }}</h4>
+                            <h4 class="subheading">📍 {{ entry.location }}</h4>
+                            <h4 class="subheading">⌛ {{ entry.period }}</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">{{ entry.content }}</p>
+                            <p class="text-muted"">{{ entry.content }}</p>
                         </div>
                     </div>
                 </li>
