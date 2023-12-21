@@ -7,7 +7,7 @@ tags: [Algorithm]
 
 ### 01. 문제
 
-[문제 확인하기](https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true){:target="_blank" rel="noopener noreferrer"}
 
 ### 02. 정답 코드 (java)
 
