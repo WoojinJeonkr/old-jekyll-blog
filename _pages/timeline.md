@@ -1,4 +1,3 @@
 ---
 layout: timeline
-published : false
 ---

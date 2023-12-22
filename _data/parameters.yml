@@ -5,7 +5,7 @@ menu:
     - { name: Home, url: "/" }
     # - { name: Contact, url: "contact.html" }
     - { name: Tools, url: "tools.html" }
-    - { name: Timeline, url: "timeline.html" }
+    # - { name: Timeline, url: "timeline.html" }
 
   ##### Dropdown menu ######
 
