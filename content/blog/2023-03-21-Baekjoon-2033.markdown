@@ -1,0 +1,26 @@
+---
+external: false
+title: Baekjoon 2033
+description: 반올림
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/2033){:target="_blank"}
+
+## 02. Solution
+
+```Python
+def getAnswer(N):
+    compare_num = 10
+    while N > compare_num:
+        if N % compare_num >= compare_num // 2:
+            N += compare_num
+        N -= (N % compare_num)
+        compare_num *= 10
+    return N
+
+N = int(input())
+print(getAnswer(N=N))
+```
