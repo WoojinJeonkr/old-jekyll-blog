@@ -11,19 +11,19 @@ This blog's markdown is powered by [Markdoc](https://markdoc.dev/). In addition 
 
 You can embed YouTube videos in your blog posts.
 
-{% youtube url="https://www.youtube-nocookie.com/embed/StTqXEQ2l-Y" label="Everything is awesome - Lego movie song" /%}
+{% youtube url="<https://www.youtube-nocookie.com/embed/StTqXEQ2l-Y>" label="Everything is awesome - Lego movie song" /%}
 
 ## Tweet
 
 You can embed tweets in your blog posts.
 
-{% tweet url="https://twitter.com/flexdinesh/status/1605685194312122370" /%}
+{% tweet url="<https://twitter.com/flexdinesh/status/1605685194312122370>" /%}
 
 ## CodePen
 
 You can embed codepens in your blog posts.
 
-{% codepen url="https://codepen.io/ruphaa/pen/eYJqjgq" title="Ecosystem - Pen in CSS by Ruphaa" /%}
+{% codepen url="<https://codepen.io/ruphaa/pen/eYJqjgq>" title="Ecosystem - Pen in CSS by Ruphaa" /%}
 
 ## GitHub Gist
 

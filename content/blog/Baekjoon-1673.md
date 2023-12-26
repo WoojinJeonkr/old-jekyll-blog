@@ -1,0 +1,27 @@
+---
+external: false
+title: "Baekjoon 1673"
+date: 2023-05-13
+---
+
+### 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/1673){:target="_blank"}
+
+### 02. Solution
+
+#### 01. Python (memory: 31256KB, time: 52ms)
+
+```Python
+while 1:
+    try:
+        n, k = map(int, input().split())
+        result = 0 
+        result += n
+        while n//k:
+            result += n//k
+            n = n//k + n%k
+        print(result)
+    except:
+        break
+```

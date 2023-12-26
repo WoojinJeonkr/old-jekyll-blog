@@ -1,0 +1,28 @@
+---
+external: false
+title: "Baekjoon 13241"
+date: 2023-06-08
+---
+
+### 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/13241){:target="_blank"}
+
+### 02. Solution
+
+#### 01. Python (memory: 31256KB, time: 128ms)
+
+```Python
+import sys
+input = sys.stdin.readline
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+a, b = map(int, input().split())
+lcm = (a * b) // gcd(a, b)
+
+print(lcm)
+```
