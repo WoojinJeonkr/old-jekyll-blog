@@ -16,7 +16,7 @@ date: 2022-10-09
 Cross Origin Resource Sharing의 약자로 도메인이 다른 자원에 리소스를 요청할 때 접근 권한을 부여하는 메커니즘이다.
 즉, 다른 도메인(ex. http : 프로토콜, localhost : 호스트, 8080: 포트)의 자원을 쓰려면 자원의 주인이 허락한 규약을 지켜야 하는데 이러한 규약을 표준화한 것을 말한다.
 
-![교차 출처 리소스 공유](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/CORS.png?raw=true)
+![교차 출처 리소스 공유](/images/CORS.png)
 **이미지 출처:** [https://developer.mozilla.org/ko/docs/Web/HTTP/CORS](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)
 
 ## 3. CORS 발생 예시

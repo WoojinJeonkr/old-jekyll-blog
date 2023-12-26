@@ -16,7 +16,7 @@ jwt는 'xxxxx.yyyyy.zzzzz'와 같은 '머리글(헤더).유효 탑재량(페이�
 머리글은 일반적으로 토큰 유형(JWT)과 사용 중인 서명 알고리즘(예: HMAC SHA256 또는 RSA)의 두 부분으로 구성된다.
 예를 들어,
 
-```JSON
+```json
 {
   "alg": "HS256",
   "typ": "JWT"
@@ -33,7 +33,7 @@ jwt는 'xxxxx.yyyyy.zzzzz'와 같은 '머리글(헤더).유효 탑재량(페이�
 
 유효탑재량(페이로드)의 예는 다음과 같다.
 
-```JSON
+```json
 {
   "sub": "1234567890",
   "name": "John Doe",
@@ -46,7 +46,7 @@ jwt는 'xxxxx.yyyyy.zzzzz'와 같은 '머리글(헤더).유효 탑재량(페이�
 서명 부분을 생성하려면 인코딩된 헤더, 인코딩된 페이로드, 비밀, 헤더에 지정된 알고리즘을 가져와서 서명해야 한다.
 예를 들어 HMAC SHA256 알고리즘을 사용하려는 경우 서명은 다음과 같은 방식으로 생성된다.
 
-```Plain/Text
+```textile
 HMACSHA256(
   base64UrlEncode(header) + "." +
   base64UrlEncode(payload),
@@ -59,7 +59,7 @@ HMACSHA256(
 
 인증에서 사용자가 자격 증명을 사용하여 성공적으로 로그인하면 JSON 웹 토큰이 반환된다. 사용자가 보호된 경로 또는 리소스에 액세스하려고 할 때마다 사용자 에이전트는 일반적으로 Bearer 스키마를 사용하여 Authorization 헤더 에서 JWT를 보내야 하는데 헤더의 내용은 다음과 같다.
 
-```Plain/Text
+```textile
 Authorization: Bearer <token>
 ```
 
@@ -69,7 +69,7 @@ HTTP 헤더를 통해 JWT 토큰을 보내는 경우 토큰이 너무 커지지 
 
 다음은 API 또는 리소스에 액세스하기 위해 JWT를 얻고 사용하는 방법에 대해 설명한 다이어그램이다.
 
-![diagram](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/Api_Jwt.png?raw=true)
+![diagram](/images/api_Jwt.png)
 
 서명된 토큰을 사용하면 토큰에 포함된 모든 정보가 사용자 또는 다른 당사자가 변경할 수 없더라도 노출되게 되므로 토큰에 비밀 정보를 입력해서는 안된다.
 

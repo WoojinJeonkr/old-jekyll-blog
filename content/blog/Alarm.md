@@ -43,4 +43,4 @@ void loop(){
 
 ### 🖳 회로 연결 및 작동
 
-![Alarm](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/video/Alarm.gif?raw=true)
+![Alarm](/public/images/video/Alarm.gif)
