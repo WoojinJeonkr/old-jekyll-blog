@@ -15,4 +15,4 @@ date: 2022-09-13
 
 ## 3. 분석 결과
 
-[분석 결과 확인하기](https://nbviewer.org/github/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/pdf/hanriver.pdf)
+[분석 결과 확인하기](https://nbviewer.org/github/WoojinJeonkr/woojinBlog/blob/main/public/images/doc/analyzing_seoul_han_river_park_visitor_status.pdf)
