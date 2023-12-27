@@ -11,7 +11,7 @@ date: 2022-10-21
 
 `npx create-react-app 폴더명 --template typescript`를 통해 TypeScript라는 언어로 react 프로젝트를 실행할 수 있다.
 위의 명령어로 설치하게 되면 다음과 같은 구조가 나오게 된다.
-![create-react-app_structure](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/create-react-app_structure.png?raw=true)
+![create-react-app_structure](/images/create-react-app_structure.png)
 이러한 구조를 CRA(Create-React-App) 구조라고 부른다.
 
 ## 2. Manifest.json

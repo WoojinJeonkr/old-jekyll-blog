@@ -13,7 +13,7 @@ date: 2023-07-02
 - 연속적인 날짜의 온도 합을 구하는 문제입니다.
 - 초기에 K일 동안의 합으로 최댓값을 설정한 후, 새로운 날의 온도를 추가하고 이전 K일 전 날의 온도를 제거하여 합을 갱신하며 최댓값을 찾아 연속적인 며칠 동안의 온도 합 중 가장 큰 값을 구하고자 합니다.  
 
-#### 💡 슬라이딩 윈도우(Sliding Window) 기법  
+### 2-1. 💡 슬라이딩 윈도우(Sliding Window) 기법  
 
 슬라이딩 윈도우 기법은 배열 또는 리스트와 같은 데이터 구조에서 고정된 크기의 윈도우(창문)를 이용하여 구간을 이동하면서 연산을 수행하는 기법입니다. 이 윈도우를 일정한 간격으로 이동시켜가며 구간 내의 연산을 수행하고, 각 구간의 결과를 얻을 수 있습니다. [시간 복잡도](2022-10-19-Time-complexity-and-Space-complexity.markdown)를 줄이기 위해 중첩된 반복문을 어떻게 단일 반복문으로 바꿀 수 있는지 보여줍니다.  
 
@@ -25,7 +25,7 @@ date: 2023-07-02
 
 슬라이딩 윈도우를 사용하면 전체 구간을 다시 계산하지 않고도 구간의 변화에 따라 연산을 업데이트할 수 있기 때문에 효율적인 알고리즘을 설계할 수 있습니다.  
 
-![슬라이딩 윈도우 기법](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/sliding-window-technique.jpg?raw=true)
+![슬라이딩 윈도우 기법](/images/sliding-window-technique.jpg)
 
 [이미지 출처: geeksforgeeks - Window Sliding Technique](https://www.geeksforgeeks.org/window-sliding-technique/)
 
