@@ -6,7 +6,7 @@ date: 2022-11-28
 
 ## 01. Baekjoon 1058
 
-[문제 확인하기](https://www.acmicpc.net/problem/1058){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/1058)
 
 ## 02. 풀이
 

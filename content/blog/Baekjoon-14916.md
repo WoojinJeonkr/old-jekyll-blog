@@ -6,7 +6,7 @@ date: 2023-04-17
 
 ## 01. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/14916){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/14916)
 
 ## 02. Solution
 
@@ -24,7 +24,7 @@ print(mylist[0])
 
 ### 02. Java 11 (memory: 17740KB, time: 220ms)
 
-```Java
+```java
 import java.util.Scanner;
 
 public class Main {

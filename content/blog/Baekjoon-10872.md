@@ -6,7 +6,7 @@ date: 2023-06-14
 
 ### 01. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/10872){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/10872)
 
 ### 02. Solution (memory: 2020KB, time: 0ms)
 

@@ -6,7 +6,7 @@ date: 2023-06-17
 
 ### 01. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/13752){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/13752)
 
 ### 02. Solution 1 (Python, memory: 31256KB, time: 48ms)
 

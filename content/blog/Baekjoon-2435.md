@@ -81,7 +81,7 @@ int main() {
 
 ### 05. Solution 3 (Java 11, memory: 17596KB, time: 208ms)
 
-```Java
+```java
 import java.util.Scanner;
 
 public class Main {

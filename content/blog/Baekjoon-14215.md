@@ -29,7 +29,7 @@ print(result)
 
 ### 03. Solution 2 (Java 11, memory: 14536KB, time: 132ms)
 
-```Java
+```java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

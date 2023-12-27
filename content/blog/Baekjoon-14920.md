@@ -6,7 +6,7 @@ date: 2023-06-22
 
 ### 01. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/14920){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/14920)
 
 ### 02. Solution (C++17, memory: 2020KB, time: 0ms)
 

@@ -6,7 +6,7 @@ date: 2022-12-10
 
 ## 01. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/1406){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/1406)
 
 ## 02. Solution
 

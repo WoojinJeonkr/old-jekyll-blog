@@ -10,7 +10,7 @@ date: 2023-08-16
 
 ### 02. 정답 코드 (Java, memory: 18300KB, time: 236ms)
 
-```Java
+```java
 import java.util.Scanner;
 
 public class Main {

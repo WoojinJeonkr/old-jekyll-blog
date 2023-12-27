@@ -6,7 +6,7 @@ date: 2023-05-23
 
 ### 01. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/1969){:target="_blank"}
+[문제 확인하기](https://www.acmicpc.net/problem/1969)
 
 ### 02. Solution
 
