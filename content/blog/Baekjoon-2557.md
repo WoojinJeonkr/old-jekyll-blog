@@ -12,7 +12,7 @@ date: 2023-06-11
 
 ### 1. memory: 1112KB, time: 0ms
 
-```C++
+```cpp
 #include <stdio.h>
 int main() {
     printf("Hello World!");
@@ -22,7 +22,7 @@ int main() {
 
 ### 2. memory: 2020KB, time: 0ms
 
-```C++
+```cpp
 #include <iostream>
 int main() {
     std::cout << "Hello World!"

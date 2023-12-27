@@ -16,7 +16,7 @@ for _ in range(int(input())): print('=' * int(input()))
 
 ## 3. Solution 2 (C++ 17, memory: 2020KB, time: 4ms)
 
-```C++
+```cpp
 #include <iostream>
 #include <string>
 #include <string_view>

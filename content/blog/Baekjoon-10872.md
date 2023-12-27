@@ -10,7 +10,7 @@ date: 2023-06-14
 
 ## 2. Solution (memory: 2020KB, time: 0ms)
 
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 

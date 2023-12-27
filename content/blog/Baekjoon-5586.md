@@ -10,7 +10,7 @@ date: 2023-06-20
 
 ## 2. Solution 1 (C++17, memory: 2024KB, time: 0ms)
 
-```C++
+```cpp
 #include <iostream>
 #include <string>
 #include <vector>
@@ -41,7 +41,7 @@ int main() {
 
 ## 3. Solution 2 (Python, memory: 31256KB, time: 44ms)
 
-```C++
+```cpp
 li = list(input())  # 입력을 문자 리스트로 변환
 
 # 리스트 컴프리헨션을 사용하여 'JOI'와 'IOI'의 개수 계산 및 True 값의 합을 구함

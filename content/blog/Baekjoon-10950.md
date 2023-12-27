@@ -10,7 +10,7 @@ date: 2023-06-13
 
 ## 2. Solution 1 (memory: 2020KB, time: 4ms)
 
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -30,7 +30,7 @@ int main() {
 
 위에서 작성한 코드를 실행시켰을 때 실행 시간이 4ms가 걸려서 이를 0ms로 줄여보고자 하였다.
 
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 

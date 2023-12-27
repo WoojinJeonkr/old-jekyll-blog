@@ -10,7 +10,7 @@ date: 2023-06-19
 
 ## 2. Solution 1 (C++17, memory: 2020KB, time: 0ms)
 
-```C++
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>

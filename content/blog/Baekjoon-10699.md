@@ -10,7 +10,7 @@ date: 2023-06-11
 
 ## 2. Solution (memory: 1112KB, time: 0ms)
 
-```C++
+```cpp
 #include <stdio.h>
 #include <time.h>
 
