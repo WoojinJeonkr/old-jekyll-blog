@@ -4,15 +4,15 @@ title: "Baekjoon 14916"
 date: 2023-04-17
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/14916)
 
-## 02. Solution
+## 2. Solution
 
-### 01. Python (memory: 31256KB, time: 48ms)
+## 1. Python (memory: 31256KB, time: 48ms)
 
-```Python
+```python
 n = int(input())
 mylist = list(range(1, n+1))
 
@@ -22,7 +22,7 @@ while len(mylist) > 1:
 print(mylist[0])
 ```
 
-### 02. Java 11 (memory: 17740KB, time: 220ms)
+## 2. Java 11 (memory: 17740KB, time: 220ms)
 
 ```java
 import java.util.Scanner;

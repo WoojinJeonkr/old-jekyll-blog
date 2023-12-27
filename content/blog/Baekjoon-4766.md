@@ -4,13 +4,13 @@ title: "Baekjoon 4766"
 date: 2023-08-05
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4766){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4766)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 사용자로부터 실수값을 입력받아 변수 T1에 저장합니다.
 T1 = float(input())
 

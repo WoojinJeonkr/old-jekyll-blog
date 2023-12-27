@@ -4,13 +4,13 @@ title: "Baekjoon 2947"
 date: 2023-07-09
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2947){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2947)
 
-### 02. 풀이 (Python, memory: 31256KB, time: 40ms)
+## 2. 풀이 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 def sort_pieces(pieces):
     # 정렬의 목표가 되는 순서를 지정한다.
     target_sequence = [1, 2, 3, 4, 5]

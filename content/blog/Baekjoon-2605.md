@@ -4,13 +4,13 @@ title: "Baekjoon 2605"
 date: 2022-12-21
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2605)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 arr = list(map(int, input().split()))
 lst = []

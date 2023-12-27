@@ -4,13 +4,13 @@ title: "Baekjoon 4328"
 date: 2023-08-30
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4328){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4328)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 64ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 64ms)
 
-```Python
+```python
 def base_remainder(b, p, m):
     # p를 10진수로 변환하고, m을 10진수 기준으로 나눈 나머지를 계산합니다.
     n = int(p, b) % int(m, b)

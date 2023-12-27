@@ -4,13 +4,13 @@ title: "Baekjoon 13706"
 date: 2023-01-05
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/13706)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 from math import isqrt
 print(isqrt(int(input())))
 ```

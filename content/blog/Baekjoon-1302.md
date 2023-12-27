@@ -4,13 +4,13 @@ title: "Baekjoon 1302"
 date: 2022-12-23
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1302)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 best = {}
 for i in range(N):

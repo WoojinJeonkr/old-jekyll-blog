@@ -4,15 +4,13 @@ title: "Baekjoon 1268"
 date: 2023-04-21
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1268)
 
-## 02. Solution
+## 2. Solution(Python, memory: 86116KB, time: 984ms)
 
-### 01. Python (memory: 86116KB, time: 984ms)
-
-```Python
+```python
 num_students = int(input())
 scores = [list(map(int, input().split())) for _ in range(num_students)]
 

@@ -4,15 +4,15 @@ title: "Baekjoon 18406"
 date: 2023-11-30
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/18406){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/18406)
 
-### 02. 문제 해석
+## 2. 문제 해석
 
 주어진 문제는 주어진 수의 자릿수를 반으로 나누어 왼쪽 부분과 오른쪽 부분의 각 자릿수 합이 같은지 확인하는 문제입니다. 주어진 수를 문자열로 변환하여 각 자릿수를 더해주면서 반으로 나누어 왼쪽 부분과 오른쪽 부분의 합을 계산하고, 그 결과를 비교하여 "LUCKY" 또는 "READY"를 출력하면 됩니다.
 
-### 03. 정답 코드 (python3, memory: 31120KB, time: 52ms)
+## 3. 정답 코드 (python3, memory: 31120KB, time: 52ms)
 
 ```python
 def lucky_straight(score):

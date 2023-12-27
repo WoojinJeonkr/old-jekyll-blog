@@ -4,13 +4,13 @@ title: "Baekjoon 2747"
 date: 2023-01-17
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2747)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 a, b = 0, 1
 for i in range(n):

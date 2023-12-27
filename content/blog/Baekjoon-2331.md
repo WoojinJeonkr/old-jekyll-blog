@@ -4,13 +4,13 @@ title: "Baekjoon 2331"
 date: 2023-01-14
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2331)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 A, P = map(int, input().split())
 lst = [A]
 while True:

@@ -4,13 +4,13 @@ title: "Baekjoon 2491"
 date: 2023-01-02
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2491)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 li = list(map(int, input().split()))
 dp1, dp2 = [1]*N, [1]*N

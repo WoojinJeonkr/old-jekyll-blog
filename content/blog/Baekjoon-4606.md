@@ -4,13 +4,13 @@ title: "Baekjoon 4606"
 date: 2023-08-03
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4606){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4606)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 주어진 문자열을 percent-encoding 방식으로 변환하는 함수
 def percent_encode(input_str):
     # URL 인코딩 테이블 정의

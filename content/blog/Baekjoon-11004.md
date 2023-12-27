@@ -4,13 +4,13 @@ title: "Baekjoon 11004"
 date: 2023-01-08
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/11004)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 # N, K를 입력받는다.
 N, K = map(int, input().split())
 

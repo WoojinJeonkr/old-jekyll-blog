@@ -4,11 +4,11 @@ title: "Baekjoon 2156"
 date: 2023-08-19
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2156){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2156)
 
-### 02. 정답 코드 (C++17, memory: 2020KB, time: 4ms)
+## 2. 정답 코드 (C++17, memory: 2020KB, time: 4ms)
 
 ```cpp
 #include <iostream>

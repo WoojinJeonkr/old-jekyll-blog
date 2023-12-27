@@ -4,13 +4,13 @@ title: "Baekjoon 5598"
 date: 2023-03-03
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5598)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 lst = list(input())
 for i in range(len(lst)):
     k = ord(lst[i]) - 3

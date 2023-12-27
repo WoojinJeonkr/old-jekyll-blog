@@ -4,13 +4,13 @@ title: "Baekjoon 2991"
 date: 2023-01-15
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2991)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 A, B, C, D = map(int, input().split())
 li = list(map(int, input().split()))
 for n in li:

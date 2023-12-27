@@ -4,11 +4,11 @@ title: "Baekjoon 20299"
 date: 2023-06-16
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/20299)
 
-### 02. Solution (memory: 157624KB, time: 1400ms)
+## 2. Solution (memory: 157624KB, time: 1400ms)
 
 ```python
 import sys

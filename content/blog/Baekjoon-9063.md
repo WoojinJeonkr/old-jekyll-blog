@@ -4,13 +4,13 @@ title: "Baekjoon 9063"
 date: 2023-09-13
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/9063){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/9063)
 
-### 02. 정답 코드 (Python, memory: 35196KB, time: 1996ms)
+## 2. 정답 코드 (Python, memory: 35196KB, time: 1996ms)
 
-```Python
+```python
 n = int(input())
 x, y = [], []
 for i in range(n):

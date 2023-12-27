@@ -4,13 +4,13 @@ title: "Baekjoon 2822"
 date: 2023-02-10
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2822)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 score = []
 
 for i in range(8):

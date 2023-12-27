@@ -4,13 +4,13 @@ title: "Baekjoon 6603"
 date: 2023-01-24
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/6603)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 def dfs(dep):
     if dep == 6:
         print(*li)

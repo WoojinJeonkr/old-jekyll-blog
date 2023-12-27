@@ -4,13 +4,13 @@ title: "Baekjoon 9251"
 date: 2023-08-28
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/9251){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/9251)
 
-### 02. 정답 코드 (Python, memory: 55712KB, time: 348ms)
+## 2. 정답 코드 (Python, memory: 55712KB, time: 348ms)
 
-```Python
+```python
 def longest_common_subsequence_length(str1, str2):
     len_str1 = len(str1)
     len_str2 = len(str2)

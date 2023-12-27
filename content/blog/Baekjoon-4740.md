@@ -4,13 +4,13 @@ title: "Baekjoon 4740"
 date: 2023-09-14
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4740){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4740)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 while True:
     # 문장을 입력받는다.
     sentence = input()

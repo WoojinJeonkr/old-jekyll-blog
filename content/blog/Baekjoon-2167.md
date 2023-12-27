@@ -4,13 +4,13 @@ title: "Baekjoon 2167"
 date: 2022-12-15
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2167)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n, m = map(int, input().split())
 a = []
 dp = [[0] * (m + 1) for _ in range(n + 1)]

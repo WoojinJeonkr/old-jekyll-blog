@@ -4,15 +4,15 @@ title: "Baekjoon 10813"
 date: 2023-04-30
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10813)
 
-## 02. Solution
+## 2. Solution
 
-### 01. Python (memory: 31256KB, time: 48ms)
+## 1. Python (memory: 31256KB, time: 48ms)
 
-```Python
+```python
 n, m = map(int, input().split())
 basket = [str(i + 1) for i in range(n)]
 

@@ -4,13 +4,13 @@ title: "Baekjoon 11815"
 date: 2023-01-04
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/11815)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 X = list(map(int, input().split()))
 

@@ -4,15 +4,15 @@ title: "Baekjoon 10102"
 date: 2023-05-26
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10102)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 40ms)
+### 1. Python (memory: 31256KB, time: 40ms)
 
-```Python
+```python
 v = int(input())
 vote = list(str(input()))
 

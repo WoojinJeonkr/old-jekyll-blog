@@ -4,13 +4,13 @@ title: Baekjoon 10162
 date: 2022-12-27
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10162)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 T = int(input())
 
 if T % 10 != 0:

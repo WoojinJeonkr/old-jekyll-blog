@@ -4,13 +4,13 @@ title: "Baekjoon 14912"
 date: 2023-11-16
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/14912){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/14912)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 76ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 76ms)
 
-```Python
+```python
 def count_digit_frequency(n, digit):
     count = 0
     # 1부터 n까지의 숫자에 대해 반복

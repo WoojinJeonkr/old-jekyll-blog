@@ -4,11 +4,11 @@ title: "Baekjoon 17173"
 date: 2023-06-26
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/17173){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/17173)
 
-### 02. Solution (Python, memory: 31256KB, time: 52ms)
+## 2. Solution (Python, memory: 31256KB, time: 52ms)
 
 ```python
 N, M = map(int, input().split())
@@ -22,7 +22,7 @@ for i in range(1, N+1):
 print(result)
 ```
 
-### 03. Solution (C++17, memory: 2020KB, time: 0ms)
+## 3. Solution (C++17, memory: 2020KB, time: 0ms)
 
 ```cpp
 #include <iostream>

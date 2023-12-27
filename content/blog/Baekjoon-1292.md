@@ -4,13 +4,13 @@ title: "Baekjoon 1292"
 date: 2023-03-11
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1292)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 a, b = map(int, input().split())
 temp = []
 for i in range(1, b + 1):

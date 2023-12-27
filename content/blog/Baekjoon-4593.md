@@ -4,13 +4,13 @@ title: "Baekjoon 4593"
 date: 2023-08-24
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4593){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4593)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 손동작에 기반하여 승자를 결정하는 함수
 def determine_winner(player1_gestures, player2_gestures):
     wins_player1 = 0

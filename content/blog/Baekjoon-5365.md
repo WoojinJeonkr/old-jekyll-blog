@@ -4,13 +4,13 @@ title: "Baekjoon 5365"
 date: 2023-08-01
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/5365){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/5365)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 이 함수는 주어진 암호화된 메시지를 해독하는 기능을 합니다.
 def decode_message(coded_message):
     # 입력받은 암호화된 메시지를 공백을 기준으로 단어들로 분리하고, 이를 리스트로 저장합니다.

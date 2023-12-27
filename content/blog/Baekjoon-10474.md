@@ -4,15 +4,15 @@ title: "Baekjoon 10474"
 date: 2023-05-24
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10474)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 128ms)
+### 1. Python (memory: 31256KB, time: 128ms)
 
-```Python
+```python
 while True:
     a, b = map(int, input().split())
     if not(a|b): break

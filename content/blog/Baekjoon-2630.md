@@ -4,13 +4,13 @@ title: "Baekjoon 2630"
 date: 2023-02-28
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2630)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 target = [list(map(int, input().split())) for _ in range(N)]
 

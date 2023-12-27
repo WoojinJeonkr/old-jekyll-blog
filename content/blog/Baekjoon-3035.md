@@ -4,13 +4,13 @@ title: "Baekjoon 3035"
 date: 2023-07-19
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/3035){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/3035)
 
-### 02. 풀이 (Python, memory: 31256KB, time: 72ms)
+## 2. 풀이 (Python, memory: 31256KB, time: 72ms)
 
-```Python
+```python
 # 입력으로 행(R), 열(C), 행 확대 비율(ZR), 열 확대 비율(ZC)을 받아옵니다.
 R, C, ZR, ZC = map(int, input().split())
 

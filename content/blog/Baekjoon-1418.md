@@ -4,13 +4,13 @@ title: "Baekjoon 1418"
 date: 2022-12-02
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1418)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
 n = int(sys.stdin.readline())
 m = int(sys.stdin.readline())

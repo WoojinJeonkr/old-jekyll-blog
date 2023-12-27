@@ -4,15 +4,15 @@ title: "Baekjoon 10769"
 date: 2023-06-05
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10769)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 40ms)
+### 1. Python (memory: 31256KB, time: 40ms)
 
-```Python
+```python
 sentence, happy, sad = input(), 0, 0
 for i in range(len(sentence)):
   if sentence[i] == ":":

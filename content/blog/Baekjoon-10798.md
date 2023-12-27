@@ -4,13 +4,13 @@ title: "Baekjoon 10798"
 date: 2023-04-06
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10798)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 words = []
 for _ in range(5):
     words.append(input())
@@ -20,9 +20,9 @@ for i in range(max(len(e) for e in words)):
             print(words[j][i], end='')
 ```
 
-## 03. Chat GPT가 작성한 코드
+## 3. Chat GPT가 작성한 코드
 
-```Python
+```python
 # 입력 받기
 lines = []
 for i in range(5):

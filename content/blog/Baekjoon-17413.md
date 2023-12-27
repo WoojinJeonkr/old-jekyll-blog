@@ -4,13 +4,13 @@ title: "Baekjoon 17413"
 date: 2022-12-09
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/17413)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 word = list(input().rstrip())
 i = 0
 start = 0

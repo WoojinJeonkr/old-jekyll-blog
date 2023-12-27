@@ -4,13 +4,13 @@ title: "Baekjoon 16431"
 date: 2023-03-30
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/16431)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 Br, Bc = map(int, input().split())
 Dr, Dc = map(int, input().split())
 Jr, Jc = map(int, input().split())

@@ -4,13 +4,13 @@ title: "Baekjoon 4583"
 date: 2023-08-22
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4583){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4583)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 무한 루프로 사용자로부터 문자열을 입력받고 처리하는 코드
 while True:
     # 입력 받은 문자열의 양쪽 공백을 제거하여 정리

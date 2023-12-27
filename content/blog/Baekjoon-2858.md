@@ -4,13 +4,13 @@ title: "Baekjoon 2858"
 date: 2023-07-06
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/2858){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2858)
 
-### 02. Solution 1 (Python, memory: 31256KB, time: 44ms)
+## 2. Solution 1 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 입력으로 빨간색 블록(R)과 갈색 블록(B)의 개수를 받아 변수 R과 B에 할당합니다.
 R, B = map(int, input().split())
 

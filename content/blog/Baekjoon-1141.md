@@ -4,13 +4,13 @@ title: "Baekjoon 1141"
 date: 2023-04-10
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1141)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
 
 n = int(sys.stdin.readline())

@@ -4,11 +4,11 @@ title: "Baekjoon 9366"
 date: 2023-08-16
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/9366){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/9366)
 
-### 02. 정답 코드 (Java, memory: 18300KB, time: 236ms)
+## 2. 정답 코드 (Java, memory: 18300KB, time: 236ms)
 
 ```java
 import java.util.Scanner;

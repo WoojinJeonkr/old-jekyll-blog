@@ -4,13 +4,13 @@ title: "Baekjoon 8320"
 date: 2023-09-22
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/8320){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/8320)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 52ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 52ms)
 
-```Python
+```python
 # 사용자로부터 정수를 입력받는다
 n = int(input())
 

@@ -4,13 +4,13 @@ title: "Baekjoon 1957"
 date: 2023-11-11
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1957){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1957)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 56ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 56ms)
 
-```Python
+```python
 # 입력받은 m과 n으로 격자 생성
 m, n = map(int,input().split())
 matrix = [[0 for _ in range(n)] for _ in range(m)]

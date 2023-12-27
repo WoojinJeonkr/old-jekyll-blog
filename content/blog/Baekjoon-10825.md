@@ -4,13 +4,13 @@ title: "Baekjoon 10825"
 date: 2022-12-25
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10825)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 students = []
 
 for _ in range(int(input())):

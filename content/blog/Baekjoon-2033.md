@@ -4,13 +4,13 @@ title: "Baekjoon 2033"
 date: 2023-03-21
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2033)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 def getAnswer(N):
     compare_num = 10
     while N > compare_num:

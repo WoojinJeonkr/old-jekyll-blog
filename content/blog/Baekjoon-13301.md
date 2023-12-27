@@ -4,13 +4,13 @@ title: "Baekjoon 13301"
 date: 2023-10-25
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/13301){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/13301)
 
-### 02. 정답 코드 1 (Python, memory: 31120KB, time: 100ms)
+## 2. 정답 코드 1 (Python, memory: 31120KB, time: 100ms)
 
-```Python
+```python
 def main():
     n = int(input())  # 사용자로부터 정수 입력 받기
 
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### 03. 정답 코드 2(Java, memory: KB, time: ms)
+## 3. 정답 코드 2(Java, memory: KB, time: ms)
 
 ```java
 import java.util.Scanner;

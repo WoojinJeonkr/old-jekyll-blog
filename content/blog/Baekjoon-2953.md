@@ -4,13 +4,13 @@ title: "Baekjoon 2953"
 date: 2022-12-31
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2953)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 for i in range(5):
     if i == 0: 
         score = {i+1 : sum(map(int, input().split()))}

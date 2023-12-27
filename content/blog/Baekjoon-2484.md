@@ -4,13 +4,13 @@ title: "Baekjoon 2484"
 date: 2023-04-15
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2484)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 def calculate_prize(lst):
     if len(set(lst)) == 1:
         return 50000 + lst[0] * 5000

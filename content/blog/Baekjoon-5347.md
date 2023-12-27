@@ -4,11 +4,11 @@ title: "Baekjoon 5347"
 date: 2023-07-21
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/5347){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/5347)
 
-### 02. 최소공배수 구하기
+## 2. 최소공배수 구하기
 
 최소공배수는 두 개 이상의 정수의 공통 배수 중 가장 작은 정수를 말합니다.  
 
@@ -20,9 +20,9 @@ date: 2023-07-21
 
 4. 최소공배수 계산: 최소공배수는 주어진 두 수 a와 b를 소인수분해하여 추출한 소수들을 모두 곱한 값입니다. 이때, 각 소수들은 공통된 소수는 한 번만, 그리고 중복된 소수들은 한 번씩만 곱합니다.
 
-### 03. 풀이 (Python, memory: 33376KB, time: 40ms)
+## 3. 풀이 (Python, memory: 33376KB, time: 40ms)
 
-```Python
+```python
 import math
 
 # 두 수 a와 b의 최소공배수를 구하는 함수

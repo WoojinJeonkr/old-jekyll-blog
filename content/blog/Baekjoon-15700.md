@@ -4,13 +4,13 @@ title: "Baekjoon 15700"
 date: 2023-02-09
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/15700)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 x, y = map(int, input().split())
 print(x * y // 2)
 ```

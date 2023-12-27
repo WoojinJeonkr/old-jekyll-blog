@@ -4,13 +4,13 @@ title: "Baekjoon 10823"
 date: 2023-04-02
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10823)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 S = ''
 while 1:
     try:

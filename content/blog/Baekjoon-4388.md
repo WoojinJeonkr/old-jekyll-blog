@@ -4,13 +4,13 @@ title: "Baekjoon 4388"
 date: 2023-07-07
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/4388){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4388)
 
-### 02. Solution 1 (Python, memory: 31256KB, time: 44ms)
+## 2. Solution 1 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 while True:
     # 입력으로 두 수를 받고 두 수가 모두 0인 경우 반복 종료한다.
     num1, num2 = map(int, input().split())

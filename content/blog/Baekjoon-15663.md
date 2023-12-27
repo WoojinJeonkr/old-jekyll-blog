@@ -4,13 +4,13 @@ title: "Baekjoon 15663"
 date: 2023-07-15
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/15663){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/15663)
 
-### 02. 풀이 (Python, memory: 31256KB, time: 96ms)
+## 2. 풀이 (Python, memory: 31256KB, time: 96ms)
 
-```Python
+```python
 n, m = map(int, input().split())  # n과 m을 입력받음
 nums = sorted(list(map(int, input().split())))  # 숫자들을 입력받고 정렬함
 temp = []  # 조합을 저장할 임시 리스트

@@ -4,13 +4,13 @@ title: "Baekjoon 5354"
 date: 2023-02-03
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5354)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 for _ in range(int(input())):
     n = int(input())
     if n < 3:

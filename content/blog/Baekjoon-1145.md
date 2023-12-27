@@ -4,13 +4,13 @@ title: "Baekjoon 1145"
 date: 2023-03-20
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1145)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 lst = list(map(int, input().split()))
 
 n = min(lst)

@@ -4,11 +4,11 @@ title: "Baekjoon 14920"
 date: 2023-06-22
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/14920)
 
-### 02. Solution (C++17, memory: 2020KB, time: 0ms)
+## 2. Solution (C++17, memory: 2020KB, time: 0ms)
 
 ```cpp
 #include <iostream>

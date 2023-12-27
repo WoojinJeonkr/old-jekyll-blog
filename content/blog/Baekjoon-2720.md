@@ -4,13 +4,13 @@ title: "Baekjoon 2720"
 date: 2023-02-04
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2720)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 for _ in range(int(input())):
     c = int(input())
     d = [25, 10, 5, 1]

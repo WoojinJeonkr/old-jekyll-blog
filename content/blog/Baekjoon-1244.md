@@ -4,15 +4,13 @@ title: "Baekjoon 1244"
 date: 2023-04-25
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1244)
 
-## 02. Solution
+## 2. Solution(Python, memory: 31256KB, time: 48ms)
 
-### 01. Python (memory: 31256KB, time: 48ms)
-
-```Python
+```python
 num_bits = int(input())
 bits = list(map(int, input().split()))
 num_operations = int(input())

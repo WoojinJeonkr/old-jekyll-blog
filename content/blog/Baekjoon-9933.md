@@ -4,13 +4,13 @@ title: "Baekjoon 9933"
 date: 2023-10-12
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/9933){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/9933)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 44ms)
 
-```Python
+```python
 # 사용자로부터 정수 N을 입력받습니다
 N = int(input())
 

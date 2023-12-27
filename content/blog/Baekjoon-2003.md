@@ -4,13 +4,13 @@ title: "Baekjoon 2003"
 date: 2022-12-14
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2003)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
 
 n, m = map(int, sys.stdin.readline().split())

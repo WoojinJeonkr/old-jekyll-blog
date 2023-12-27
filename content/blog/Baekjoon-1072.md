@@ -4,13 +4,13 @@ title: "Baekjoon 1072"
 date: 2023-09-07
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1072){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1072)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 def find_minimum_additional_points(x, y):
     # 승률 계산
     z = (100 * y) // x

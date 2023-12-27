@@ -4,13 +4,13 @@ title: "Baekjoon 10707"
 date: 2022-12-26
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10707)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 A = int(input())
 B = int(input())
 C = int(input())

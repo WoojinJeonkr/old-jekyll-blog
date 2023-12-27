@@ -4,13 +4,13 @@ title: "Baekjoon 1138"
 date: 2022-12-08
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1138)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 s = list(map(int, input().split()))
 people = [0 for i in range(N)]

@@ -4,11 +4,11 @@ title: "Baekjoon 5211"
 date: 2023-12-14
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/5211){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/5211)
 
-### 02. 정답 코드 (python3, memory: 31120KB, time: 40ms)
+## 2. 정답 코드 (python3, memory: 31120KB, time: 40ms)
 
 ```python
 # 사용자로부터 입력을 받아 '|'를 기준으로 음계를 분리합니다.

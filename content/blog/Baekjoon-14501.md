@@ -4,13 +4,13 @@ title: "Baekjoon 14501"
 date: 2022-12-18
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/14501)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 T = []
 P = []

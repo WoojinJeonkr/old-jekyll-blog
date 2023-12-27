@@ -4,13 +4,13 @@ title: "Baekjoon 2740"
 date: 2022-12-22
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2740)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N, M = map(int, input().split()) 
 matrix1 = [] 
 for _ in range(N): 

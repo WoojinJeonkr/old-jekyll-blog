@@ -4,13 +4,13 @@ title: "Baekjoon 9494"
 date: 2023-11-03
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/9494){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/9494)
 
-### 02. 정답 코드 (Java, memory: 14200KB, time: 120ms)
+## 2. 정답 코드 (Java, memory: 14200KB, time: 120ms)
 
-```Python
+```python
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

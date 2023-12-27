@@ -4,13 +4,13 @@ title: "Baekjoon 17293"
 date: 2023-07-30
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/17293){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/17293)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 def print_beer(n):
     # range() 함수를 사용하여 n부터 1까지 (1을 포함하여) -1 간격으로 반복합니다.
     for i in range(n, 0, -1):

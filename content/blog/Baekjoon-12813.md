@@ -4,11 +4,11 @@ title: "Baekjoon 12813"
 date: 2023-06-18
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/12813)
 
-### 02. Solution 1 (Python, memory: 38872KB, time: 248ms)
+## 2. Solution 1 (Python, memory: 38872KB, time: 248ms)
 
 ```python
 A, B = input(), input()

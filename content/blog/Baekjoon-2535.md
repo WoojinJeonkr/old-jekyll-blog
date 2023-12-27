@@ -4,13 +4,13 @@ title: "Baekjoon 2535"
 date: 2023-10-11
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2535){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2535)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 40ms)
 
-```Python
+```python
 import sys
 
 def get_input():

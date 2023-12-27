@@ -4,13 +4,13 @@ title: "Baekjoon 16435"
 date: 2023-11-12
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/16435){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/16435)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 44ms)
 
-```Python
+```python
 def max_snakebird_length(N, L, heights):
     # 과일 높이를 오름차순으로 정렬합니다.
     heights.sort()

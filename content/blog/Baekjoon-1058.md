@@ -4,13 +4,13 @@ title: "Baekjoon 1058"
 date: 2022-11-28
 ---
 
-## 01. Baekjoon 1058
+## 1. Baekjoon 1058
 
 [문제 확인하기](https://www.acmicpc.net/problem/1058)
 
-## 02. 풀이
+## 2. 풀이
 
-```Python
+```python
 n = int(input())
 s = []
 visit = [[0] * n for i in range(n)]

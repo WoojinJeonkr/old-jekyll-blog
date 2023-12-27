@@ -4,13 +4,13 @@ title: "Baekjoon 1681"
 date: 2023-02-20
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1681)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N, l = list(map(int,input().split(' ')))
 
 num = 1

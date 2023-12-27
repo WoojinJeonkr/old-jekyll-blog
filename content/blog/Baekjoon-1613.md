@@ -4,11 +4,11 @@ title: "Baekjoon 1613"
 date: 2023-11-19
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1613){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1613)
 
-### 02. 정답 코드 (pypy3, memory: 112704KB, time: 936ms)
+## 2. 정답 코드 (pypy3, memory: 112704KB, time: 936ms)
 
 ```pypy3
 import sys

@@ -4,13 +4,13 @@ title: "Baekjoon 10545"
 date: 2023-09-09
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/10545){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/10545)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 각 알파벳 문자에 대한 숫자 시퀀스를 매핑하는 딕셔너리입니다.
 letter_to_sequence = {
     'a': '2', 'b': '22', 'c': '222', 'd': '3', 'e': '33', 'f': '333',

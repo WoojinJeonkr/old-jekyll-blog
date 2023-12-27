@@ -4,13 +4,13 @@ title: "Baekjoon 1699"
 date: 2023-01-03
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1699)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 dp = [i for i in range (n + 1)]
 

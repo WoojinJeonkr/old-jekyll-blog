@@ -4,13 +4,13 @@ title: "Baekjoon 10610"
 date: 2022-12-17
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10610)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = list(input())
 N.sort(reverse=True)
 sum = 0

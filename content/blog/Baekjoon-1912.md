@@ -4,13 +4,13 @@ title: "Baekjoon 1912"
 date: 2022-12-12
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1912)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 number = list(map(int, input().split()))
 sum = [number[0]]

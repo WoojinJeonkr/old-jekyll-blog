@@ -4,15 +4,15 @@ title: "Baekjoon 2495"
 date: 2023-06-09
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2495)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 40ms)
+### 1. Python (memory: 31256KB, time: 40ms)
 
-```Python
+```python
 for _ in range(3):
     num = input()
     arr = [num[0]]

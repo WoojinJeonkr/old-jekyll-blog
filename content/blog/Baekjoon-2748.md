@@ -4,13 +4,13 @@ title: "Baekjoon 2748"
 date: 2023-01-13
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2748)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 f = 0
 s = 1

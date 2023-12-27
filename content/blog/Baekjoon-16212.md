@@ -4,11 +4,11 @@ title: "Baekjoon 16212"
 date: 2023-12-15
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/16212){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/16212)
 
-### 02. 정답 코드 (python3, memory: 92960KB, time: 520ms, score: 25/25)
+## 2. 정답 코드 (python3, memory: 92960KB, time: 520ms, score: 25/25)
 
 ```python
 # 입력

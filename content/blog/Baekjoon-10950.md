@@ -4,11 +4,11 @@ title: "Baekjoon 10950"
 date: 2023-06-13
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10950)
 
-### 02. Solution 1 (memory: 2020KB, time: 4ms)
+## 2. Solution 1 (memory: 2020KB, time: 4ms)
 
 ```C++
 #include <iostream>
@@ -26,7 +26,7 @@ int main() {
 }
 ```
 
-### 03. Solution 2 (memory: 2020KB, time: 0ms)
+## 3. Solution 2 (memory: 2020KB, time: 0ms)
 
 위에서 작성한 코드를 실행시켰을 때 실행 시간이 4ms가 걸려서 이를 0ms로 줄여보고자 하였다.
 

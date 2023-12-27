@@ -4,11 +4,11 @@ title: "Baekjoon 23037"
 date: 2023-12-04
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/23037){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/23037)
 
-### 02. 문제 해석
+## 2. 문제 해석
 
 문제의 목적은 주어진 다섯 자리 수의 각 자릿수를 다섯제곱한 값을 계산하고, 그 합을 출력하는 간단한 프로그램을 작성하는 것입니다.
 
@@ -19,7 +19,7 @@ date: 2023-12-04
 
 이렇게 하면 문제의 출력값을 만족하는 입력받은 다섯 자리 수의 각 자릿수를 다섯제곱한 값들의 합이 출력할 수 있습니다.
 
-### 03. 정답 코드 (python3, memory: 31120KB, time: 40ms)
+## 3. 정답 코드 (python3, memory: 31120KB, time: 40ms)
 
 ```python
 # 입력 받기

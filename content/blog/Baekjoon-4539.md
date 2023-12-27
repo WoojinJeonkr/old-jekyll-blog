@@ -4,13 +4,13 @@ title: "Baekjoon 4539"
 date: 2023-08-09
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4539){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4539)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 48ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 48ms)
 
-```Python
+```python
 def round_up(x):
     power_of_10 = 10  # 초기 10의 거듭제곱을 나타내는 변수 설정
     while x >= power_of_10:  # x가 현재 10의 거듭제곱 이상인 동안 반복

@@ -4,11 +4,11 @@ title: "Baekjoon 10872"
 date: 2023-06-14
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10872)
 
-### 02. Solution (memory: 2020KB, time: 0ms)
+## 2. Solution (memory: 2020KB, time: 0ms)
 
 ```C++
 #include <iostream>

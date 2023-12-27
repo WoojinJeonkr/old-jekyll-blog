@@ -4,42 +4,42 @@ title: "Baekjoon 11098"
 date: 2023-05-20
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/11098)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 308ms)
+### 1. Python (memory: 31256KB, time: 308ms)
 
-```Python
+```python
 n = int(input())
 for _ in range(n):
     p = int(input())
     print(max((input().split() for _ in range(p)), key=lambda x: int(x[0]))[1])
 ```
 
-#### 02. Explanation
+### 2. Explanation
 
-```Python
+```python
 n = int(input())
 ```
 
 > input() 함수를 사용하여 사용자로부터 입력을 받고, int()를 사용하여 입력 값을 정수로 변환합니다. 이 값은 외부 루프의 반복 횟수를 나타냅니다.
 
-```Python
+```python
 for _ in range(n):
 ```
 
 > 입력받은 n만큼 아래의 코드를 반복합니다. _ 변수는 루프 변수가 사용되지 않는다는 것을 나타내는 관례적인 표기법입니다.
 
-```Python
+```python
 p = int(input())
 ```
 
 > input()을 사용하여 사용자로부터 입력을 받고, int()를 사용하여 입력 값을 정수로 변환합니다. 이 값은 현재 반복에서의 아이템 수를 나타냅니다.
 
-```Python
+```python
 print(max((input().split() for _ in range(p)), key=lambda x: int(x[0]))[1])
 ```
 

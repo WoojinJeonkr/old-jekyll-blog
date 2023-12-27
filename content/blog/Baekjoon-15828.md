@@ -4,13 +4,13 @@ title: "Baekjoon 15828"
 date: 2023-07-22
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/15828){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/15828)
 
-### 02. 풀이 (Python, memory: 48024KB, time: 964ms)
+## 2. 풀이 (Python, memory: 48024KB, time: 964ms)
 
-```Python
+```python
 import sys
 
 # 입력에서 정수 N을 읽어옵니다. 이는 큐의 최대 크기를 나타냅니다.

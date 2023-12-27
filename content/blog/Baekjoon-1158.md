@@ -4,13 +4,13 @@ title: "Baekjoon 1158"
 date: 2022-12-13
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1158)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 from collections import deque
 
 N, K = map(int, input().split())

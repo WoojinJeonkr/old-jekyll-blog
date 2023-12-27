@@ -4,15 +4,15 @@ title: "Baekjoon 5576"
 date: 2023-05-30
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5576)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 40ms)
+### 1. Python (memory: 31256KB, time: 40ms)
 
-```Python
+```python
 w, k = [sorted([int(input()) for _ in range(10)], reverse=True)[:3] for _ in range(2)]
 print(sum(w), sum(k))
 ```

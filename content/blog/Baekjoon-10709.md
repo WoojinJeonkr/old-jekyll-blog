@@ -4,11 +4,11 @@ title: "Baekjoon 10709"
 date: 2023-11-28
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/10709){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/10709)
 
-### 02. 정답 코드 (python3, memory: 31120KB, time: 56ms)
+## 2. 정답 코드 (python3, memory: 31120KB, time: 56ms)
 
 ```python
 # 높이와 너비 입력

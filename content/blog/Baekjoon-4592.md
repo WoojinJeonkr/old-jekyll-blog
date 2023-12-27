@@ -4,11 +4,11 @@ title: "Baekjoon 4592"
 date: 2023-06-29
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/4592){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4592)
 
-### 02. Solution (Python, memory: 31256KB, time: 64ms)
+## 2. Solution (Python, memory: 31256KB, time: 64ms)
 
 ```python
 import sys

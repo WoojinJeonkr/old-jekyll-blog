@@ -4,15 +4,15 @@ title: "Baekjoon 2503"
 date: 2023-04-27
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2503)
 
-## 02. Solution
+## 2. Solution
 
-### 01. Python (memory: 31256KB, time: 52ms)
+## 1. Python (memory: 31256KB, time: 52ms)
 
-```Python
+```python
 from itertools import permutations
 
 # 숫자 1-9를 사용하여 가능한 모든 3자리 숫자 생성

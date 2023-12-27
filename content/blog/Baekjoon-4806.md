@@ -4,13 +4,13 @@ title: "Baekjoon 4806"
 date: 2023-08-25
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4806){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4806)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 line_count = 0
 
 while True:

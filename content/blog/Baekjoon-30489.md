@@ -4,13 +4,13 @@ title: "Baekjoon 30489"
 date: 2023-11-07
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/30489){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/30489)
 
-### 02. 정답 코드 (Python, memory: 42036KB, time: 88ms)
+## 2. 정답 코드 (Python, memory: 42036KB, time: 88ms)
 
-```Python
+```python
 # 입력값을 받아옵니다
 # n: 업그레이드할 패키지의 수, m: 현재 다운로드가 완료된 패키지의 수,
 # k: 병렬 다운로드 가능한 패키지의 수.

@@ -4,13 +4,13 @@ title: "Baekjoon 3486"
 date: 2023-11-09
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/3486){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/3486)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 940ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 940ms)
 
-```Python
+```python
 # N 입력 받기
 N = int(input())
 
@@ -24,7 +24,7 @@ for _ in range(N):
     print(int(str(c)[::-1]))
 ```
 
-### 03. 코드 작동 순서
+## 3. 코드 작동 순서
 
 1. N이라는 변수에 정수를 입력받습니다. 이 N은 테스트 케이스의 개수를 나타냅니다.
 2. for문을 이용하여 N번 반복합니다. 각 반복마다 두 개의 역순인 수를 공백으로 구분하여 입력받습니다. 예를 들어, 24와 1을 입력받으면 a에는 '24', b에는 '1'이 저장됩니다.

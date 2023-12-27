@@ -4,13 +4,13 @@ title: "Baekjoon 5704"
 date: 2023-09-23
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/5704){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/5704)
 
-### 02. 정답 코드 (Python, memory: 34080KB, time: 164ms)
+## 2. 정답 코드 (Python, memory: 34080KB, time: 164ms)
 
-```Python
+```python
 # collections 모듈에서 Counter 클래스를 가져옵니다.
 from collections import Counter
 

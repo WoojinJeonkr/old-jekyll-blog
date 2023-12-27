@@ -4,13 +4,13 @@ title: "Baekjoon 13458"
 date: 2022-12-30
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/13458)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 A = list(map(int, input().split()))
 B, C = map(int, input().split())

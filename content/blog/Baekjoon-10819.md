@@ -4,13 +4,13 @@ title: "Baekjoon 10819"
 date: 2023-03-24
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10819)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 def back_tracking(x):
     if x == n:
         answer.append(sum(abs(m[temp[i + 1]] - m[temp[i]]) for i in range(n - 1)))

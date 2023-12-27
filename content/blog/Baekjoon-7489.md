@@ -4,13 +4,13 @@ title: "Baekjoon 7489"
 date: 2023-09-18
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/7489){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/7489)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # sys 모듈을 가져옵니다.
 # 이 모듈은 시스템 입력을 처리하는 데 사용됩니다.
 import sys

@@ -4,13 +4,13 @@ title: "Baekjoon 7785"
 date: 2023-04-05
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/7785)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 s = dict()
 for i in range(n):

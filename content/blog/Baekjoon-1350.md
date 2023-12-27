@@ -4,13 +4,13 @@ title: "Baekjoon 1350"
 date: 2023-02-21
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1350)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 lst = list(map(int, input().split()))
 m = int(input())

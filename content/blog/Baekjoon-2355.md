@@ -4,13 +4,13 @@ title: "Baekjoon 2355"
 date: 2023-01-07
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2355)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 a, b = map(int, input().split())
 
 n_max = max(a, b)

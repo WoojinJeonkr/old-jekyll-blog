@@ -4,11 +4,11 @@ title: "Baekjoon 5217"
 date: 2023-06-15
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5217)
 
-### 02. Solution (memory: 31256KB, time: 44ms)
+## 2. Solution (memory: 31256KB, time: 44ms)
 
 ```python
 for _ in range(int(input())):

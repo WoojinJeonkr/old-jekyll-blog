@@ -4,18 +4,18 @@ title: "Baekjoon 2435"
 date: 2023-07-02
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/2435){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2435)
 
-### 02. 문제 접근 방법
+## 2. 문제 접근 방법
 
 - 연속적인 날짜의 온도 합을 구하는 문제입니다.
 - 초기에 K일 동안의 합으로 최댓값을 설정한 후, 새로운 날의 온도를 추가하고 이전 K일 전 날의 온도를 제거하여 합을 갱신하며 최댓값을 찾아 연속적인 며칠 동안의 온도 합 중 가장 큰 값을 구하고자 합니다.  
 
 #### 💡 슬라이딩 윈도우(Sliding Window) 기법  
 
-슬라이딩 윈도우 기법은 배열 또는 리스트와 같은 데이터 구조에서 고정된 크기의 윈도우(창문)를 이용하여 구간을 이동하면서 연산을 수행하는 기법입니다. 이 윈도우를 일정한 간격으로 이동시켜가며 구간 내의 연산을 수행하고, 각 구간의 결과를 얻을 수 있습니다. [시간 복잡도](2022-10-19-Time-complexity-and-Space-complexity.markdown){:target="_blank" rel="noopener noreferrer"}를 줄이기 위해 중첩된 반복문을 어떻게 단일 반복문으로 바꿀 수 있는지 보여줍니다.  
+슬라이딩 윈도우 기법은 배열 또는 리스트와 같은 데이터 구조에서 고정된 크기의 윈도우(창문)를 이용하여 구간을 이동하면서 연산을 수행하는 기법입니다. 이 윈도우를 일정한 간격으로 이동시켜가며 구간 내의 연산을 수행하고, 각 구간의 결과를 얻을 수 있습니다. [시간 복잡도](2022-10-19-Time-complexity-and-Space-complexity.markdown)를 줄이기 위해 중첩된 반복문을 어떻게 단일 반복문으로 바꿀 수 있는지 보여줍니다.  
 
 슬라이딩 윈도우 기법은 다음과 같은 상황에서 유용하게 사용될 수 있습니다.  
 
@@ -27,9 +27,9 @@ date: 2023-07-02
 
 ![슬라이딩 윈도우 기법](https://github.com/WoojinJeonkr/WoojinJeonkr.github.io/blob/main/assets/images/post/sliding-window-technique.jpg?raw=true)
 
-[이미지 출처: geeksforgeeks - Window Sliding Technique](https://www.geeksforgeeks.org/window-sliding-technique/){:target="_blank" rel="noopener noreferrer"}
+[이미지 출처: geeksforgeeks - Window Sliding Technique](https://www.geeksforgeeks.org/window-sliding-technique/)
 
-### 03. Solution 1 (Python, memory: 31256KB, time: 40ms)
+## 3. Solution 1 (Python, memory: 31256KB, time: 40ms)
 
 ```python
 N, K = map(int, input().split())  # N과 K를 입력 받음
@@ -45,7 +45,7 @@ for i in range(K, N):  # K부터 N까지 반복
 print(max_sum)  # 최댓값 출력
 ```
 
-### 04. Solution 2 (C++17, memory: 2020KB, time: 0ms)
+## 4. Solution 2 (C++17, memory: 2020KB, time: 0ms)
 
 ```cpp
 #include <iostream>
@@ -79,7 +79,7 @@ int main() {
 }
 ```
 
-### 05. Solution 3 (Java 11, memory: 17596KB, time: 208ms)
+## 5. Solution 3 (Java 11, memory: 17596KB, time: 208ms)
 
 ```java
 import java.util.Scanner;
@@ -112,7 +112,7 @@ public class Main {
 }
 ```
 
-### 05. Solution 4 (Ruby, memory: 98420KB, time: 176ms)
+## 5. Solution 4 (Ruby, memory: 98420KB, time: 176ms)
 
 ```Ruby
 N, K = gets.chomp.split.map(&:to_i)

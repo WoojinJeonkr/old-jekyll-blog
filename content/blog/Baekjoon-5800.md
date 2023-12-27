@@ -4,13 +4,13 @@ title: "Baekjoon 5800"
 date: 2023-03-04
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5800)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 for c in range(int(input())):
     t = list(map(int, input().split()))
     n, lst = t[0], sorted(t[1:])

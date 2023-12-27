@@ -4,13 +4,13 @@ title: "Baekjoon 3028"
 date: 2023-10-07
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/3028){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/3028)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 초기 리스트 생성: [1, 0, 0]
 lst = [1, 0, 0]
 

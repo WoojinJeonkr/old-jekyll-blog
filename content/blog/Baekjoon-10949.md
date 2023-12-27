@@ -4,13 +4,13 @@ title: "Baekjoon 10949"
 date: 2023-11-04
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/10949){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/10949)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 48ms, score: 10)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 48ms, score: 10)
 
-```Python
+```python
 import itertools  # itertools 모듈을 가져옵니다.
 
 def calculate_score(target, guess):

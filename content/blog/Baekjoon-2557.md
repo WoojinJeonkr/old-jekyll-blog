@@ -4,13 +4,13 @@ title: "Baekjoon 2557"
 date: 2023-06-11
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2557)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. memory: 1112KB, time: 0ms
+### 1. memory: 1112KB, time: 0ms
 
 ```C++
 #include <stdio.h>
@@ -20,7 +20,7 @@ int main() {
 }
 ```
 
-#### 02. memory: 2020KB, time: 0ms
+### 2. memory: 2020KB, time: 0ms
 
 ```C++
 #include <iostream>

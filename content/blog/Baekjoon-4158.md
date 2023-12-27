@@ -4,13 +4,13 @@ title: "Baekjoon 4158"
 date: 2023-09-20
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4158){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4158)
 
-### 02. 정답 코드 (Python, memory: 127000KB, time: 2168ms)
+## 2. 정답 코드 (Python, memory: 127000KB, time: 2168ms)
 
-```Python
+```python
 import sys
 
 # 표준 입력 대신 sys.stdin.readline을 사용하도록 input 함수를 재정의합니다

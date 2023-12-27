@@ -4,13 +4,13 @@ title: "Baekjoon 1991"
 date: 2023-03-15
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1991)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
 
 n = int(sys.stdin.readline())

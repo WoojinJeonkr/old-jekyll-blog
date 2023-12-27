@@ -4,13 +4,13 @@ title: "Baekjoon 1526"
 date: 2023-08-17
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1526){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1526)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 80ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 80ms)
 
-```Python
+```python
 # 골든 넘버를 구하는 함수
 def find_largest_golden_number(N):
     def is_golden_number(number):

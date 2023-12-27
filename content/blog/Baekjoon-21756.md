@@ -4,13 +4,13 @@ title: "Baekjoon 21756"
 date: 2023-04-16
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/21756)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 mylist = list(range(1, n+1))
 

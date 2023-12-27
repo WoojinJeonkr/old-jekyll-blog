@@ -4,11 +4,11 @@ title: "Baekjoon 2578"
 date: 2023-11-25
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2578){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2578)
 
-### 02. 정답 코드 (python3, memory: 31120KB, time: 40ms)
+## 2. 정답 코드 (python3, memory: 31120KB, time: 40ms)
 
 ```python
 import sys

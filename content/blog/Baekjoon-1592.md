@@ -4,13 +4,13 @@ title: "Baekjoon 1592"
 date: 2023-08-06
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1592){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1592)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 48ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 48ms)
 
-```Python
+```python
 # 함수 정의: M번 받기까지 공을 던지는 횟수를 계산하는 함수
 def calculate_throw_count(N, M, L):
     # 초기화: 각 자리에 공을 받은 횟수를 저장하는 리스트, 공을 던진 횟수, 현재 위치 인덱스

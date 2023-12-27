@@ -4,13 +4,13 @@ title: "Baekjoon 4564"
 date: 2023-08-27
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4564){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4564)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 숫자의 각 자릿수 곱을 계산하는 함수를 정의합니다.
 def calculate_digit_card(n):
     card = 1

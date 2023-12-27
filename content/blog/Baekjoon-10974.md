@@ -4,13 +4,13 @@ title: "Baekjoon 10974"
 date: 2022-12-19
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10974)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import itertools
 
 N = int(input())

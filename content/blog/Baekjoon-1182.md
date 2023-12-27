@@ -4,13 +4,13 @@ title: "Baekjoon 1182"
 date: 2022-12-07
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1182)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 def cal_number(index, sum):
     global count
     if index >= n:

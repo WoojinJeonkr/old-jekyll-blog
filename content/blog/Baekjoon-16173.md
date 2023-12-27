@@ -4,13 +4,13 @@ title: "Baekjoon 16173"
 date: 2023-10-08
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/3028){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/3028)
 
-### 02. 정답 코드 (Python, memory: 34160KB, time: 72ms)
+## 2. 정답 코드 (Python, memory: 34160KB, time: 72ms)
 
-```Python
+```python
 from collections import deque
 
 # 주어진 위치 (y, x)가 그리드 크기 N 내에서 유효한지 확인하는 함수

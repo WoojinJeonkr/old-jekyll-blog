@@ -4,13 +4,13 @@ title: "Baekjoon 11256"
 date: 2023-04-07
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/11256)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 for _ in range(int(input())):
     J, N = map(int, input().split())
     lst = []

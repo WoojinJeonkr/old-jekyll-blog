@@ -4,15 +4,15 @@ title: "Baekjoon 2960"
 date: 2023-04-29
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2960)
 
-## 02. Solution
+## 2. Solution
 
-### 01. Python (memory: 31256KB, time: 40ms)
+## 1. Python (memory: 31256KB, time: 40ms)
 
-```Python
+```python
 n, k = map(int, input().split())
 
 is_prime = [True] * (n+1)

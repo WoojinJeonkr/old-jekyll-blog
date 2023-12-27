@@ -4,13 +4,13 @@ title: "Baekjoon 1740"
 date: 2023-01-09
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1740)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = int(input())
 s = []
 num = 0

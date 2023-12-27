@@ -4,13 +4,13 @@ title: "Baekjoon 16486"
 date: 2023-02-08
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/16486)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 d1 = int(input())
 d2 = int(input())
 pi = 3.141592

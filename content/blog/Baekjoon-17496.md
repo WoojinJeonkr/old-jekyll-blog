@@ -4,13 +4,13 @@ title: "Baekjoon 17496"
 date: 2023-01-06
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/17496)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N, C, T, P = map(int, input().split())
 print((N-1)//C * T * P)
 ```

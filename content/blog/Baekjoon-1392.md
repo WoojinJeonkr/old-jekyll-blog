@@ -4,13 +4,13 @@ title: "Baekjoon 1392"
 date: 2023-08-02
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1392){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1392)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 80ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 80ms)
 
-```Python
+```python
 # 음표 번호를 찾는 함수를 정의합니다.
 def find_note_number(N, time_list, query_list):
     result = []  # 결과를 담을 리스트 초기화

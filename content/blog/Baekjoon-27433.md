@@ -4,13 +4,13 @@ title: "Baekjoon 27433"
 date: 2023-07-10
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/27433){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/27433)
 
-### 02. 풀이 (Python, memory: 31256KB, time: 40ms)
+## 2. 풀이 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 정수 N에 대한 N! 값 구하는 함수를 작성합니다.
 def factorial(n):
     # 정수 N이 0이라면 1을 반환합니다.

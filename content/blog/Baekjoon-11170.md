@@ -4,13 +4,13 @@ title: "Baekjoon 11170"
 date: 2023-03-28
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/11170)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 for _ in range(int(input())):
     ans = 0
     n, m = input().split()

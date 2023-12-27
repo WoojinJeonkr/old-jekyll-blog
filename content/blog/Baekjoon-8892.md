@@ -4,13 +4,13 @@ title: "Baekjoon 8892"
 date: 2023-10-31
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/8892){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/8892)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 416ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 416ms)
 
-```Python
+```python
 # 테스트 케이스의 수를 입력받기
 T = int(input())
 

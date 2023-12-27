@@ -4,13 +4,13 @@ title: "Baekjoon 9550"
 date: 2023-02-18
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/9550)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 T = int(input())
 for case in range(T):
     N, K = map(int, input().split(' '))

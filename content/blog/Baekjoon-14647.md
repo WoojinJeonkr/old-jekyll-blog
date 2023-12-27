@@ -4,11 +4,11 @@ title: "Baekjoon 14647"
 date: 2023-12-13
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/14647){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/14647)
 
-### 02. 정답 코드 (python3, memory: 38184KB, time: 320ms)
+## 2. 정답 코드 (python3, memory: 38184KB, time: 320ms)
 
 ```python
 def func(num):

@@ -4,13 +4,13 @@ title: "Baekjoon 1105"
 date: 2023-08-10
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1105){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1105)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 함수 정의: 범위 내에서 숫자 8의 개수를 세는 함수
 def count_eights_in_range(L, R):
     answer = 0  # 숫자 8의 개수를 저장할 변수 초기화

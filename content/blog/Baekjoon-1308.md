@@ -4,15 +4,15 @@ title: "Baekjoon 1308"
 date: 2022-12-01
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1308)
 
-## 02. Solution
+## 2. Solution
 
 문제에 나온 조건을 활용하여 구하면 되는 문제이다.
 
-```Python
+```python
 import datetime
 
 y1,m1,d1 = map(int,input().split())

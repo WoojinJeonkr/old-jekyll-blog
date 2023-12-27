@@ -4,13 +4,13 @@ title: "Baekjoon 1822"
 date: 2023-02-17
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1822)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = map(int, input().split())
 
 A = set(map(int, input().split()))

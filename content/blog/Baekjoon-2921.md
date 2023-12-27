@@ -4,13 +4,13 @@ title: "Baekjoon 2921"
 date: 2023-03-07
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2921)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 ans = 1 * (N + 2)
 

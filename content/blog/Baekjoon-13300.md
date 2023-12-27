@@ -4,13 +4,13 @@ title: "Baekjoon 13300"
 date: 2023-04-08
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/13300)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n, k = map(int, input().split())
 student = [[0]*2 for _ in range(6)]
 

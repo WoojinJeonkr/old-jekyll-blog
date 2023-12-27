@@ -4,13 +4,13 @@ title: "Baekjoon 2810"
 date: 2023-09-21
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2810){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2810)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 사용자로부터 정수를 입력받아 변수 n에 저장
 n = int(input())
 

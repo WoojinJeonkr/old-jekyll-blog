@@ -4,13 +4,13 @@ title: "Baekjoon 1544"
 date: 2023-10-18
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1544){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1544)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 100ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 100ms)
 
-```Python
+```python
 N = int(input())  # 사용자로부터 입력을 받아 N에 저장합니다. N은 단어의 개수입니다.
 normalized_words = []  # 정규화된 단어들을 저장할 빈 리스트를 생성합니다.
 

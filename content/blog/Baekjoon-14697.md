@@ -4,13 +4,13 @@ title: "Baekjoon 14697"
 date: 2023-11-08
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/14697){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/14697)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 44ms)
 
-```Python
+```python
 # 입력 받기
 a, b, c, n = map(int, input().split())
 

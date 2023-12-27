@@ -4,13 +4,13 @@ title: "Baekjoon 15953"
 date: 2023-02-27
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/15953)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
  
 def Agame(ranking):

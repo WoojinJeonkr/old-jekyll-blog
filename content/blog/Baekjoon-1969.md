@@ -4,15 +4,15 @@ title: "Baekjoon 1969"
 date: 2023-05-23
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1969)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 84ms)
+### 1. Python (memory: 31256KB, time: 84ms)
 
-```Python
+```python
 n, m = map(int, input().split())
 arr = [list(input()) for _ in range(n)]
 result = ''

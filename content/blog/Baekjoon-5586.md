@@ -4,11 +4,11 @@ title: "Baekjoon 5586"
 date: 2023-06-20
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5586)
 
-### 02. Solution 1 (C++17, memory: 2024KB, time: 0ms)
+## 2. Solution 1 (C++17, memory: 2024KB, time: 0ms)
 
 ```C++
 #include <iostream>
@@ -39,7 +39,7 @@ int main() {
 }
 ```
 
-### 03. Solution 2 (Python, memory: 31256KB, time: 44ms)
+## 3. Solution 2 (Python, memory: 31256KB, time: 44ms)
 
 ```C++
 li = list(input())  # 입력을 문자 리스트로 변환

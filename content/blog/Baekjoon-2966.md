@@ -4,11 +4,11 @@ title: "Baekjoon 2966"
 date: 2023-07-01
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/2966){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2966)
 
-### 02. Solution (Python, memory: 31256KB, time: 48ms)
+## 2. Solution (Python, memory: 31256KB, time: 48ms)
 
 ```python
 a, b, g = 0, 0, 0

@@ -4,16 +4,16 @@ title: "Baekjoon 14405"
 date: 2023-12-10
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/14405){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/14405)
 
-### 02. 문제 해석
+## 2. 문제 해석
 
 해당 문제는 주어진 문자열에서 "pi", "ka", "chu"를 순서대로 찾아 제거하여 피카츄의 발음 가능 여부를 판단하는 문제입니다.
 while문과 for문을 이용하여 문자열을 순회하며 "pi", "ka", "chu"를 찾아서 제거하는 방식을 통해 발음 가능한 단어를 찾으면 해당 부분을 제거하고, 모든 단어를 찾으면 "YES", 아니면 "NO" 반환하도록 코드를 작성하면 됩니다.
 
-### 03. 정답 코드 (python3, memory: 31120KB, time: 40ms)
+## 3. 정답 코드 (python3, memory: 31120KB, time: 40ms)
 
 ```python
 def is_pikachu(s):

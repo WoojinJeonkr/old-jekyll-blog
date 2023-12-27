@@ -4,11 +4,11 @@ title: "Baekjoon 2789"
 date: 2023-06-23
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2789)
 
-### 02. Solution (C++17, memory: 2024KB, time: 0ms)
+## 2. Solution (C++17, memory: 2024KB, time: 0ms)
 
 ```cpp
 #include <iostream>

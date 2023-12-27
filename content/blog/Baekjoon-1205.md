@@ -4,11 +4,11 @@ title: "Baekjoon 1205"
 date: 2023-12-16
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1205){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1205)
 
-### 02. 정답 코드 (python3, memory: 92960KB, time: 520ms, score: 25/25)
+## 2. 정답 코드 (python3, memory: 92960KB, time: 520ms, score: 25/25)
 
 ```python
 # 사용자로부터 입력을 받아서 변수에 할당

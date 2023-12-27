@@ -4,15 +4,15 @@ title: "Baekjoon 5533"
 date: 2023-05-31
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/5533)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 60ms)
+### 1. Python (memory: 31256KB, time: 60ms)
 
-```Python
+```python
 N = int(input())
 scoreCard = [list(map(int, input().split())) for _ in range(N)]
 

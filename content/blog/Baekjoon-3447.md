@@ -4,13 +4,13 @@ title: "Baekjoon 3447"
 date: 2023-07-26
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/3447){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/3447)
 
-### 02. 풀이 (Python, memory: 31256KB, time: 113ms)
+## 2. 풀이 (Python, memory: 31256KB, time: 113ms)
 
-```Python
+```python
 import sys
 import re
 

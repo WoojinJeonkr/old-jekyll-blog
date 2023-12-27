@@ -4,17 +4,17 @@ title: "Baekjoon 13136"
 date: 2023-06-21
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/13136)
 
-### 02. Solution (Python, memory: 31256KB, time: 56ms)
+## 2. Solution (Python, memory: 31256KB, time: 56ms)
 
 ```python
 for _ in range(int(input())): print('god' + ''.join(input().split()[1:]))
 ```
 
-### 03. 코드 실행 과정
+## 3. 코드 실행 과정
 
 #### 1. for _ in range(int(input()))
 

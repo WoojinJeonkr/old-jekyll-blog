@@ -4,11 +4,11 @@ title: "Baekjoon 14490"
 date: 2023-07-18
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/14490){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/14490)
 
-### 02. 유클리드 호제법(Euclidean Algorithm)
+## 2. 유클리드 호제법(Euclidean Algorithm)
 
 유클리드 호제법은 두 정수의 최대공약수(GCD, Greatest Common Divisor)를 구하는 알고리즘입니다. 두 개의 정수를 입력으로 받아서, 두 정수의 최대공약수를 계산할 수 있습니다.
 
@@ -20,9 +20,9 @@ date: 2023-07-18
 
 위의 5가지 과정을 반복하면, 나머지가 0이 되었을 때의 b가 최대공약수가 됩니다
 
-### 03. 풀이 (Python, memory: 31256KB, time: 44ms)
+## 3. 풀이 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 최대공약수를 구하는 함수
 def gcd(a, b):
   while b != 0:

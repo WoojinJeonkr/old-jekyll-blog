@@ -4,13 +4,13 @@ title: "Baekjoon 5635"
 date: 2023-10-02
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/5635){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/5635)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 40ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 people = []  # 빈 리스트를 생성하여 사람들의 정보를 저장할 준비를 합니다.
 for _ in range(int(input())):  # 사용자로부터 몇 명의 정보를 입력받을지 물어봅니다.
     name, day, month, year = input().split()  # 이름과 생년월일을 입력받습니다.

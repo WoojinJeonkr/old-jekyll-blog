@@ -4,13 +4,13 @@ title: "Baekjoon 9076"
 date: 2023-07-23
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/9076){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/9076)
 
-### 02. 처음 작성한 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 처음 작성한 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 # 'lst'라는 리스트를 입력으로 받는 count_points 함수를 정의합니다.
 def count_points(lst):
     # 리스트 'lst'에서 최댓값을 찾아 제거합니다.
@@ -33,9 +33,9 @@ for _ in range(T):
     count_points(lst)
 ```
 
-### 03. 수정한 코드 (Python, memory: 31256KB, time: 40ms)
+## 3. 수정한 코드 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 'lst'라는 리스트를 입력으로 받는 count_points 함수를 정의합니다.
 def count_points(lst):
     # 입력된 리스트 'lst'를 정렬하여 'sorted_lst'에 저장합니다.

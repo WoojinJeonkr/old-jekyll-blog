@@ -4,11 +4,11 @@ title: "Baekjoon 2897"
 date: 2023-11-27
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2897){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2897)
 
-### 02. 정답 코드 (python3, memory: 31120KB, time: 52ms)
+## 2. 정답 코드 (python3, memory: 31120KB, time: 52ms)
 
 ```python
 rows, columns = map(int, input().split(' ')) # 행과 열을 입력 받음

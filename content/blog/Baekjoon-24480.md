@@ -4,13 +4,13 @@ title: "Baekjoon 24480"
 date: 2023-11-05
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/24480){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/24480)
 
-### 02. 정답 코드 (Python, memory: 68780KB, time: 568ms)
+## 2. 정답 코드 (Python, memory: 68780KB, time: 568ms)
 
-```Python
+```python
 import sys
 
 # 파이썬에서 재귀 호출의 깊이 제한을 늘리는 코드입니다.

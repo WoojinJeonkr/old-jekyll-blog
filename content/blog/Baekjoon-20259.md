@@ -4,13 +4,13 @@ title: "Baekjoon 20259"
 date: 2023-07-17
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/20259){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/20259)
 
-### 02. 풀이 (Python, memory: 38708KB, time: 3244ms)
+## 2. 풀이 (Python, memory: 38708KB, time: 3244ms)
 
-```Python
+```python
 import sys
 
 # 세 개의 MBTI 유형을 입력으로 받아서 그들 사이의 심리적인 거리를 계산합니다.

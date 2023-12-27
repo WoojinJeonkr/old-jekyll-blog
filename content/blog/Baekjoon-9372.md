@@ -4,15 +4,15 @@ title: "Baekjoon 9372"
 date: 2023-05-04
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/9372)
 
-## 02. Solution
+## 2. Solution
 
-### 01. Python (memory: 32404KB, time: 220ms)
+## 1. Python (memory: 32404KB, time: 220ms)
 
-```Python
+```python
 import sys
 
 # 깊이 우선 탐색을 수행하는 함수

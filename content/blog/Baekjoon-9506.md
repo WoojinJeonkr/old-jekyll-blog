@@ -4,13 +4,13 @@ title: "Baekjoon 9506"
 date: 2023-03-22
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/9506)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 while True:
     n = int(input())
     if n == -1:

@@ -4,15 +4,15 @@ title: "Baekjoon 8979"
 date: 2023-05-02
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/8979)
 
-## 02. Solution
+## 2. Solution
 
-### 01. Python (memory: 31256KB, time: 60ms)
+## 1. Python (memory: 31256KB, time: 60ms)
 
-```Python
+```python
 import sys
 
 input_fn = sys.stdin.readline

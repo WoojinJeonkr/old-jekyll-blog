@@ -4,13 +4,13 @@ title: "Baekjoon 2628"
 date: 2023-10-30
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2628){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2628)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 44ms)
 
-```Python
+```python
 # 입력으로 가로와 세로의 길이를 받음
 width, height = map(int, input().split())
 

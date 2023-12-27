@@ -4,13 +4,13 @@ title: "Baekjoon 9655"
 date: 2023-02-15
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/9655)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 dp = [-1] * 1001
 dp[1] = 1

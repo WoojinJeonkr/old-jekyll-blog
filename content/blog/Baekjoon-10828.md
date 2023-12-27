@@ -4,13 +4,13 @@ title: "Baekjoon 10828"
 date: 2023-10-10
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/10828){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/10828)
 
-### 02. 정답 코드 (Python, memory: 30840KB, time: 76ms)
+## 2. 정답 코드 (Python, memory: 30840KB, time: 76ms)
 
-```Python
+```python
 from sys import stdin
 
 N = int(stdin.readline())

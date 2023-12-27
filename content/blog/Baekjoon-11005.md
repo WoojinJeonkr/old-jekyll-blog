@@ -4,13 +4,13 @@ title: "Baekjoon 11005"
 date: 2023-03-02
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/11005)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 nums = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 n, b = map(int,input().split())
 ans = ''

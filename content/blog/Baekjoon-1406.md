@@ -4,13 +4,13 @@ title: "Baekjoon 1406"
 date: 2022-12-10
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1406)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
 
 left = list(input())

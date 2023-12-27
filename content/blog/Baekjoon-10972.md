@@ -4,13 +4,13 @@ title: "Baekjoon 10972"
 date: 2023-09-25
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/10972){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/10972)
 
-### 02. 정답 코드 (Python, memory: 32276KB, time: 48ms)
+## 2. 정답 코드 (Python, memory: 32276KB, time: 48ms)
 
-```Python
+```python
 # 순열의 길이를 입력 받습니다.
 N = int(input())
 

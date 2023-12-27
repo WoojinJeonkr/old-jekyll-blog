@@ -4,13 +4,13 @@ title: "Baekjoon 4459"
 date: 2023-11-06
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/4459){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/4459)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 48ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 48ms)
 
-```Python
+```python
 # 인용구의 개수를 입력받음
 num_quotes = int(input())
 

@@ -4,11 +4,11 @@ title: "Baekjoon 9094"
 date: 2023-06-30
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/9094){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/9094)
 
-### 02. Solution (Python, memory: 31256KB, time: 4376ms)
+## 2. Solution (Python, memory: 31256KB, time: 4376ms)
 
 ```python
 for _ in range(int(input())):

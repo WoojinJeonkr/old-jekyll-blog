@@ -4,11 +4,11 @@ title: "Baekjoon 11006"
 date: 2023-11-29
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/11006){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/11006)
 
-### 02. 문제 해석
+## 2. 문제 해석
 
 1. 주어진 방정식을 사용하여 닭의 다리 수 t를 계산합니다.
 
@@ -22,7 +22,7 @@ date: 2023-11-29
 
 3. u = 2m - n
 
-### 03. 정답 코드 (python3, memory: 31120KB, time: 52ms)
+## 3. 정답 코드 (python3, memory: 31120KB, time: 52ms)
 
 ```python
 def calculate_cut_and_whole_chickens(total_legs, total_chickens):

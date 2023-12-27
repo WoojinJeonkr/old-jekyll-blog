@@ -4,15 +4,15 @@ title: "Baekjoon 2702"
 date: 2023-06-07
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2702)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 128ms)
+### 1. Python (memory: 31256KB, time: 128ms)
 
-```Python
+```python
 def find_gcd(a, b):
     while b:
         a, b = b, a % b

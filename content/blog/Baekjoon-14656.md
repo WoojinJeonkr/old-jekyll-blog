@@ -4,11 +4,11 @@ title: "Baekjoon 14656"
 date: 2023-12-17
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/1205){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/1205)
 
-### 02. 정답 코드 (python3, memory: 33164KB, time: 48ms)
+## 2. 정답 코드 (python3, memory: 33164KB, time: 48ms)
 
 ```python
 def count_students_to_be_punished(n, students):

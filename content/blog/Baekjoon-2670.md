@@ -4,13 +4,13 @@ title: "Baekjoon 2670"
 date: 2023-01-10
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2670)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 li = [float(input()) for _ in range(N)]
 for i in range(1, N):

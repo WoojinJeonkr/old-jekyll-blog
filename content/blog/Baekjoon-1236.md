@@ -4,15 +4,13 @@ title: "Baekjoon 1236"
 date: 2023-05-17
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1236)
 
-### 02. Solution
+## 2. Solution(Python, memory: 31256KB, time: 48ms)
 
-#### 01. Python (memory: 31256KB, time: 48ms)
-
-```Python
+```python
 rows, columns = map(int, input().split())
 board = []
 

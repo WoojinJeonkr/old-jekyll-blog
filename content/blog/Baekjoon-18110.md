@@ -4,13 +4,13 @@ title: "Baekjoon 18110"
 date: 2023-01-01
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/18110)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
 
 def round_exclusion(n):

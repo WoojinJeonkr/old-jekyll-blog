@@ -4,15 +4,15 @@ title: "Baekjoon 10409"
 date: 2023-06-01
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/10409)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 40ms)
+### 1. Python (memory: 31256KB, time: 40ms)
 
-```Python
+```python
 n, T = map(int, input().split())
 lst = list(map(int, input().split()))
 print(next((i for i in range(n) if sum(lst[:i+1]) > T), n))

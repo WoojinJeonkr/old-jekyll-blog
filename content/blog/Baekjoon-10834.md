@@ -4,11 +4,11 @@ title: "Baekjoon 10834"
 date: 2023-06-24
 ---
 
-### 01. Problem
+## 1. Problem
 
-[문제 확인하기](https://www.acmicpc.net/problem/10834){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/10834)
 
-### 02. Solution (Python, memory: 31256KB, time: 84ms)
+## 2. Solution (Python, memory: 31256KB, time: 84ms)
 
 ```python
 d, n = 0, 1

@@ -4,13 +4,13 @@ title: "Baekjoon 21736"
 date: 2023-09-12
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/21736){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/21736)
 
-### 02. 정답 코드 (Python, memory: 39496KB, time: 744ms)
+## 2. 정답 코드 (Python, memory: 39496KB, time: 744ms)
 
-```Python
+```python
 from collections import deque
 import sys
 input = sys.stdin.readline

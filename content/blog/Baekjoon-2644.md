@@ -4,13 +4,13 @@ title: "Baekjoon 2644"
 date: 2022-12-16
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2644)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 from collections import deque
 
 def bfs(node):

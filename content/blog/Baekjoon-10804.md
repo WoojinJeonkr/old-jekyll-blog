@@ -4,13 +4,13 @@ title: "Baekjoon 10804"
 date: 2023-10-27
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/10804){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/10804)
 
-### 02. 정답 코드 (Python, memory: 31120KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31120KB, time: 44ms)
 
-```Python
+```python
 cards = list(range(1, 21))  # 1부터 20까지의 숫자로 이루어진 리스트를 생성합니다.
 
 for _ in range(10):  # 10번 반복합니다.

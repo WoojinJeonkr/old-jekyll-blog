@@ -4,13 +4,13 @@ title: "Baekjoon 1475"
 date: 2022-12-06
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/1475)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 n = input()
 room = {'0': 0, '1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0}
 for i in range(len(n)):

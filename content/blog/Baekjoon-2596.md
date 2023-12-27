@@ -4,13 +4,13 @@ title: "Baekjoon 2596"
 date: 2023-08-23
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/2596){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/2596)
 
-### 02. 정답 코드 (Python, memory: 31256KB, time: 44ms)
+## 2. 정답 코드 (Python, memory: 31256KB, time: 44ms)
 
-```Python
+```python
 def hamming_distance(str1, str2):
     return sum(s1 != s2 for s1, s2 in zip(str1, str2))
 

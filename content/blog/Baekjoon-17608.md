@@ -4,13 +4,13 @@ title: "Baekjoon 17608"
 date: 2023-03-26
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/17608)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 import sys
 
 heights = []

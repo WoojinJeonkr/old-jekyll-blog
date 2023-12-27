@@ -4,15 +4,15 @@ title: "Baekjoon 2999"
 date: 2023-06-10
 ---
 
-### 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2999)
 
-### 02. Solution
+## 2. Solution
 
-#### 01. Python (memory: 31256KB, time: 44ms)
+### 1. Python (memory: 31256KB, time: 44ms)
 
-```Python
+```python
 input_str = input()
 length = len(input_str)
 

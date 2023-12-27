@@ -4,13 +4,13 @@ title: "Baekjoon 2563"
 date: 2022-12-04
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2563)
 
-## 02. Solution
+## 2. Solution
 
-```Python
+```python
 N = int(input())
 arr = [[0 for _ in range(101)] for _ in range(101)]
 

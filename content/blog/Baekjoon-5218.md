@@ -4,13 +4,13 @@ title: "Baekjoon 5218"
 date: 2023-07-11
 ---
 
-### 01. 문제
+## 1. 문제
 
-[문제 확인하기](https://www.acmicpc.net/problem/5218){:target="_blank" rel="noopener noreferrer"}
+[문제 확인하기](https://www.acmicpc.net/problem/5218)
 
-### 02. 풀이 (Python, memory: 31256KB, time: 40ms)
+## 2. 풀이 (Python, memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 해당 알파벳에 대한 거리를 찾을 수 있도록
 # {'A': 1, 'B': 2, ..., 'Z': 26} 형태의 dictionary를 생성합니다.
 alphabet_dict = {}

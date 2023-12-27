@@ -4,15 +4,15 @@ title: "Baekjoon 2669"
 date: 2023-04-23
 ---
 
-## 01. Problem
+## 1. Problem
 
 [문제 확인하기](https://www.acmicpc.net/problem/2669)
 
-## 02. Solution
+## 2. Solution
 
-### 01. Python (memory: 31256KB, time: 40ms)
+## 1. Python (memory: 31256KB, time: 40ms)
 
-```Python
+```python
 # 2차원 배열 생성 (시간 복잡도: O(n^2))
 canvas = [[0 for _ in range(101)] for _ in range(101)]
 
