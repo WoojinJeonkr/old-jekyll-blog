@@ -8,7 +8,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   and subjects related to development that personally pique interest.
 
 # codepen
-codepen_username: calomys
+codepen_username:
 
 #################### Comment Section (Disqus) ################
 # disqus_shortname: "" # Add your shortname for Disqus Comment. For example : mr-brown
@@ -23,7 +23,6 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll/tagging
   - jekyll-youtube
   - jekyll-gist

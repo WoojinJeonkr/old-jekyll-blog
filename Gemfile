@@ -3,7 +3,6 @@ gem "bundler"
 gem "jekyll"
 gem "jekyll-paginate"
 gem 'jekyll-tagging'
-gem "jekyll-sitemap"
 gem "jekyll-youtube"
 gem "jekyll-gist"
 gem 'jekyll-time-to-read', '~> 0.1.2'
