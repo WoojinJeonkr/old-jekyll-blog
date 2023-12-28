@@ -1,0 +1,26 @@
+<aside class="sidebar">
+  <div class="py-5 d-none d-lg-block sidebar-content">
+    <h4 style="text-align: center;">태그 현황</h4>
+    <ul>
+      {% for tag in site.tags %}
+        {% if tag[0] == 'Arduino' or
+              tag[0] == 'Education' or
+              tag[0] == 'Study' or
+              tag[0] == 'Algorithm' or
+              tag[0] == 'Skill' or
+              tag[0] == 'jekyll' or
+              tag[0] == 'EDA' or
+              tag[0] == 'TypeScript' or
+              tag[0] == 'Database' or
+              tag[0] == 'React' or
+              tag[0] == 'CSS' or
+              tag[0] == 'TIL' or
+              tag[0] == 'Engineer Information Processing' or
+              tag[0] == 'SQL' or
+              tag[0] == 'WAS' %}
+          {{ tag[0] }} ({{ tag[1] | size }})<br>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</aside>

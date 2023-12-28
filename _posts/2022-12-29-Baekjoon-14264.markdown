@@ -1,0 +1,19 @@
+---
+layout: post
+title: Baekjoon 14264
+subtitle: 정육각형과 삼각형
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/14264){:target="_blank"}
+
+## 02. Solution
+
+```Python
+L = int(input())
+S = 3**0.5 / 4 * L**2
+print(S)
+```

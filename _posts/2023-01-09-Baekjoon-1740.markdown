@@ -1,0 +1,26 @@
+---
+layout: post
+title: Baekjoon 1740
+subtitle: 거듭제곱
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/1740){:target="_blank"}
+
+## 02. Solution
+
+```Python
+n = int(input())
+s = []
+num = 0
+while n > 0:
+    s.append(n % 2)
+    n //= 2
+for i in range(len(s)):
+    if s[i] == 1:
+        num += 3 ** i
+print(num)
+```

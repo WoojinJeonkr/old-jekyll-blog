@@ -1,0 +1,18 @@
+---
+layout: post
+title: Baekjoon 17496
+subtitle: 스타후르츠
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/17496){:target="_blank"}
+
+## 02. Solution
+
+```Python
+N, C, T, P = map(int, input().split())
+print((N-1)//C * T * P)
+```

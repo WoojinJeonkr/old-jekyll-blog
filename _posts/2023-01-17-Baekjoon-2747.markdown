@@ -1,0 +1,21 @@
+---
+layout: post
+title: Baekjoon 2747
+subtitle: 피보나치 수열
+categories: Python
+tags: [Python, Baekjoon]
+---
+
+## 01. Problem
+
+[문제 확인하기](https://www.acmicpc.net/problem/2747){:target="_blank"}
+
+## 02. Solution
+
+```Python
+n = int(input())
+a, b = 0, 1
+for i in range(n):
+    a, b = b, a+b
+print(a)
+```

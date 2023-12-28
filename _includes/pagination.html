@@ -1,0 +1,63 @@
+{% if paginator.total_pages > 1 %}
+<div class="row">
+  <div class="col-12">
+    <nav>
+      <ul class="pagination justify-content-center align-items-center">
+        {% assign start_page = paginator.page | minus: 2 %}
+        {% if start_page < 1 %}
+          {% assign start_page = 1 %}
+        {% endif %}
+        
+        {% assign end_page = start_page | plus: 4 %}
+        {% if end_page > paginator.total_pages %}
+          {% assign end_page = paginator.total_pages %}
+        {% endif %}
+        
+        <li class="page-item {% if paginator.page == 1 %}disabled{% endif %}">
+          {% if paginator.previous_page %}
+            <a class="page-link" href="{% if paginator.page == 2 %}/{{ site.baseurl }}{% else %}{{ paginator.previous_page_path | prepend: site.baseurl | replace: "//" "/" }}{% endif %}">&laquo;</a>
+          {% else %}
+            <span class="page-link">&laquo;</span>
+          {% endif %}
+        </li>
+        
+        {% if start_page > 1 %}
+          <li class="page-item">
+            <a class="page-link" href="/{{ site.baseurl }}">1</a>
+          </li>
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+        {% endif %}
+        
+        {% for page in (start_page..end_page) %}
+          {% if page == paginator.page %}
+            <li class="page-item active">
+              <span class="page-link">{{ page }}</span>
+            </li>
+          {% else %}
+            <li class="page-item"><a class="page-link" href="{% if page == 1 %}/{{ site.baseurl }}{% else %}{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}{% endif %}">{{ page }}</a></li>
+          {% endif %}
+        {% endfor %}
+        
+        {% if end_page < paginator.total_pages %}
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a>
+          </li>
+        {% endif %}
+      
+        <li class="page-item {% if paginator.page == paginator.total_pages %}disabled{% endif %}">
+          {% if paginator.next_page %}
+            <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}/">&raquo;</a>
+          {% else %}
+            <span class="page-link">&raquo;</span>
+          {% endif %}
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+{% endif %}
